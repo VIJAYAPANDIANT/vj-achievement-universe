@@ -725,6 +725,61 @@ export const achievementsData: Achievement[] = [
     description: 'Completed the AWS Cloud Practitioner Essentials course, validating fundamental understanding of the AWS Cloud platform, including basic global infrastructure, security and compliance, core services, and pricing models.',
     image: '/certificates/aws_cloud_practitioner_essentials.png'
   },
+  {
+    id: 'course-cisco-learnathon-2026',
+    title: 'Networking Academy Learn-A-Thon 2026',
+    issuer: 'Cisco Networking Academy',
+    category: 'Courses',
+    subCategory: 'Professional Certificates',
+    issueDate: '2026-06-30',
+    skills: ['Networking', 'Cybersecurity', 'Technical Learning', 'Cisco Technologies'],
+    description: 'Awarded Learner Achievement Award in recognition of exceptional learning achievement within the Cisco Networking Academy program during the Learn-A-Thon 2026.',
+    image: '/certificates/cisco_learnathon_2026.png'
+  },
+  {
+    id: 'course-aws-certified-ai-practitioner-practice-exam',
+    title: 'Official Practice Exam: AWS Certified AI Practitioner (AIF-C01 - English)',
+    issuer: 'AWS Training & Certification',
+    category: 'Courses',
+    subCategory: 'Professional Certificates',
+    issueDate: '2026-07-11',
+    skills: ['AWS Cloud', 'AI Practitioner', 'Machine Learning', 'Cloud Computing'],
+    description: 'Completed the Official Practice Exam for AWS Certified AI Practitioner (AIF-C01), validating knowledge of AWS AI/ML services, framework integration, and cloud-based intelligent systems.',
+    image: '/certificates/aws_certified_ai_practitioner_practice_exam.png'
+  },
+  {
+    id: 'course-aws-cloud-practitioner-practice-exam',
+    title: 'Official Practice Exam: AWS Certified Cloud Practitioner (CLF-C02 - English)',
+    issuer: 'AWS Training & Certification',
+    category: 'Courses',
+    subCategory: 'Professional Certificates',
+    issueDate: '2026-07-11',
+    skills: ['AWS Cloud', 'Cloud Practitioner', 'Cloud Infrastructure', 'Cloud Computing'],
+    description: 'Completed the Official Practice Exam for AWS Certified Cloud Practitioner (CLF-C02), validating understanding of core AWS services, security, architecture, pricing, and support.',
+    image: '/certificates/aws_cloud_practitioner_practice_exam.png'
+  },
+  {
+    id: 'course-aws-developer-associate-practice-exam',
+    title: 'Official Practice Exam: AWS Certified Developer - Associate (DVA-C02 - English)',
+    issuer: 'AWS Training & Certification',
+    category: 'Courses',
+    subCategory: 'Professional Certificates',
+    issueDate: '2026-07-15',
+    skills: ['AWS Development', 'Cloud Applications', 'AWS SDK', 'Serverless Architecture'],
+    description: 'Completed the Official Practice Exam for AWS Certified Developer - Associate (DVA-C02), validating skills in developing, deploying, and debugging cloud-based applications using AWS.',
+    image: '/certificates/aws_developer_associate_practice_exam.png'
+  },
+  {
+    id: 'course-aws-solutions-architect-associate-practice-exam',
+    title: 'Official Practice Exam: AWS Certified Solutions Architect - Associate (SAA-C03 - English)',
+    issuer: 'AWS Training & Certification',
+    category: 'Courses',
+    subCategory: 'Professional Certificates',
+    issueDate: '2026-07-11',
+    skills: ['Solutions Architecture', 'AWS Design', 'Cloud Security', 'High Availability'],
+    description: 'Completed the Official Practice Exam for AWS Certified Solutions Architect - Associate (SAA-C03), validating knowledge in designing cost-efficient, fault-tolerant, and scalable systems on AWS.',
+    image: '/certificates/aws_solutions_architect_associate_practice_exam.png'
+  },
   // ─── WORKSHOPS ─────────────────────────────────────────────────────────────
   {
     id: 'workshop-aifortechies-python-ai',
@@ -850,6 +905,30 @@ export const achievementsData: Achievement[] = [
     description: "Participated in What's The Gadget - MCQ Round 1 of What's The Gadget? - Tech Quiz Challenge (IEEE Day 2025) organized by Government Mahila Engineering College Ajmer on Unstop.",
     image: '/certificates/unstop_ieee_quiz.png',
     place: 'Participation'
+  },
+  {
+    id: 'competition-gweca-quiz-assessment',
+    title: 'Quiz Competition - Assessment',
+    issuer: 'Government Women Engineering College, Ajmer',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2025-10-07',
+    skills: ['Tech Trivia', 'Problem Solving', 'General Engineering Knowledge'],
+    description: 'Participated in the Assessment of Quiz Competition organized by Government Women Engineering College, Ajmer, Rajasthan on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_gweca_quiz_assessment.png'
+  },
+  {
+    id: 'competition-gweca-quiz-competition',
+    title: 'Quiz Competition',
+    issuer: 'Government Women Engineering College, Ajmer',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2025-10-08',
+    skills: ['Tech Trivia', 'Problem Solving', 'General Engineering Knowledge'],
+    description: 'Participated in the Quiz Competition organized by Government Women Engineering College, Ajmer, Rajasthan on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_gweca_quiz_competition.png'
   },
   {
     id: 'competition-unstop-weekly-case',
@@ -1380,6 +1459,114 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/outthinkx_triq_achievement.png'
   },
   {
+    id: 'competition-unstop-devengers-online-round',
+    title: 'Devengers - Online Round',
+    issuer: 'Devengers',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-06-15',
+    skills: ['Software Development', 'Competitive Programming', 'Collaboration', 'Problem Solving'],
+    description: 'Participated as part of Team Vijayapandian T in the Online Round organized by the Devengers on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_devengers_online_round.png'
+  },
+  {
+    id: 'competition-campus-crew-100k-milestone',
+    title: '100K Milestone Honor',
+    issuer: 'CampusCrew',
+    category: 'Competitions',
+    subCategory: 'Community Milestones',
+    issueDate: '2026-06-26',
+    skills: ['Community Leadership', 'Collaboration', 'Networking', 'Growth Mindset'],
+    description: 'Recognized as an integral part of the CampusCrew journey and contributing to a community that has grown to 100,000+ students worldwide.',
+    place: 'Honor',
+    image: '/certificates/campus_crew_100k_milestone.png'
+  },
+  {
+    id: 'competition-elite-coders-open-source-hackathon-pre-assessment',
+    title: 'Open Source Hackathon 2026 - Pre-Assessment Round',
+    issuer: 'Elite Coders',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-06-25',
+    skills: ['Open Source', 'Technical Creativity', 'Logic Assessment', 'Problem Solving'],
+    description: 'Successfully qualified the Pre-Assessment Round of the Open Source Hackathon 2026 organized by Elite Coders.',
+    place: 'Qualification',
+    image: '/certificates/elite_coders_open_source_hackathon_pre_assessment_2026.png'
+  },
+  {
+    id: 'competition-sns-microthink-360',
+    title: 'MicroThink 360: Decode, Diagnose, Discover',
+    issuer: 'SNS College of Nursing',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-06-10',
+    skills: ['Critical Thinking', 'Problem Solving', 'Diagnostic Reasoning', 'Analysis'],
+    description: 'Participated in MicroThink 360: Decode, Diagnose, Discover organized by SNS College of Nursing, Coimbatore, Tamil Nadu on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_sns_microthink_360.png'
+  },
+  {
+    id: 'competition-utdallas-cash-me-if-you-can',
+    title: 'Cash Me If You Can',
+    issuer: 'The University of Texas at Dallas (TUTAD)',
+    category: 'Competitions',
+    subCategory: 'Business & Finance',
+    issueDate: '2026-06-20',
+    skills: ['Financial Strategy', 'Problem Solving', 'Quantitative Reasoning', 'Business Analysis'],
+    description: 'Participated in Cash Me If You Can organized by The University of Texas at Dallas (TUTAD) on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_utdallas_cash_me_if_you_can.png'
+  },
+  {
+    id: 'competition-gla-placement-prep-quiz',
+    title: 'Placement Prep Quiz 2026',
+    issuer: 'GLA University (GLAU)',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-05-10',
+    skills: ['Placement Preparation', 'Aptitude & Coding', 'Problem Solving', 'Technical MCQ'],
+    description: 'Participated in Placement Prep Quiz 2026 organized by GLA University (GLAU), Uttar Pradesh on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_gla_placement_prep_quiz.png'
+  },
+  {
+    id: 'competition-unstop-nexus-ai-quiz-ignite-2026',
+    title: 'Nexus AI Quiz Ignite 2026',
+    issuer: 'Nexus',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-06-05',
+    skills: ['Artificial Intelligence', 'Generative AI', 'Tech Quiz', 'Problem Solving'],
+    description: 'Participated in Nexus AI Quiz Ignite 2026 organized by Nexus on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_nexus_ai_quiz_ignite_2026.png'
+  },
+  {
+    id: 'competition-unstop-superxgen-ai-startup-buildathon-2026',
+    title: 'AI Startup Buildathon 2026 - Beauty Salon Marketplace Challenge',
+    issuer: 'Superxgen',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-06-18',
+    skills: ['Startup Prototyping', 'Artificial Intelligence', 'System Architecture', 'Product Design'],
+    description: 'Participated in AI Startup Buildathon 2026 – Beauty Salon Marketplace Challenge of SuperXgen AI Builder Series organized by Superxgen on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_superxgen_ai_startup_buildathon_2026.png'
+  },
+  {
+    id: 'competition-unstop-build-it-26',
+    title: "Build.IT '26",
+    issuer: 'Bal Bharati Public School Pitampura',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-05-12',
+    skills: ['Coding & Development', 'Problem Solving', 'Software Engineering', 'Technical Design'],
+    description: "Participated in Build.IT '26 organized by Bal Bharati Public School Pitampura on Unstop.",
+    place: 'Participation',
+    image: '/certificates/unstop_build_it_26.png'
+  },
+  {
     id: 'competition-gdg-session-zero-mlx-2026',
     title: 'MLX - Session Zero 2026',
     issuer: 'Google Developer Group on Campus, Heritage Institute of Technology',
@@ -1428,6 +1615,30 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_week_of_wins_joyspoon.png'
   },
   {
+    id: 'competition-unstop-week-of-wins-intrcity',
+    title: 'Week-of-Wins - Day 6: IntrCity',
+    issuer: 'Unstop',
+    category: 'Competitions',
+    subCategory: 'Fun Challenges',
+    issueDate: '2026-05-20',
+    skills: ['Problem Solving', 'General Knowledge', 'Quick Thinking'],
+    description: 'Participated in Day 6 - IntrCity of the Unstop Week-of-Wins organised by Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_week_of_wins_intrcity.png'
+  },
+  {
+    id: 'competition-unstop-week-of-wins-day7-unstop',
+    title: 'Week-of-Wins - Day 7: Unstop',
+    issuer: 'Unstop',
+    category: 'Competitions',
+    subCategory: 'Fun Challenges',
+    issueDate: '2026-05-21',
+    skills: ['Problem Solving', 'General Knowledge', 'Quick Thinking'],
+    description: 'Participated in Day 7 - Unstop of Unstop Week-of-Wins organised by Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_week_of_wins_day7_unstop.png'
+  },
+  {
     id: 'competition-quizcred-cyber-warrior',
     title: 'QuizCred Cyber Warrior Challenge',
     issuer: 'QuizCred',
@@ -1438,6 +1649,30 @@ export const achievementsData: Achievement[] = [
     description: 'Participated in QuizCred Cyber Warrior Challenge organized by QuizCred.',
     place: 'Participation',
     image: '/certificates/quizcred_cyber_warrior_challenge.png'
+  },
+  {
+    id: 'competition-codeflow-front-web-developer-quiz',
+    title: 'Front Web Developer Quiz',
+    issuer: 'Codeflow Community',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-07-25',
+    skills: ['Front-End Development', 'Web Development', 'HTML/CSS', 'JavaScript'],
+    description: 'Achieved recognition as the Winner of the Front Web Developer Quiz organized by Codeflow Community.',
+    place: 'Winner',
+    image: '/certificates/unstop_codeflow_front_web_dev_quiz.png'
+  },
+  {
+    id: 'competition-codeflow-front-web-developer-quiz-participation',
+    title: 'Front Web Developer Quiz - Participation',
+    issuer: 'Codeflow Community',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-07-25',
+    skills: ['Front-End Development', 'Web Development', 'HTML/CSS', 'JavaScript'],
+    description: 'Participated in the Front Web Developer Quiz organized by Codeflow Community.',
+    place: 'Participation',
+    image: '/certificates/unstop_codeflow_front_web_dev_quiz_participation.png'
   },
   {
     id: 'competition-unstop-tradition-hacks-project-sub',
