@@ -1651,6 +1651,18 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/quizcred_cyber_warrior_challenge.png'
   },
   {
+    id: 'competition-unstop-quiz-galaxy-aptitude-reasoning',
+    title: 'Aptitude & Reasoning Quiz',
+    issuer: 'Quiz Galaxy',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-07-15',
+    skills: ['Aptitude', 'Reasoning', 'Problem Solving', 'Logical Thinking'],
+    description: 'Participated in the Aptitude & Reasoning Quiz organized by the Quiz Galaxy on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_quiz_galaxy_aptitude_reasoning.png'
+  },
+  {
     id: 'competition-codeflow-front-web-developer-quiz',
     title: 'Front Web Developer Quiz',
     issuer: 'Codeflow Community',
@@ -1673,6 +1685,30 @@ export const achievementsData: Achievement[] = [
     description: 'Participated in the Front Web Developer Quiz organized by Codeflow Community.',
     place: 'Participation',
     image: '/certificates/unstop_codeflow_front_web_dev_quiz_participation.png'
+  },
+  {
+    id: 'competition-unstop-srmist-data-science-olympiad',
+    title: 'National Data Science Olympiad',
+    issuer: 'SRM Institute of Science and Technology (SRMIST)',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-08-15',
+    skills: ['Data Science', 'Machine Learning', 'Statistical Analysis', 'Problem Solving'],
+    description: 'Participated in the National Data Science Olympiad of Pinnacle Excellence Conclave 2026 organized by SRM Institute of Science and Technology (SRMIST), Kattankulathur, Chennai on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_srmist_data_science_olympiad.png'
+  },
+  {
+    id: 'competition-unstop-frontend-wars-qualifier',
+    title: 'Frontend Wars 2026: Build the Future - Qualifier Round',
+    issuer: 'Frontend Arena',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-08-16',
+    skills: ['Front-End Development', 'Web Development', 'HTML/CSS', 'JavaScript'],
+    description: 'Participated in the Qualifier Round of Frontend Wars 2026: Build the Future organized by Frontend Arena on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_frontend_wars_qualifier.png'
   },
   {
     id: 'competition-unstop-tradition-hacks-project-sub',
