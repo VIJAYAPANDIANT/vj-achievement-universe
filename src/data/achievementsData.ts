@@ -1687,6 +1687,30 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_codeflow_front_web_dev_quiz_participation.png'
   },
   {
+    id: 'competition-easwari-summer-buildfest-26-project-expo',
+    title: "Summer Buildfest'26: Project Expo",
+    issuer: 'Department of CSE, Easwari Engineering College',
+    category: 'Competitions',
+    subCategory: 'Project Expo',
+    issueDate: '2026-08-07',
+    skills: ['Project Presentation', 'Software Engineering', 'Technical Prototyping', 'Teamwork'],
+    description: "Participated as part of Team Direwolf in Summer Buildfest'26: Project Expo, organized by the Department of Computer Science & Engineering at Easwari Engineering College.",
+    place: 'Participation',
+    image: '/certificates/easwari_summer_buildfest_26_project_expo.png'
+  },
+  {
+    id: 'competition-unstop-adobe-university-hackathon',
+    title: 'Adobe University Hackathon',
+    issuer: 'Adobe',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-08-09',
+    skills: ['Software Architecture', 'Problem Solving', 'UI/UX Design', 'Full-Stack Development'],
+    description: 'Participated in the Adobe University Hackathon organized by Adobe on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_adobe_university_hackathon.png'
+  },
+  {
     id: 'competition-unstop-srmist-data-science-olympiad',
     title: 'National Data Science Olympiad',
     issuer: 'SRM Institute of Science and Technology (SRMIST)',
