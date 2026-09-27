@@ -94,7 +94,7 @@ Below is the directory tree mapping the telemetry systems of the workspace:
 
 ### Interactive Coding & Social Nodes:
 
-- 🌐 **Vercel Portfolio**: [vj-portfolio-website.vercel.app](https://vj-portfolio-website.vercel.app/)
+- 🌐 **Vercel Portfolio**: [vijayapandian-t-portfolio.vercel.app](https://vijayapandian-t-portfolio.vercel.app/)
 - 🐙 **GitHub**: [github.com/VIJAYAPANDIANT](https://github.com/VIJAYAPANDIANT)
 - 💼 **LinkedIn**: [linkedin.com/in/vijayapandian-t](https://www.linkedin.com/in/vijayapandian-t/)
 - 🧠 **LeetCode**: [leetcode.com/hackervj18](https://leetcode.com/u/hackervj18/)
