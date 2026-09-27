@@ -322,7 +322,7 @@ export const CommandCenter: React.FC = () => {
                 { name: 'HackerRank', icon: '🏅', url: 'https://www.hackerrank.com/profile/vijayapandian111', color: 'hover:text-emerald-400 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
                 { name: 'GeeksforGeeks', icon: '📚', url: 'https://www.geeksforgeeks.org/profile/vijayapandiant11', color: 'hover:text-emerald-500 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
                 { name: 'CodeChef', icon: '🏆', url: 'https://www.codechef.com/users/vijay_code07', color: 'hover:text-amber-500 hover:border-amber-500/30 hover:bg-amber-950/20' },
-                { name: 'Portfolio', icon: '🌍', url: 'https://vj-portfolio-website.vercel.app/', color: 'hover:text-cyan-400 hover:border-cyan-500/30 hover:bg-cyan-950/20' },
+                { name: 'Portfolio', icon: '🌍', url: 'https://vijayapandian-t-portfolio.vercel.app/', color: 'hover:text-cyan-400 hover:border-cyan-500/30 hover:bg-cyan-950/20' },
                 { name: 'Download Resume', icon: '📄', url: 'https://drive.google.com/file/d/1RlXtzKcIRbgj4RklKkE3NiJrvCQFicOf/view?usp=sharing', color: 'hover:text-pink-400 hover:border-pink-500/30 hover:bg-pink-950/20', isAction: true },
               ].map((link, idx) => (
                 <a
