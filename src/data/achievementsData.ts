@@ -1735,6 +1735,42 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_frontend_wars_qualifier.png'
   },
   {
+    id: 'competition-lnct-apti-sphere-mathematics-reasoning-quiz',
+    title: 'Apti-SPHERE - Mathematics & Reasoning Quiz',
+    issuer: 'Entrepreneurship-Cell, LNCT Excellence',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-08-20',
+    skills: ['Mathematics', 'Logical Reasoning', 'Analytical Thinking', 'Problem Solving'],
+    description: 'Participated in Apti-SPHERE – The Mathematics & Reasoning Quiz and National-Level Online Aptitude Competition organized by Entrepreneurship-Cell, LNCT Excellence.',
+    place: 'Participation',
+    image: '/certificates/lnct_apti_sphere_mathematics_reasoning_quiz.png'
+  },
+  {
+    id: 'competition-lnct-apti-sphere-aptitude-competition',
+    title: 'Apti-SPHERE - National-Level Online Aptitude Competition',
+    issuer: 'Entrepreneurship-Cell, LNCT Excellence',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-08-21',
+    skills: ['Aptitude', 'Logical Reasoning', 'Mathematical Aptitude', 'Decision-Making'],
+    description: 'Successfully completed the Apti-SPHERE National-Level Online Aptitude Competition organized by the Entrepreneurship-Cell, LNCT Excellence.',
+    place: 'Participation',
+    image: '/certificates/lnct_apti_sphere_aptitude_competition.png'
+  },
+  {
+    id: 'competition-unstop-edulinkup-summer-of-code-2026',
+    title: 'Summer of Code 2026',
+    issuer: 'EduLinkUp',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-08-25',
+    skills: ['Software Engineering', 'Open Source', 'Full-Stack Development', 'Problem Solving'],
+    description: 'Participated in Summer of Code 2026 organized by EduLinkUp on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_edulinkup_summer_of_code_2026.png'
+  },
+  {
     id: 'competition-unstop-tradition-hacks-project-sub',
     title: 'Tradition Hacks: 2026 - Project Submission',
     issuer: 'Miro Meetups Kolkata',
