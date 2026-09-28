@@ -1771,6 +1771,42 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_edulinkup_summer_of_code_2026.png'
   },
   {
+    id: 'competition-unstop-omnikon-national-hackathon-2026',
+    title: 'Omnikon National Hackathon 2026',
+    issuer: 'Omnikon',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-08-28',
+    skills: ['Hackathons', 'Software Development', 'Rapid Prototyping', 'Teamwork'],
+    description: 'Participated as part of Team vijayapandian112007 in Omnikon National Hackathon 2026 organized by Omnikon on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_omnikon_national_hackathon_2026.png'
+  },
+  {
+    id: 'competition-unstop-bhaktiwala-bug-bash',
+    title: 'Bug Bash',
+    issuer: 'Bhaktiwala',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-08-29',
+    skills: ['Debugging', 'Code Quality', 'Software Testing', 'Problem Solving'],
+    description: 'Participated in Bug Bash organized by Bhaktiwala on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_bhaktiwala_bug_bash.png'
+  },
+  {
+    id: 'competition-unstop-internhill-code-sprint',
+    title: 'InternHill Code Sprint',
+    issuer: 'InternHill Solutions',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-08-30',
+    skills: ['Competitive Programming', 'Algorithms', 'Speed Coding', 'Problem Solving'],
+    description: 'Participated in InternHill Code Sprint organized by InternHill Solutions on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_internhill_code_sprint.png'
+  },
+  {
     id: 'competition-unstop-tradition-hacks-project-sub',
     title: 'Tradition Hacks: 2026 - Project Submission',
     issuer: 'Miro Meetups Kolkata',
