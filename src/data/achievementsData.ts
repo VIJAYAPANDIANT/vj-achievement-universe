@@ -1807,6 +1807,42 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_internhill_code_sprint.png'
   },
   {
+    id: 'competition-unstop-ccoew-software-engineering-assessment',
+    title: 'Software Engineering Assessment',
+    issuer: "MKSSS's Cummins College of Engineering for Women (CCOEW), Pune",
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-08-31',
+    skills: ['Software Engineering', 'System Design', 'Core Computer Science', 'Problem Solving'],
+    description: "Participated in Software Engineering Assessment organized by MKSSS's Cummins College of Engineering for Women (CCOEW), Pune on Unstop.",
+    place: 'Participation',
+    image: '/certificates/unstop_ccoew_software_engineering_assessment.png'
+  },
+  {
+    id: 'competition-unstop-frontend-arena-frontend-odyssey-2026',
+    title: 'The Frontend Odyssey 2026',
+    issuer: 'Frontend Arena',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-09-02',
+    skills: ['Front-End Development', 'Web Development', 'UI/UX Engineering', 'JavaScript'],
+    description: 'Participated in The Frontend Odyssey 2026 organized by Frontend Arena on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_frontend_arena_frontend_odyssey_2026.png'
+  },
+  {
+    id: 'competition-edulinkup-elusoc-summer-of-code-2026',
+    title: 'ELUSOC (EduLinkUp Summer of Code 2026)',
+    issuer: 'EduLinkUp',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-09-09',
+    skills: ['Open Source', 'Software Development', 'Full-Stack Engineering', 'Project Contribution'],
+    description: 'Awarded Certificate of Participation for participating in ELUSOC (EduLinkUp Summer of Code 2026) from June through August 2026.',
+    place: 'Participation',
+    image: '/certificates/edulinkup_elusoc_summer_of_code_2026.png'
+  },
+  {
     id: 'competition-unstop-tradition-hacks-project-sub',
     title: 'Tradition Hacks: 2026 - Project Submission',
     issuer: 'Miro Meetups Kolkata',
