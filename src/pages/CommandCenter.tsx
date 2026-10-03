@@ -158,6 +158,17 @@ export const CommandCenter: React.FC = () => {
       glow: 'shadow-[0_0_20px_rgba(168,85,247,0.3)] border-purple-500/25',
       accentColor: 'text-purple-400',
       badge: '🧠 AI ENGINEER'
+    },
+    {
+      id: 'novitech-ai',
+      tag: '🤖 ADVANCED AI',
+      title: 'Artificial Intelligence Intern',
+      place: 'NoviTech R&D',
+      description: 'Worked on neural network architectures, deep learning models, and computer vision systems during an intensive R&D internship.',
+      skills: ['Artificial Intelligence', 'Deep Learning', 'Neural Networks', 'AI Engineering'],
+      glow: 'shadow-[0_0_20px_rgba(236,72,153,0.3)] border-pink-500/25',
+      accentColor: 'text-pink-400',
+      badge: '🤖 AI RESEARCHER'
     }
   ];
 
@@ -436,7 +447,7 @@ export const CommandCenter: React.FC = () => {
                     🎖️ FEATURED HOLOGRAPHIC ACHIEVEMENTS
                   </h3>
 
-                  <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
                     {featuredAchievements.map((item) => (
                       <motion.div
                         key={item.id}
