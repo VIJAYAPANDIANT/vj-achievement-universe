@@ -155,6 +155,18 @@ export const achievementsData: Achievement[] = [
     description: 'Successfully completed the SQL Developer Internship Program at Elevate Labs from January 1, 2026 to April 30, 2026. Contributed to query optimization, database design, and structured data analysis.',
     image: '/certificates/elevate_labs_sql_internship.png'
   },
+  {
+    id: 'internship-bharatcares-ibm-genai-cloud',
+    title: 'IBM SkillsBuild Gen AI & Cloud Computing Intern',
+    issuer: 'BharatCares & IBM SkillsBuild',
+    category: 'Internships',
+    subCategory: 'Online Internships',
+    issueDate: '2026-07-31',
+    credentialId: 'BHIBMAC11277',
+    skills: ['Generative AI', 'Cloud Computing', 'IBM SkillsBuild', 'AI Engineering', 'Cloud Infrastructure'],
+    description: 'Successfully completed the BharatCares 6-week IBM SkillsBuild Gen AI & Cloud Computing Internship, conducted from June 22, 2026 to July 31, 2026, in association with AICTE and IBM SkillsBuild.',
+    image: '/certificates/bharatcares_ibm_genai_cloud_internship.png'
+  },
   // ─── HACKATHONS ────────────────────────────────────────────────────────────
   {
     id: 'hackathon-iiit-surat-dev-heat',
