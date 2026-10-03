@@ -168,7 +168,7 @@ export const SpaceBackground: React.FC = () => {
 
     // ── Spawn Stars ──────────────────────────────────────────────────────────
     const STAR_COLORS = ['#e2e8f0', '#06b6d4', '#8b5cf6', '#d946ef', '#f0abfc', '#7dd3fc'];
-    const starCount = Math.min(Math.floor((width * height) / 7000), 200);
+    const starCount = Math.min(Math.floor((width * height) / 11000), 120);
     const stars: Star[] = [];
     for (let i = 0; i < starCount; i++) {
       const baseAlpha = Math.random() * 0.7 + 0.1;
@@ -192,7 +192,7 @@ export const SpaceBackground: React.FC = () => {
       'rgba(139, 92, 246, 0.06)', 
       'rgba(217, 70, 239, 0.06)'
     ];
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 10; i++) {
       const baseAlpha = Math.random() * 0.3 + 0.15;
       dustParticles.push({
         x: Math.random() * width,
@@ -214,7 +214,7 @@ export const SpaceBackground: React.FC = () => {
       { c: '#1e3a5f', g: 'rgba(6,182,212,0.25)' },
       { c: '#2d1a4a', g: 'rgba(217,70,239,0.25)' },
     ];
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 6; i++) {
       const r = 6 + Math.random() * 20;
       const ac = ASTEROID_COLORS[Math.floor(Math.random() * ASTEROID_COLORS.length)];
       const parallax = 0.3 + (r / 20) * 0.9;
@@ -470,9 +470,9 @@ export const SpaceBackground: React.FC = () => {
       });
 
       // ── SHOOTING STARS ───────────────────────────────────────────────────
-      // Spawn less frequently: every 40 frames, 60% chance
-      if (frame % 40 === 0 && Math.random() > 0.4) {
-        const spawnCount = Math.random() > 0.85 ? 2 : 1;
+      // Spawn less frequently: every 80 frames, 30% chance
+      if (frame % 80 === 0 && Math.random() > 0.7) {
+        const spawnCount = 1;
         for (let s = 0; s < spawnCount; s++) {
           shootingStars.push(makeShootingStar(width, height));
         }
@@ -514,8 +514,8 @@ export const SpaceBackground: React.FC = () => {
       }
 
       // ── COMETS / FIREBALLS ───────────────────────────────────────────────
-      // Spawn less frequently (every 100 frames) and allow up to 3 comets simultaneously
-      if (frame % 100 === 0 && comets.length < 3) {
+      // Spawn less frequently (every 220 frames) and allow up to 1 comet at a time
+      if (frame % 220 === 0 && comets.length < 1) {
         comets.push(makeComet(width, height));
       }
 
@@ -529,8 +529,8 @@ export const SpaceBackground: React.FC = () => {
           comets.splice(i, 1); continue;
         }
 
-        // Emit fewer particle tails (1 to 2 particles per frame)
-        const particleCount = Math.random() > 0.5 ? 2 : 1;
+        // Emit fewer particle tails (1 particle per frame)
+        const particleCount = 1;
         for (let p = 0; p < particleCount; p++) {
           let r = 255, g = 100, b = 20;
           if (c.type === 'plasma') {
@@ -592,8 +592,8 @@ export const SpaceBackground: React.FC = () => {
       }
 
       // ── ROCKETS ──────────────────────────────────────────────────────────
-      // Spawn less frequently (every 200 frames) and allow up to 3 rockets simultaneously
-      if (frame % 200 === 0 && rockets.length < 3) {
+      // Spawn less frequently (every 400 frames) and allow up to 1 rocket at a time
+      if (frame % 400 === 0 && rockets.length < 1) {
         rockets.push(makeRocket(width, height));
       }
 

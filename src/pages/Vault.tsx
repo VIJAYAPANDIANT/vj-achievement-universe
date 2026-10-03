@@ -233,12 +233,14 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
             <span>SYSTEM CORRELATION: v1.02</span>
           </div>
 
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence mode="wait">
             {filteredAchievements.length === 0 ? (
               <motion.div
-                initial={{ opacity: 0, y: 10 }}
+                key="empty"
+                initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -10 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.15 }}
                 className="w-full bg-glass border border-dashed border-white/10 rounded-xl p-12 text-center flex flex-col items-center justify-center"
               >
                 <Layers className="text-slate-600 mb-3 animate-pulse" size={28} />
@@ -255,7 +257,11 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
               </motion.div>
             ) : (
               <motion.div
-                layout
+                key={selectedCategory}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.15 }}
                 className="grid grid-cols-1 md:grid-cols-2 gap-4"
               >
                 {filteredAchievements.map((item) => {
@@ -263,11 +269,6 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
                   return (
                     <motion.div
                       key={item.id}
-                      layout
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, scale: 0.9 }}
-                      transition={{ duration: 0.4 }}
                       onClick={() => {
                         playClick();
                         onSelectAchievement(item);
