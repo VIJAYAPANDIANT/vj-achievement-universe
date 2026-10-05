@@ -14,7 +14,7 @@
 
 Welcome to the **Cosmic Certificate & Achievement Decryption Console**—a highly gamified, interactive, space-themed developer portfolio and certification vault. Built to look and feel like a sci-fi telemetry HUD (Heads-Up Display), this application catalogs and decrypts internships, hackathons, courses, workshops, badges, and competitive programming milestones.
 
-Designed with rich, futuristic aesthetics, smooth gradients, immersive micro-animations, canvas particle systems, custom audio feedback, and 3D hover interactive elements.
+Designed with rich, futuristic aesthetics, smooth gradients, instant micro-animations, optimized canvas particle systems, custom audio feedback, and 3D hover interactive elements.
 
 > [!NOTE]  
 > **System Alert**: This application utilizes high-fidelity canvas processing, audio ripples, and Framer Motion state transitions. Make sure your browser's audio permissions are active to experience full sound telemetry.
@@ -28,12 +28,21 @@ The console maps different operational modules via the top console navigation me
 | Module             | Icon | Functionality Description                                                                                                                                                                                               |
 | :----------------- | :--: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universe**       |  🌌  | An interactive, draggable 3D orbital galaxy mapping achievements. Drag the core to rotate system vectors. Features an integrated operator profile panel displaying live telemetry and external profile nodes.           |
-| **Vault**          |  📜  | A searchable and filterable database where certificates are treated as encrypted data units. Selecting a credential launches a holographic decryption animation inside a diagnostic modal, revealing verification data. |
+| **Vault**          |  📜  | A high-performance searchable and filterable database (`Courses`, `Internships`, `Hackathons`, `Workshops`, `Competitions`). Selecting a credential launches a holographic decryption animation inside a modal.         |
 | **Trophy Room**    |  🏆  | A visual repository showcasing hackathon victories and competition milestones as 3D-tilting trophy cards.                                                                                                               |
-| **Badge Wall**     |  🔰  | A gaming-inspired achievement matrix categorizing earned badges by rarity level (_Common_, _Rare_, _Epic_, _Legendary_), complete with hover telemetry.                                                                 |
+| **Badge Wall**     |  🔰  | A standalone gaming-inspired achievement matrix categorizing earned badges by rarity level (_Common_, _Rare_, _Epic_, _Legendary_), complete with hover telemetry.                                                     |
 | **Timeline**       |  ⏳  | A chronological track mapping academic and professional development milestones across time.                                                                                                                             |
 | **Analytics**      |  📊  | A real-time diagnostics dashboard rendering interactive charts: **Achievement Growth Curve** (Line), **Category Proportion Matrix** (Donut), and **Skill Compass Index** (Radar).                                       |
-| **Command Center** |  👨‍🚀  | The system control bridge showcasing live simulated CPU, temperature, and memory load metrics. It contains an interactive identity scanner and a specialization matrix mapping core competencies.                       |
+| **Command Center** |  👨‍🚀  | The system control bridge showcasing live telemetry, 5 featured holographic achievements (Cloud, Java, Data Analytics, ML, AI), identity scanner, and specialization matrix mapping core competencies.                |
+
+---
+
+## ⚡ Key Highlights & Optimizations
+
+- **High-FPS Canvas Particles:** Optimized particle counts and animation loops for 60+ FPS performance across desktop and mobile screens.
+- **Instant Category Filtering:** Refactored Framer Motion layout transitions in the Vault for zero-latency category tab filtering.
+- **Featured Holographic Grid:** 5-column featured internships showcase in the Command Center bridge.
+- **Interactive Audio Telemetry:** Web Audio API sound feedback for tab switches, hover states, decryption scans, and modal unlocks.
 
 ---
 
@@ -58,7 +67,6 @@ Below is the directory tree mapping the telemetry systems of the workspace:
 ```bash
 .
 ├── public/
-│   └── avatar.jpg            # Profile avatar for telemetry HUD
 ├── src/
 │   ├── components/
 │   │   ├── CertificateModal.tsx # Holographic certificate decryption viewer
@@ -91,6 +99,7 @@ Below is the directory tree mapping the telemetry systems of the workspace:
 | **Sector (Institution)**   | SRM Easwari Engineering College                                          |
 | **Coordinates (Location)** | Chennai, Tamil Nadu, India                                               |
 | **Comm Channels**          | 📧 [vijayapandian112007@gmail.com](mailto:vijayapandian112007@gmail.com) |
+| **Resume Node**            | 📄 [Download Resume](https://drive.google.com/file/d/19Jxhh-z0wC_gVPZ85XuRgP-YXpyGtFBN/view?usp=sharing) |
 
 ### Interactive Coding & Social Nodes:
 
