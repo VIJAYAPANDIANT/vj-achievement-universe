@@ -138,12 +138,12 @@ export const Timeline: React.FC = () => {
                         {monthData.items.map((item, idx) => (
                           <motion.div
                             key={item.id}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
+                            initial={{ opacity: 0, y: 15 }}
+                            whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true, margin: '-50px' }}
-                            transition={{ duration: 0.4, delay: idx * 0.05 }}
+                            transition={{ duration: 0.35, delay: Math.min(idx * 0.04, 0.25) }}
                             onMouseEnter={playHover}
-                            className={`bg-glass-card border rounded-xl p-5 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all ${getCategoryBorder(
+                            className={`bg-glass-card border rounded-xl p-5 relative overflow-hidden flex flex-col md:flex-row md:items-center justify-between gap-4 transition-all hover:border-cyan-500/40 hover:shadow-[0_0_20px_rgba(6,182,212,0.12)] ${getCategoryBorder(
                               item.category
                             )}`}
                           >
@@ -159,16 +159,16 @@ export const Timeline: React.FC = () => {
                                 <span className="text-slate-500">|</span>
                                 <span className="text-cyan-400 font-bold">{item.issuer.toUpperCase()}</span>
                                 <span className="text-slate-500">|</span>
-                                <span className="text-slate-300 font-semibold flex items-center gap-1 bg-white/3 border border-white/5 rounded px-2 py-0.5">
+                                <span className="text-slate-200 font-semibold flex items-center gap-1 bg-white/3 border border-white/5 rounded px-2 py-0.5">
                                   <Calendar size={11} className="text-cyan-400" />
                                   {formatDateWithMonth(item.issueDate)}
                                 </span>
                               </div>
 
-                              <h3 className="text-sm font-extrabold text-slate-100 uppercase tracking-wide font-mono">
+                              <h3 className="text-sm font-extrabold text-white uppercase tracking-wide font-mono">
                                 {item.title}
                               </h3>
-                              <p className="text-xs text-slate-400 font-sans leading-relaxed max-w-2xl">
+                              <p className="text-xs text-slate-300 font-sans leading-relaxed max-w-3xl">
                                 {item.description}
                               </p>
                             </div>
@@ -176,13 +176,13 @@ export const Timeline: React.FC = () => {
                             {/* Right hand verify URL link */}
                             {item.url && (
                               <motion.a
-                                whileHover={{ scale: 1.05, x: 2 }}
+                                whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={playClick}
                                 href={item.url}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-center gap-1 text-[10px] text-cyan-400 font-mono hover:text-cyan-300 transition-colors uppercase border border-cyan-500/20 bg-cyan-950/20 rounded px-2.5 py-1.5 self-start md:self-auto cursor-pointer"
+                                className="flex items-center gap-1 text-[10px] text-cyan-400 font-mono hover:text-cyan-300 transition-colors uppercase border border-cyan-500/30 bg-cyan-950/40 hover:bg-cyan-900/40 rounded-lg px-3 py-1.5 self-start md:self-auto cursor-pointer shrink-0 shadow-[0_0_10px_rgba(6,182,212,0.1)]"
                               >
                                 Verify <ChevronRight size={10} />
                               </motion.a>

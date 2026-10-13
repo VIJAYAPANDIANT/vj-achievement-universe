@@ -30,24 +30,30 @@ function App() {
     setSoundEnabled(soundOn);
   }, [soundOn]);
 
-  // Global 3D Hover Tilt handler for all cards with class bg-glass-card
+  // Interactive radial spotlight glow handler for cards with class bg-glass-card
   useEffect(() => {
+    let currentCard: HTMLElement | null = null;
+
     const handleMouseMove = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       if (!target || typeof target.closest !== 'function') return;
       const card = target.closest('.bg-glass-card') as HTMLElement | null;
-      if (!card) return;
+      
+      if (currentCard && currentCard !== card) {
+        currentCard.style.setProperty('--x', '50%');
+        currentCard.style.setProperty('--y', '50%');
+        currentCard.style.transform = '';
+      }
 
+      if (!card) {
+        currentCard = null;
+        return;
+      }
+
+      currentCard = card;
       const rect = card.getBoundingClientRect();
       const x = e.clientX - rect.left;
       const y = e.clientY - rect.top;
-      const xc = rect.width / 2;
-      const yc = rect.height / 2;
-      
-      const angleX = (yc - y) / 10; 
-      const angleY = (x - xc) / 10;
-
-      card.style.transform = `perspective(1000px) rotateX(${angleX}deg) rotateY(${angleY}deg) scale3d(1.02, 1.02, 1.02)`;
       
       const pctX = (x / rect.width) * 100;
       const pctY = (y / rect.height) * 100;
@@ -55,23 +61,21 @@ function App() {
       card.style.setProperty('--y', `${pctY}%`);
     };
 
-    const handleMouseLeave = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (!target || typeof target.closest !== 'function') return;
-      const card = target.closest('.bg-glass-card') as HTMLElement | null;
-      if (!card) return;
-
-      card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)';
-      card.style.setProperty('--x', '50%');
-      card.style.setProperty('--y', '50%');
+    const handleMouseLeave = () => {
+      if (currentCard) {
+        currentCard.style.setProperty('--x', '50%');
+        currentCard.style.setProperty('--y', '50%');
+        currentCard.style.transform = '';
+        currentCard = null;
+      }
     };
 
-    document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseleave', handleMouseLeave, true);
+    document.addEventListener('mousemove', handleMouseMove, { passive: true });
+    document.addEventListener('mouseleave', handleMouseLeave);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseleave', handleMouseLeave, true);
+      document.removeEventListener('mouseleave', handleMouseLeave);
     };
   }, []);
 
