@@ -216,6 +216,19 @@ export const achievementsData: Achievement[] = [
     place: 'Participation',
     image: '/certificates/enginow_round_2_project_submission.png'
   },
+  {
+    id: 'hackathon-easwari-iis8-project-challenge-winner',
+    title: 'Project Challenge Winner - Industry Institution Summit 8.0',
+    issuer: 'Easwari Engineering College & Nokia',
+    category: 'Hackathons',
+    subCategory: 'Project Challenge',
+    issueDate: '2026-09-29',
+    skills: ['Artificial Intelligence', 'Project Presentation', 'Software Development', 'Innovation', 'Deep Learning', 'System Design'],
+    description: 'Secured Winner in the Project Challenge at Industry Institution Summit 8.0 ("AI : Transforming Ideas into Impact") held on 29th September 2026. Organized by the Department of Computer Science and Engineering, Easwari Engineering College, in association with The Institution of Engineering and Technology (IET) and Technology Partner Nokia.',
+    place: 'Winner',
+    projectTitle: 'AI: Transforming Ideas into Impact',
+    image: '/certificates/easwari_industry_institution_summit_8_project_challenge_winner.png'
+  },
   // ─── COURSES ───────────────────────────────────────────────────────────────
   {
     id: 'course-hackerrank-sql',
@@ -1877,6 +1890,19 @@ export const achievementsData: Achievement[] = [
     description: 'Participated in Tradition Hacks: 2026 organized by Miro Meetups Kolkata.',
     place: 'Participation',
     image: '/certificates/unstop_tradition_hacks_participation.png'
+  },
+  {
+    id: 'competition-elite-coders-brain-blitz-underground',
+    title: 'Brain Blitz by Underground - Elite Quiz Series',
+    issuer: 'Elite Coders',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-10-07',
+    credentialId: 'EC-CERT-2026-057387',
+    skills: ['Problem Solving', 'Data Structures', 'Technical Excellence', 'Algorithms', 'Logic & Comprehension'],
+    description: 'Awarded Certificate of Appreciation by Elite Coders for demonstrating outstanding dedication and technical excellence by scoring 75% in the Brain Blitz by Underground assessment as part of the Elite Quiz Series.',
+    place: '75% Score (Appreciation)',
+    image: '/certificates/elite_coders_brain_blitz_underground_quiz.png'
   },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
