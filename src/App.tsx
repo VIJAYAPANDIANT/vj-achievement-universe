@@ -14,8 +14,32 @@ import type { Achievement } from './data/achievementsData';
 import { setSoundEnabled, playClick } from './utils/sounds';
 import { Volume2, VolumeX, Menu, X, Award } from 'lucide-react';
 
+// Helper to map URL path/hash to activeSection
+const pathToSection = (path: string): string => {
+  const clean = path.replace(/^\//, '').toLowerCase();
+  if (['vault', 'credentials'].includes(clean)) return 'vault';
+  if (['trophy', 'trophies', 'trophy-room'].includes(clean)) return 'trophy';
+  if (['badges', 'badge-wall'].includes(clean)) return 'badges';
+  if (['timeline', 'roadmap'].includes(clean)) return 'timeline';
+  if (['analytics', 'stats'].includes(clean)) return 'analytics';
+  if (['command-center', 'command', 'profile'].includes(clean)) return 'command-center';
+  return 'universe';
+};
+
+const sectionToPath = (section: string): string => {
+  return section === 'universe' ? '/' : `/${section}`;
+};
+
 function App() {
-  const [activeSection, setActiveSection] = useState<string>('universe');
+  const [activeSection, setActiveSection] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace(/^#\/?/, '');
+      if (hash) return pathToSection(hash);
+      const path = window.location.pathname.replace(/^\//, '');
+      if (path) return pathToSection(path);
+    }
+    return 'universe';
+  });
   const [selectedVaultCategory, setSelectedVaultCategory] = useState<string>('Courses');
   const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(null);
   
@@ -79,16 +103,36 @@ function App() {
     };
   }, []);
 
+  // Synchronize browser history and popstate
+  useEffect(() => {
+    const handlePopState = () => {
+      const hash = window.location.hash.replace(/^#\/?/, '');
+      const path = window.location.pathname.replace(/^\//, '');
+      const target = hash ? pathToSection(hash) : pathToSection(path);
+      setActiveSection(target);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
   const handleNavClick = (section: string) => {
     playClick();
     setActiveSection(section);
     setMobileMenuOpen(false);
+
+    const targetPath = sectionToPath(section);
+    if (window.location.pathname !== targetPath) {
+      window.history.pushState({ section }, '', targetPath);
+    }
   };
 
   const handleUniverseCategorySelect = (category: string) => {
-    // Map selected universe category directly to vault
     setSelectedVaultCategory(category);
     setActiveSection('vault');
+    if (window.location.pathname !== '/vault') {
+      window.history.pushState({ section: 'vault' }, '', '/vault');
+    }
   };
 
   const menuItems = [

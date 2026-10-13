@@ -1,0 +1,2874 @@
+[
+  {
+    "id": "internship-zero2site",
+    "title": "Cloud Development Intern",
+    "issuer": "Zero2site",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2025-06-28",
+    "credentialId": "Z2S-CLOUD-2025",
+    "skills": [
+      "Cloud Development",
+      "Client Demo Projects",
+      "API Configurations",
+      "Software Engineering"
+    ],
+    "description": "Successfully completed a 1-month Internship in the field of Cloud Development from May 15, 2025 to June 15, 2025. Actively engaged in diverse tasks and played a pivot role in a client demo project.",
+    "url": "https://www.zero2site.in",
+    "image": "/certificates/zero2site_internship.jpg"
+  },
+  {
+    "id": "internship-cognifyz",
+    "title": "Java Development Intern",
+    "issuer": "Cognifyz Technologies",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2025-09-29",
+    "credentialId": "CTI/A1/C208788",
+    "skills": [
+      "Java Development",
+      "Core Java",
+      "Problem Solving",
+      "Communication"
+    ],
+    "description": "Served as a Java Development Intern from August 2025 to September 2025. Displayed remarkable dedication, sincerity, and exceptional coordination and communication skills.",
+    "url": "https://www.cognifyz.com",
+    "image": "/certificates/cognifyz_internship.jpg"
+  },
+  {
+    "id": "internship-novitech-da",
+    "title": "Data Analytics Intern",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Internships",
+    "subCategory": "Offline Internships",
+    "issueDate": "2025-09-28",
+    "credentialId": "DAIN12477",
+    "skills": [
+      "Data Analytics",
+      "Statistical Analysis",
+      "Data Visualizations"
+    ],
+    "description": "Successfully completed a one month internship in Data Analytics from August 28th to September 28th 2025 at NoviTech R&D Private Limited, Coimbatore.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_data_analytics.jpg"
+  },
+  {
+    "id": "internship-novitech-ml",
+    "title": "Machine Learning Intern",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Internships",
+    "subCategory": "Offline Internships",
+    "issueDate": "2025-11-30",
+    "credentialId": "MLIN8451",
+    "skills": [
+      "Machine Learning",
+      "Model Training",
+      "Predictive Analytics"
+    ],
+    "description": "Successfully completed a one month internship in Machine Learning from November 1, 2025 to November 30, 2025 at NoviTech R&D Private Limited, Coimbatore.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_machine_learning.jpg"
+  },
+  {
+    "id": "internship-novitech-ai",
+    "title": "Artificial Intelligence Intern",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Internships",
+    "subCategory": "Offline Internships",
+    "issueDate": "2025-12-31",
+    "credentialId": "AIIN14887",
+    "skills": [
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Neural Networks",
+      "AI Engineering"
+    ],
+    "description": "Successfully completed a one month internship in Artificial Intelligence from December 1, 2025 to December 31, 2025 at NoviTech R&D Private Limited.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_ai_internship.png"
+  },
+  {
+    "id": "internship-codec-uiux",
+    "title": "UI/UX Designer Intern",
+    "issuer": "Codec Technologies Pvt. Ltd.",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-02-01",
+    "credentialId": "CORPORATE8752d549ce59e1733940555",
+    "skills": [
+      "UI/UX Design",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Figma"
+    ],
+    "description": "Successfully completed a 1-Month AICTE & ICAC Approved internship program as a UI/UX Designer Intern at Codec Technologies Pvt. Ltd.",
+    "image": "/certificates/codec_uiux_internship.png"
+  },
+  {
+    "id": "internship-codec-java",
+    "title": "Java Developer Intern",
+    "issuer": "Codec Technologies Pvt. Ltd.",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-02-01",
+    "credentialId": "CORPORATE6759d549ce59e1733940555",
+    "skills": [
+      "Java Development",
+      "Object-Oriented Programming",
+      "Backend Development",
+      "Software Engineering"
+    ],
+    "description": "Successfully completed a 1-Month AICTE & ICAC Approved internship program as a Java Developer Intern at Codec Technologies Pvt. Ltd.",
+    "image": "/certificates/codec_java_internship.png"
+  },
+  {
+    "id": "internship-ibm-1m1b-ai-sustainability",
+    "title": "AI for Sustainability Virtual Intern",
+    "issuer": "1M1B & IBM SkillsBuild",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-02-10",
+    "credentialId": "INTERNSHIP_17630914316916a3e755254",
+    "skills": [
+      "Agentic AI",
+      "RAG Systems",
+      "Responsible AI",
+      "Sustainability",
+      "Generative AI"
+    ],
+    "description": "Successfully completed the AI for Sustainability Virtual Internship organized by 1M1B, supported by AICTE, and in collaboration with IBM SkillsBuild. Gained experience in Agentic AI, RAG systems, and Responsible AI mapped to UN SDGs.",
+    "image": "/certificates/ibm_1m1b_ai_sustainability_internship.png"
+  },
+  {
+    "id": "internship-1m1b-green",
+    "title": "1M1B Green Internship",
+    "issuer": "1M1B Green Skills Academy & AICTE",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-03-15",
+    "skills": [
+      "Sustainable Mindset",
+      "Live Projects",
+      "Sustainability Strategy",
+      "Environmental Awareness"
+    ],
+    "description": "Successfully completed the 1M1B Green Internship in partnership with AICTE and supported by Salesforce. Focused on Developing a Sustainable Mindset and Live Project Work.",
+    "image": "/certificates/1m1b_green_internship.png"
+  },
+  {
+    "id": "internship-tamizhan-skills-rise",
+    "title": "Web Development Intern (RISE)",
+    "issuer": "Tamizhan Skills",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-04-05",
+    "credentialId": "TS-RISE-WD-2603854",
+    "skills": [
+      "Web Development",
+      "Frontend Development",
+      "HTML/CSS",
+      "JavaScript"
+    ],
+    "description": "Successfully completed the RISE Internship Program in the domain of Web Development from March 1, 2026 to March 31, 2026 at Tamizhan Skills.",
+    "image": "/certificates/tamizhan_skills_web_dev_internship.png"
+  },
+  {
+    "id": "internship-elevate-labs-sql",
+    "title": "SQL Developer Intern",
+    "issuer": "Elevate Labs",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-04-30",
+    "skills": [
+      "SQL",
+      "Database Design",
+      "Query Optimization",
+      "Analytical Thinking"
+    ],
+    "description": "Successfully completed the SQL Developer Internship Program at Elevate Labs from January 1, 2026 to April 30, 2026. Contributed to query optimization, database design, and structured data analysis.",
+    "image": "/certificates/elevate_labs_sql_internship.png"
+  },
+  {
+    "id": "internship-bharatcares-ibm-genai-cloud",
+    "title": "IBM SkillsBuild Gen AI & Cloud Computing Intern",
+    "issuer": "BharatCares & IBM SkillsBuild",
+    "category": "Internships",
+    "subCategory": "Online Internships",
+    "issueDate": "2026-07-31",
+    "credentialId": "BHIBMAC11277",
+    "skills": [
+      "Generative AI",
+      "Cloud Computing",
+      "IBM SkillsBuild",
+      "AI Engineering",
+      "Cloud Infrastructure"
+    ],
+    "description": "Successfully completed the BharatCares 6-week IBM SkillsBuild Gen AI & Cloud Computing Internship, conducted from June 22, 2026 to July 31, 2026, in association with AICTE and IBM SkillsBuild.",
+    "image": "/certificates/bharatcares_ibm_genai_cloud_internship.png"
+  },
+  {
+    "id": "hackathon-iiit-surat-dev-heat",
+    "title": "Dev Heat Hackathon - Spring Fiesta",
+    "issuer": "IIIT Surat & Unstop",
+    "category": "Hackathons",
+    "subCategory": "Tech Hackathons",
+    "issueDate": "2026-03-05",
+    "skills": [
+      "Hackathon",
+      "Software Development",
+      "Teamwork",
+      "Rapid Prototyping"
+    ],
+    "description": "Participated in the Dev Heat Hackathon of Spring Fiesta organized by Indian Institute of Information Technology (IIIT), Surat, on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/iiit_surat_dev_heat_hackathon.png"
+  },
+  {
+    "id": "hackathon-enginow-adivya",
+    "title": "Adivya 2.0 - Developer Hackathon",
+    "issuer": "Enginow",
+    "category": "Hackathons",
+    "subCategory": "Tech Hackathons",
+    "issueDate": "2026-03-30",
+    "skills": [
+      "Hackathon",
+      "Web Development",
+      "Software Architecture",
+      "Team Collaboration"
+    ],
+    "description": "Participated as part of Team vijayapandian112007 in Adivya 2.0 - Developer Hackathon organized by Enginow.",
+    "place": "Participation",
+    "image": "/certificates/enginow_adivya_hackathon.png"
+  },
+  {
+    "id": "hackathon-enginow-round-1",
+    "title": "Round 1 | General Assessment (Hackathon)",
+    "issuer": "Enginow",
+    "category": "Hackathons",
+    "subCategory": "Tech Hackathons",
+    "issueDate": "2026-03-10",
+    "skills": [
+      "Technical Assessment",
+      "Logical Reasoning",
+      "Coding Logic"
+    ],
+    "description": "Participated as part of Team vijayapandian112007 in Round 1 | General Assessment (Team Leader Round) organized by Enginow.",
+    "place": "Participation",
+    "image": "/certificates/enginow_round_1_assessment.png"
+  },
+  {
+    "id": "hackathon-enginow-round-2",
+    "title": "Round 2 | Project Submission (Hackathon)",
+    "issuer": "Enginow",
+    "category": "Hackathons",
+    "subCategory": "Tech Hackathons",
+    "issueDate": "2026-03-20",
+    "skills": [
+      "Project Presentation",
+      "Software Development",
+      "Product Prototyping"
+    ],
+    "description": "Participated as part of Team vijayapandian112007 in Round 2 | Submission of Original Projects of Complete Team by Leader organized by Enginow.",
+    "place": "Participation",
+    "image": "/certificates/enginow_round_2_project_submission.png"
+  },
+  {
+    "id": "hackathon-easwari-iis8-project-challenge-winner",
+    "title": "Project Challenge Winner - Industry Institution Summit 8.0",
+    "issuer": "Easwari Engineering College & Nokia",
+    "category": "Hackathons",
+    "subCategory": "Project Challenge",
+    "issueDate": "2026-09-29",
+    "skills": [
+      "Artificial Intelligence",
+      "Project Presentation",
+      "Software Development",
+      "Innovation",
+      "Deep Learning",
+      "System Design"
+    ],
+    "description": "Secured Winner in the Project Challenge at Industry Institution Summit 8.0 (\"AI : Transforming Ideas into Impact\") held on 29th September 2026. Organized by the Department of Computer Science and Engineering, Easwari Engineering College, in association with The Institution of Engineering and Technology (IET) and Technology Partner Nokia.",
+    "place": "Winner",
+    "projectTitle": "AI: Transforming Ideas into Impact",
+    "image": "/certificates/easwari_industry_institution_summit_8_project_challenge_winner.png"
+  },
+  {
+    "id": "course-hackerrank-sql",
+    "title": "SQL (Basic)",
+    "issuer": "HackerRank",
+    "category": "Courses",
+    "subCategory": "Skill Certifications",
+    "issueDate": "2026-03-29",
+    "credentialId": "A56DE22B73CD",
+    "skills": [
+      "SQL",
+      "Relational Databases",
+      "Database Queries",
+      "Data Retrieval"
+    ],
+    "description": "Passed the HackerRank SQL (Basic) skill certification test, verifying proficiency in writing relational database queries, filtering, aggregation, and basic joins.",
+    "url": "https://www.hackerrank.com/certificates/A56DE22B73CD",
+    "image": "/certificates/hackerrank_sql_basic.png"
+  },
+  {
+    "id": "course-guvi-python",
+    "title": "Python Course",
+    "issuer": "GUVI Geek Networks",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-08-03",
+    "credentialId": "2421JrK31752fwuj01",
+    "skills": [
+      "Python",
+      "Programming Fundamentals",
+      "Control Flow",
+      "Data Structures"
+    ],
+    "description": "Completed the Python Course offered by GUVI Geek Networks (an HCL Company and Google for Education Partner), covering core programming concepts, data structures, and problem-solving.",
+    "url": "https://www.guvi.in/certificate?id=2421JrK31752fwuj01",
+    "image": "/certificates/guvi_python.png"
+  },
+  {
+    "id": "course-cisco-cybersecurity",
+    "title": "Introduction to Cybersecurity",
+    "issuer": "Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2025-08-26",
+    "skills": [
+      "Cybersecurity",
+      "Network Security",
+      "Threat Assessment",
+      "Security Fundamentals"
+    ],
+    "description": "Successfully completed the Introduction to Cybersecurity course through Cisco Networking Academy, covering network security basics, common types of cyber threats, risk mitigation, and digital protection strategies.",
+    "image": "/certificates/cisco_cybersecurity.png"
+  },
+  {
+    "id": "course-udemy-html5-css3",
+    "title": "HTML5 & CSS3 Complete Course: Build Websites like a Pro",
+    "issuer": "Udemy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-10-11",
+    "credentialId": "UC-5c668aa1-bf97-4c93-9f52-1388a1c79538",
+    "skills": [
+      "HTML5",
+      "CSS3",
+      "Web Design",
+      "Frontend Development"
+    ],
+    "description": "Completed the HTML5 & CSS3 course on Udemy instructed by Meta Brains, learning core web structure, advanced styling, and modern responsive design techniques.",
+    "url": "https://www.udemy.com/certificate/UC-5c668aa1-bf97-4c93-9f52-1388a1c79538/",
+    "image": "/certificates/udemy_html5_css3.png"
+  },
+  {
+    "id": "course-sololearn-vibe-coding",
+    "title": "Vibe Coding",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-13",
+    "credentialId": "CC-Y4AJE1WT",
+    "skills": [
+      "Vibe Coding",
+      "AI-assisted Coding",
+      "Coding Concepts"
+    ],
+    "description": "Completed the Vibe Coding course on Sololearn, verifying understanding of generative AI workflows, writing code using natural language instructions, and AI-driven development.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_vibe_coding.png"
+  },
+  {
+    "id": "course-infosys-core-java",
+    "title": "Core Java Programming Revisited",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-10",
+    "skills": [
+      "Java",
+      "Object-Oriented Programming",
+      "Exception Handling",
+      "Java Collections"
+    ],
+    "description": "Completed the Core Java Programming Revisited course offered by Infosys Springboard, covering advanced Java concepts, OOP principles, collection framework, and robust application structure.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_core_java.png"
+  },
+  {
+    "id": "course-sololearn-prompt-engineering",
+    "title": "Prompt Engineering",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-14",
+    "credentialId": "CC-FVGMWMVA",
+    "skills": [
+      "Prompt Engineering",
+      "Generative AI",
+      "LLMs",
+      "Prompt Design"
+    ],
+    "description": "Completed the Prompt Engineering course on Sololearn, verifying theoretical and practical understanding of constructing prompts, role prompting, few-shot learning, and optimizing LLM outputs.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_prompt_engineering.png"
+  },
+  {
+    "id": "course-sololearn-intro-java",
+    "title": "Introduction to Java",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-16",
+    "credentialId": "CC-TQHELZPF",
+    "skills": [
+      "Java",
+      "Programming Basics",
+      "Variables",
+      "Loops",
+      "Conditionals"
+    ],
+    "description": "Completed the Introduction to Java course on Sololearn, validating foundational knowledge of Java programming syntax, variables, basic operators, and control flow.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_intro_to_java.png"
+  },
+  {
+    "id": "course-sololearn-java-intermediate",
+    "title": "Java Intermediate",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-15",
+    "credentialId": "CC-5SWOUK43",
+    "skills": [
+      "Java",
+      "Object-Oriented Programming",
+      "Classes & Objects",
+      "Inheritance"
+    ],
+    "description": "Completed the Java Intermediate course on Sololearn, verifying understanding of OOP concepts (classes, objects, inheritance, polymorphism), arrays, and reference types in Java.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_java_intermediate.png"
+  },
+  {
+    "id": "course-sololearn-intro-python",
+    "title": "Introduction to Python",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-11-18",
+    "credentialId": "CC-WOBG7EHK",
+    "skills": [
+      "Python",
+      "Programming Basics",
+      "Variables",
+      "Loops",
+      "Functions"
+    ],
+    "description": "Completed the Introduction to Python course on Sololearn, verifying a solid understanding of fundamental Python syntax, lists, functions, and control structures.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_intro_to_python.png"
+  },
+  {
+    "id": "course-nptel-hci",
+    "title": "Design & Implementation of Human-Computer Interfaces",
+    "issuer": "IIT Guwahati (NPTEL)",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-10-24",
+    "skills": [
+      "Human-Computer Interaction",
+      "User Interface Design",
+      "UX Design Principles",
+      "User Testing"
+    ],
+    "description": "Successfully completed the 12-week NPTEL Online Certification course on Design & Implementation of Human-Computer Interfaces, funded by the MoE, Govt. of India, and coordinated by IIT Guwahati, with a consolidated score of 57%.",
+    "image": "/certificates/nptel_hci.png"
+  },
+  {
+    "id": "course-geeksforgeeks-dsa",
+    "title": "Data Structure & Algorithms Bootcamp",
+    "issuer": "GeeksforGeeks",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-12-15",
+    "credentialId": "6aaeefc95aa3a6354890a0d88baabf04",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Problem Solving",
+      "Java/C++"
+    ],
+    "description": "Completed the Data Structure & Algorithms Bootcamp offered by GeeksforGeeks, covering arrays, linked lists, stacks, queues, trees, graphs, sorting, searching, and algorithmic problem-solving techniques.",
+    "url": "https://media.geeksforgeeks.org/courses/certificates/6aaeefc95aa3a6354890a0d88baabf04.pdf",
+    "image": "/certificates/geeksforgeeks_dsa_bootcamp.png"
+  },
+  {
+    "id": "course-cisco-modern-ai",
+    "title": "Introduction to Modern AI",
+    "issuer": "Easwari Engineering College & Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-15",
+    "credentialId": "8f7d6413-d00a-41db-8ceb-19189c7092ff",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Neural Networks",
+      "Modern AI Concepts"
+    ],
+    "description": "Successfully completed the Introduction to Modern AI course offered by Easwari Engineering College in collaboration with the Cisco Networking Academy program.",
+    "image": "/certificates/cisco_intro_modern_ai.png"
+  },
+  {
+    "id": "course-cisco-security-connectivity",
+    "title": "Security and Connectivity Support",
+    "issuer": "Easwari Engineering College & Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-12-18",
+    "skills": [
+      "Security",
+      "Connectivity",
+      "Network Security",
+      "Routing & Switching",
+      "Network Support"
+    ],
+    "description": "Successfully completed the Security and Connectivity Support course offered by Easwari Engineering College in collaboration with the Cisco Networking Academy program.",
+    "image": "/certificates/cisco_security_connectivity.png"
+  },
+  {
+    "id": "course-unstop-dynamic-ping-pong",
+    "title": "Dynamic Ping Pong",
+    "issuer": "Unstop",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2025-12-20",
+    "skills": [
+      "Web Development",
+      "JavaScript",
+      "Game Development",
+      "Interactive Programming"
+    ],
+    "description": "Successfully completed the Dynamic Ping Pong course provided by Unstop, learning interactive game logic, dynamics, and web programming principles.",
+    "image": "/certificates/unstop_dynamic_ping_pong.png"
+  },
+  {
+    "id": "course-sololearn-machine-learning-beginners",
+    "title": "Machine Learning for Beginners",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-01-01",
+    "credentialId": "CC-B8XGQIDQ",
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Data Science"
+    ],
+    "description": "Successfully completed the Machine Learning for Beginners course on Sololearn, verifying theoretical and practical understanding of constructing machine learning models and algorithms.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_machine_learning_beginners.png"
+  },
+  {
+    "id": "course-sololearn-intro-html",
+    "title": "Introduction to HTML",
+    "issuer": "Sololearn",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-02-01",
+    "credentialId": "CC-ZP3DEX8B",
+    "skills": [
+      "HTML",
+      "Web Development",
+      "Semantic HTML",
+      "Frontend Development"
+    ],
+    "description": "Successfully completed the Introduction to HTML course on Sololearn, verifying understanding of core markup structures, web accessibility, and semantic structuring of documents.",
+    "url": "https://www.sololearn.com/",
+    "image": "/certificates/sololearn_intro_to_html.png"
+  },
+  {
+    "id": "course-pluto-academy-dsa",
+    "title": "DSA With Java Course",
+    "issuer": "Pluto Academy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-02-13",
+    "credentialId": "145",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Java",
+      "Complexity Analysis",
+      "Problem Solving"
+    ],
+    "description": "Completed the DSA With Java Course from Pluto Academy, acquiring comprehensive knowledge in algorithmic structures, computational complexity, and Java-based coding patterns.",
+    "image": "/certificates/pluto_academy_dsa_java.png"
+  },
+  {
+    "id": "course-ey-microsoft-ai-passport",
+    "title": "AI Skills Passport",
+    "issuer": "EY and Microsoft",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-03-01",
+    "skills": [
+      "Artificial Intelligence",
+      "AI Employability",
+      "Generative AI",
+      "Tech Innovation"
+    ],
+    "description": "Successfully completed the AI Skills Passport course offered by EY and Microsoft, covering technical foundational topics and employability concepts in AI.",
+    "image": "/certificates/ey_microsoft_ai_skills_passport.png"
+  },
+  {
+    "id": "course-geeksforgeeks-ios",
+    "title": "iOS Development for Beginners: Master Swift & App Building",
+    "issuer": "GeeksforGeeks",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-20",
+    "credentialId": "6770895908ad02846bae6b90861e29d3",
+    "skills": [
+      "iOS Development",
+      "Swift",
+      "Mobile Applications",
+      "App Building"
+    ],
+    "description": "Successfully completed the course on iOS Development for Beginners: Master Swift & App Building from GeeksforGeeks.",
+    "url": "https://media.geeksforgeeks.org/courses/certificates/6770895908ad02846bae6b90861e29d3.pdf",
+    "image": "/certificates/geeksforgeeks_ios_development.png"
+  },
+  {
+    "id": "course-infosys-data-science",
+    "title": "Introduction to Data Science",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Data Science",
+      "Data Analysis",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "description": "Completed the Introduction to Data Science course offered by Infosys Springboard, covering core components of data analysis, model development, and statistics.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_data_science.png"
+  },
+  {
+    "id": "course-infosys-nlp",
+    "title": "Introduction to Natural Language Processing",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Natural Language Processing",
+      "NLP",
+      "Text Analysis",
+      "Computational Linguistics"
+    ],
+    "description": "Completed the Introduction to Natural Language Processing course offered by Infosys Springboard, covering key techniques for processing, analyzing, and modeling natural language data.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_nlp.png"
+  },
+  {
+    "id": "course-infosys-ai",
+    "title": "Introduction to Artificial Intelligence",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Artificial Intelligence",
+      "AI Concepts",
+      "Search Algorithms",
+      "Knowledge Representation"
+    ],
+    "description": "Completed the Introduction to Artificial Intelligence course offered by Infosys Springboard, covering core AI logic, search heuristics, and knowledge modeling.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_ai.png"
+  },
+  {
+    "id": "course-infosys-deep-learning",
+    "title": "Introduction to Deep Learning",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Deep Learning",
+      "Neural Networks",
+      "Activation Functions",
+      "Model Optimization"
+    ],
+    "description": "Completed the Introduction to Deep Learning course offered by Infosys Springboard, exploring multi-layer neural network designs, feedforward mechanisms, and training paradigms.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_deep_learning.png"
+  },
+  {
+    "id": "course-infosys-computer-vision",
+    "title": "Computer Vision 101",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Computer Vision",
+      "Image Processing",
+      "Object Detection",
+      "Feature Extraction"
+    ],
+    "description": "Completed the Computer Vision 101 course offered by Infosys Springboard, covering image processing, object detection, and visual model feature extraction.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_computer_vision.png"
+  },
+  {
+    "id": "course-infosys-rpa",
+    "title": "Introduction to Robotic Process Automation",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Robotic Process Automation",
+      "RPA",
+      "Workflow Automation",
+      "Software Bots"
+    ],
+    "description": "Completed the Introduction to Robotic Process Automation course offered by Infosys Springboard, learning automated task workflows and bot orchestration.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_rpa.png"
+  },
+  {
+    "id": "course-infosys-openai-gpt",
+    "title": "Introduction to OpenAI GPT Models",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "OpenAI",
+      "GPT Models",
+      "Generative AI",
+      "Large Language Models",
+      "Prompt Engineering"
+    ],
+    "description": "Completed the Introduction to OpenAI GPT Models course offered by Infosys Springboard, analyzing large language model architecture, fine-tuning structures, and prompt usage.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_openai_gpt.png"
+  },
+  {
+    "id": "course-infosys-prompt-engineering",
+    "title": "Prompt Engineering",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Prompt Engineering",
+      "Generative AI",
+      "LLMs",
+      "Prompt Optimization"
+    ],
+    "description": "Completed the Prompt Engineering course offered by Infosys Springboard, learning prompt design principles, few-shot prompting, and role-based instruction.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_prompt_engineering.png"
+  },
+  {
+    "id": "course-infosys-generative-ai-unleashing",
+    "title": "Generative AI Unleashing",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Generative AI",
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "description": "Completed the Generative AI Unleashing course offered by Infosys Springboard, exploring the fundamentals and practical applications of generative machine learning models.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_generative_ai_unleashing.png"
+  },
+  {
+    "id": "course-infosys-gpt3-developers",
+    "title": "OpenAI Generative Pre-trained Transformer 3 (GPT-3) for developers",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "OpenAI",
+      "GPT-3",
+      "API Integration",
+      "Generative AI",
+      "Application Development"
+    ],
+    "description": "Completed the OpenAI Generative Pre-trained Transformer 3 (GPT-3) for developers course offered by Infosys Springboard, developing application endpoints and integrating large language models into software.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_gpt3_developers.png"
+  },
+  {
+    "id": "course-infosys-deep-learning-developers",
+    "title": "Deep Learning for Developers",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Deep Learning",
+      "Neural Network Development",
+      "TensorFlow/PyTorch",
+      "Model Deployment"
+    ],
+    "description": "Completed the Deep Learning for Developers course offered by Infosys Springboard, covering implementation of deep neural networks, computational graphs, and developer workflows for neural models.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_deep_learning_developers.png"
+  },
+  {
+    "id": "course-infosys-agile-scrum",
+    "title": "Agile Scrum in Practice",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Agile Methodology",
+      "Scrum Framework",
+      "Sprint Planning",
+      "Project Management"
+    ],
+    "description": "Completed the Agile Scrum in Practice course offered by Infosys Springboard, master-classing agile values, scrum roles, sprint planning events, and collaborative release strategies.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_agile_scrum.png"
+  },
+  {
+    "id": "course-infosys-artificial-intelligence",
+    "title": "Artificial Intelligence",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Expert Systems",
+      "Cognitive Computing"
+    ],
+    "description": "Completed the Artificial Intelligence course offered by Infosys Springboard, exploring core paradigms in cognitive computing, expert systems, and intelligent machine logic.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_artificial_intelligence.png"
+  },
+  {
+    "id": "course-infosys-dsa-java",
+    "title": "Data Structures and Algorithms using Java",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Java",
+      "Problem Solving"
+    ],
+    "description": "Completed the Data Structures and Algorithms using Java course offered by Infosys Springboard, covering basic and advanced computational structures and efficiency tuning in Java.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_dsa_java.png"
+  },
+  {
+    "id": "course-infosys-ai-primer",
+    "title": "Artificial Intelligence Primer Certification",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-03-27",
+    "skills": [
+      "Artificial Intelligence",
+      "Machine Learning Core",
+      "AI Foundations"
+    ],
+    "description": "Obtained the Artificial Intelligence Primer Certification from Infosys Springboard, validating baseline understanding of machine learning algorithms, cognitive systems, and AI architecture.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_ai_primer.png"
+  },
+  {
+    "id": "course-infosys-principles-generative-ai",
+    "title": "Principles of Generative AI Certification",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-03-27",
+    "skills": [
+      "Generative AI",
+      "Large Language Models",
+      "Transformer Architecture",
+      "Prompt Frameworks"
+    ],
+    "description": "Obtained the Principles of Generative AI Certification from Infosys Springboard, confirming competency in transformer mechanisms, training methods, and ethical constraints of generative models.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_principles_generative_ai.png"
+  },
+  {
+    "id": "course-infosys-generative-models-developers",
+    "title": "Generative models for developers",
+    "issuer": "Infosys Springboard",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-03-25",
+    "skills": [
+      "Generative AI",
+      "Model Development",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "description": "Completed the Generative models for developers course offered by Infosys Springboard, covering deep neural network topologies for generative tasks, optimization strategies, and programming techniques.",
+    "url": "https://verify.onwingspan.com",
+    "image": "/certificates/infosys_generative_models_developers.png"
+  },
+  {
+    "id": "course-cisco-apply-ai-reviews",
+    "title": "Apply AI: Analyze Customer Reviews",
+    "issuer": "Easwari Engineering College & Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-15",
+    "credentialId": "1e78ba86-01bb-4370-8e01-a907a60758e6",
+    "skills": [
+      "Sentiment Analysis",
+      "Natural Language Processing",
+      "AI Applications",
+      "Data Insights"
+    ],
+    "description": "Successfully completed the Apply AI: Analyze Customer Reviews course offered by Easwari Engineering College in collaboration with the Cisco Networking Academy program.",
+    "image": "/certificates/cisco_apply_ai_customer_reviews.png"
+  },
+  {
+    "id": "course-cisco-apply-ai-resume",
+    "title": "Apply AI: Update Your Resume",
+    "issuer": "Easwari Engineering College & Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-15",
+    "credentialId": "a6a43480-6f2b-4a3d-8854-ba3abd1bb3cb",
+    "skills": [
+      "Artificial Intelligence",
+      "Resume Building",
+      "Career Optimization",
+      "AI Applications"
+    ],
+    "description": "Successfully completed the Apply AI: Update Your Resume course offered by Easwari Engineering College in collaboration with the Cisco Networking Academy program.",
+    "image": "/certificates/cisco_apply_ai_update_resume.png"
+  },
+  {
+    "id": "course-codetantra-dbms",
+    "title": "Database Management Systems",
+    "issuer": "CodeTantra & Easwari Engineering College",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-22",
+    "credentialId": "CT1851-wbpiKg-c05",
+    "skills": [
+      "Database Management Systems",
+      "SQL",
+      "DBMS",
+      "Relational Databases",
+      "Schema Design"
+    ],
+    "description": "Successfully completed the Database Management Systems course (2311CSC402J) from CodeTantra, in collaboration with Easwari Engineering College.",
+    "image": "/certificates/codetantra_dbms.png"
+  },
+  {
+    "id": "course-nptel-iiot",
+    "title": "Introduction to Industry 4.0 and Industrial Internet of Things",
+    "issuer": "IIT Kharagpur (NPTEL)",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-20",
+    "skills": [
+      "Industry 4.0",
+      "Industrial Internet of Things",
+      "IIoT",
+      "IoT",
+      "Smart Manufacturing"
+    ],
+    "description": "Successfully completed the 12-week NPTEL Online Certification course on Introduction to Industry 4.0 and Industrial Internet of Things, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with a consolidated score of 75% (Elite).",
+    "image": "/certificates/nptel_iiot.png"
+  },
+  {
+    "id": "course-nptel-blockchain",
+    "title": "Blockchain and its Applications",
+    "issuer": "IIT Kharagpur (NPTEL)",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-04-20",
+    "skills": [
+      "Blockchain",
+      "Distributed Ledgers",
+      "Cryptocurrency",
+      "Smart Contracts"
+    ],
+    "description": "Successfully completed the 12-week NPTEL Online Certification course on Blockchain and its Applications, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with a consolidated score of 57%.",
+    "image": "/certificates/nptel_blockchain.png"
+  },
+  {
+    "id": "course-aws-cloud-practitioner-essentials",
+    "title": "AWS Cloud Practitioner Essentials",
+    "issuer": "AWS Training & Certification",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-06-17",
+    "skills": [
+      "Cloud Computing",
+      "AWS",
+      "Cloud Infrastructure",
+      "Cloud Practitioner"
+    ],
+    "description": "Completed the AWS Cloud Practitioner Essentials course, validating fundamental understanding of the AWS Cloud platform, including basic global infrastructure, security and compliance, core services, and pricing models.",
+    "image": "/certificates/aws_cloud_practitioner_essentials.png"
+  },
+  {
+    "id": "course-cisco-learnathon-2026",
+    "title": "Networking Academy Learn-A-Thon 2026",
+    "issuer": "Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-06-30",
+    "skills": [
+      "Networking",
+      "Cybersecurity",
+      "Technical Learning",
+      "Cisco Technologies"
+    ],
+    "description": "Awarded Learner Achievement Award in recognition of exceptional learning achievement within the Cisco Networking Academy program during the Learn-A-Thon 2026.",
+    "image": "/certificates/cisco_learnathon_2026.png"
+  },
+  {
+    "id": "course-aws-certified-ai-practitioner-practice-exam",
+    "title": "Official Practice Exam: AWS Certified AI Practitioner (AIF-C01 - English)",
+    "issuer": "AWS Training & Certification",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-07-11",
+    "skills": [
+      "AWS Cloud",
+      "AI Practitioner",
+      "Machine Learning",
+      "Cloud Computing"
+    ],
+    "description": "Completed the Official Practice Exam for AWS Certified AI Practitioner (AIF-C01), validating knowledge of AWS AI/ML services, framework integration, and cloud-based intelligent systems.",
+    "image": "/certificates/aws_certified_ai_practitioner_practice_exam.png"
+  },
+  {
+    "id": "course-aws-cloud-practitioner-practice-exam",
+    "title": "Official Practice Exam: AWS Certified Cloud Practitioner (CLF-C02 - English)",
+    "issuer": "AWS Training & Certification",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-07-11",
+    "skills": [
+      "AWS Cloud",
+      "Cloud Practitioner",
+      "Cloud Infrastructure",
+      "Cloud Computing"
+    ],
+    "description": "Completed the Official Practice Exam for AWS Certified Cloud Practitioner (CLF-C02), validating understanding of core AWS services, security, architecture, pricing, and support.",
+    "image": "/certificates/aws_cloud_practitioner_practice_exam.png"
+  },
+  {
+    "id": "course-aws-developer-associate-practice-exam",
+    "title": "Official Practice Exam: AWS Certified Developer - Associate (DVA-C02 - English)",
+    "issuer": "AWS Training & Certification",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-07-15",
+    "skills": [
+      "AWS Development",
+      "Cloud Applications",
+      "AWS SDK",
+      "Serverless Architecture"
+    ],
+    "description": "Completed the Official Practice Exam for AWS Certified Developer - Associate (DVA-C02), validating skills in developing, deploying, and debugging cloud-based applications using AWS.",
+    "image": "/certificates/aws_developer_associate_practice_exam.png"
+  },
+  {
+    "id": "course-aws-solutions-architect-associate-practice-exam",
+    "title": "Official Practice Exam: AWS Certified Solutions Architect - Associate (SAA-C03 - English)",
+    "issuer": "AWS Training & Certification",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-07-11",
+    "skills": [
+      "Solutions Architecture",
+      "AWS Design",
+      "Cloud Security",
+      "High Availability"
+    ],
+    "description": "Completed the Official Practice Exam for AWS Certified Solutions Architect - Associate (SAA-C03), validating knowledge in designing cost-efficient, fault-tolerant, and scalable systems on AWS.",
+    "image": "/certificates/aws_solutions_architect_associate_practice_exam.png"
+  },
+  {
+    "id": "workshop-aifortechies-python-ai",
+    "title": "Python using AI Workshop",
+    "issuer": "AI for Techies",
+    "category": "Workshops",
+    "subCategory": "Tech Workshops",
+    "issueDate": "2025-08-10",
+    "skills": [
+      "Python",
+      "Generative AI",
+      "Interactive Visualizations",
+      "AI-assisted Development"
+    ],
+    "description": "Participated in the Python using AI Workshop by AI for Techies, gaining hands-on knowledge on generating interactive visualizations, debugging python code using AI, and writing prompt-based scripts.",
+    "image": "/certificates/aifortechies_python_ai.png"
+  },
+  {
+    "id": "workshop-novitech-github",
+    "title": "Take your first step into Open Source with GitHub",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Skill Camps",
+    "issueDate": "2025-09-20",
+    "credentialId": "NT_MFSDB549",
+    "skills": [
+      "GitHub",
+      "Git",
+      "Open Source",
+      "Version Control"
+    ],
+    "description": "Completed the 3-hour Skill camp in Take your first step into Open Source with GitHub, covering git commands, remote repositories, forks, pull requests, and open-source contribution practices.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_github_open_source.png"
+  },
+  {
+    "id": "workshop-novitech-dev-deployment",
+    "title": "Development to Deployment BootCamp",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Bootcamps",
+    "issueDate": "2025-09-21",
+    "credentialId": "NT_BFSDB901",
+    "skills": [
+      "Deployment",
+      "Software Development Lifecycle",
+      "Hosting",
+      "Cloud Deployment"
+    ],
+    "description": "Completed the 2-hour BootCamp in Development to Deployment, exploring software packaging, build automation, environment configuration, and cloud-hosting deployments.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_dev_to_deployment.png"
+  },
+  {
+    "id": "workshop-novitech-fullstack-ai",
+    "title": "Leveraging Full Stack with AI BootCamp",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Bootcamps",
+    "issueDate": "2025-09-28",
+    "credentialId": "NT_BFSDB0257",
+    "skills": [
+      "Full Stack Development",
+      "Generative AI",
+      "AI Integration",
+      "Web Applications"
+    ],
+    "description": "Completed the 2-hour BootCamp in Leveraging Full Stack with AI, learning to integrate AI APIs and prompts into full-stack web applications for smart user interfaces.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_fullstack_ai.png"
+  },
+  {
+    "id": "workshop-freedom-with-ai",
+    "title": "Freedom with AI Masterclass",
+    "issuer": "Freedom with AI",
+    "category": "Workshops",
+    "subCategory": "AI Masterclasses",
+    "issueDate": "2025-10-11",
+    "skills": [
+      "Generative AI",
+      "AI Tools",
+      "Automation",
+      "Productivity Optimization"
+    ],
+    "description": "Completed the Freedom with AI Masterclass covering various generative AI systems, automation tools, and strategies for leveraging artificial intelligence for productivity.",
+    "image": "/certificates/freedom_with_ai_masterclass.png"
+  },
+  {
+    "id": "workshop-novitech-uiux",
+    "title": "30 Days MasterClass in UI/UX Design",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Masterclasses",
+    "issueDate": "2025-10-25",
+    "credentialId": "NT_B11UIUXT156",
+    "skills": [
+      "UI/UX Design",
+      "Wireframing",
+      "Prototyping",
+      "User Research",
+      "Figma"
+    ],
+    "description": "Completed the 30 Days MasterClass in UI/UX Design from September 15th to October 25th, 2025 conducted by NoviTech R&D Private Limited.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_uiux_masterclass.png"
+  },
+  {
+    "id": "workshop-novitech-data-analytics",
+    "title": "30 Days MasterClass in Data Analytics",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Masterclasses",
+    "issueDate": "2025-10-04",
+    "credentialId": "NT_B29DAT291",
+    "skills": [
+      "Data Analytics",
+      "SQL",
+      "Python for Data Science",
+      "Data Visualizations"
+    ],
+    "description": "Completed the 30 Days MasterClass in Data Analytics from August 28th to October 4th, 2025 conducted by NoviTech R&D Private Limited.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_data_analytics_masterclass.png"
+  },
+  {
+    "id": "workshop-novitech-fullstack",
+    "title": "30 Days MasterClass in Full Stack Development",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Masterclasses",
+    "issueDate": "2025-11-27",
+    "credentialId": "NT_B50FSDE244",
+    "skills": [
+      "Full Stack Development",
+      "Frontend Development",
+      "Backend Development",
+      "Databases"
+    ],
+    "description": "Completed the 30 Days MasterClass in Full Stack Development from October 23rd to November 27th, 2025 conducted by NoviTech R&D Private Limited.",
+    "url": "https://www.novitechrd.com",
+    "image": "/certificates/novitech_fullstack_masterclass.png"
+  },
+  {
+    "id": "workshop-novitech-master-one",
+    "title": "Master One, Adapt to Many: Building a Strong Foundation for Future IT Success",
+    "issuer": "NoviTech R&D Private Limited",
+    "category": "Workshops",
+    "subCategory": "Foundation Workshops",
+    "issueDate": "2026-01-01",
+    "credentialId": "NT_3FWR386",
+    "skills": [
+      "IT Career Foundation",
+      "Technology Adaptability",
+      "IT Skills",
+      "Professional Development"
+    ],
+    "description": "Successfully completed the 2 Hours Foundation Workshop in \"Master One, Adapt to Many: Building a Strong Foundation for Future IT Success\" conducted by NoviTech R&D Private Limited.",
+    "image": "/certificates/novitech_master_one.png"
+  },
+  {
+    "id": "competition-unstop-ieee-quiz",
+    "title": "What's The Gadget? - Tech Quiz Challenge (IEEE Day 2025)",
+    "issuer": "Government Mahila Engineering College Ajmer",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-07",
+    "skills": [
+      "Tech Trivia",
+      "Electronics & Gadgets",
+      "Problem Solving"
+    ],
+    "description": "Participated in What's The Gadget - MCQ Round 1 of What's The Gadget? - Tech Quiz Challenge (IEEE Day 2025) organized by Government Mahila Engineering College Ajmer on Unstop.",
+    "image": "/certificates/unstop_ieee_quiz.png",
+    "place": "Participation"
+  },
+  {
+    "id": "competition-gweca-quiz-assessment",
+    "title": "Quiz Competition - Assessment",
+    "issuer": "Government Women Engineering College, Ajmer",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-07",
+    "skills": [
+      "Tech Trivia",
+      "Problem Solving",
+      "General Engineering Knowledge"
+    ],
+    "description": "Participated in the Assessment of Quiz Competition organized by Government Women Engineering College, Ajmer, Rajasthan on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_gweca_quiz_assessment.png"
+  },
+  {
+    "id": "competition-gweca-quiz-competition",
+    "title": "Quiz Competition",
+    "issuer": "Government Women Engineering College, Ajmer",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-08",
+    "skills": [
+      "Tech Trivia",
+      "Problem Solving",
+      "General Engineering Knowledge"
+    ],
+    "description": "Participated in the Quiz Competition organized by Government Women Engineering College, Ajmer, Rajasthan on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_gweca_quiz_competition.png"
+  },
+  {
+    "id": "competition-unstop-weekly-case",
+    "title": "Weekly Case Challenge - Challenge 36",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Case Challenges",
+    "issueDate": "2025-09-15",
+    "skills": [
+      "Case Analysis",
+      "Analytical Thinking",
+      "Business Strategy"
+    ],
+    "description": "Participated in Challenge 36 of Weekly Case Challenge organized by Unstop, testing business analysis, strategic problem solving, and logical presentation skills.",
+    "image": "/certificates/unstop_weekly_challenge.png",
+    "place": "Participation"
+  },
+  {
+    "id": "competition-unstop-weekly-case-35",
+    "title": "Weekly Case Challenge - Challenge 35",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Case Challenges",
+    "issueDate": "2025-09-08",
+    "skills": [
+      "Case Analysis",
+      "Analytical Thinking",
+      "Business Strategy"
+    ],
+    "description": "Participated in Challenge 35 of Weekly Case Challenge organized by Unstop, validating problem-solving and structured analysis capabilities.",
+    "image": "/certificates/unstop_weekly_challenge_35.png",
+    "place": "Participation"
+  },
+  {
+    "id": "competition-unstop-elite-quiz",
+    "title": "Elite Quiz 3.0 Assessment",
+    "issuer": "Elite Coders",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-25",
+    "skills": [
+      "Competitive Programming",
+      "Data Structures",
+      "Algorithms"
+    ],
+    "description": "Participated in the Assessment of Elite Quiz 3.0 organized by Elite Coders on Unstop, testing core coding, logic, and debugging proficiency.",
+    "image": "/certificates/unstop_elite_quiz_3.png",
+    "place": "Participation"
+  },
+  {
+    "id": "competition-unstop-ignite-socio-sphere",
+    "title": "Socio-Sphere - Ignite 180 5.0",
+    "issuer": "Kirori Mal College (KMC), University of Delhi",
+    "category": "Competitions",
+    "subCategory": "Social Case Challenges",
+    "issueDate": "2025-11-05",
+    "skills": [
+      "Social Innovation",
+      "Case Study Presentation",
+      "Problem Solving"
+    ],
+    "description": "Participated in Socio-Sphere of Ignite 180 5.0 organized by Kirori Mal College, University of Delhi, on Unstop, analyzing social problems and pitching strategic solutions.",
+    "image": "/certificates/unstop_ignite_socio_sphere.png",
+    "place": "Participation"
+  },
+  {
+    "id": "competition-elite-coders-winter-of-code",
+    "title": "Elite Coders Winter of Code (ECWoC)",
+    "issuer": "Elite Coders",
+    "category": "Competitions",
+    "subCategory": "Open Source Events",
+    "issueDate": "2026-02-28",
+    "skills": [
+      "Open Source",
+      "Git",
+      "Software Development",
+      "Collaboration"
+    ],
+    "description": "Participated actively in Elite Coders Winter of Code (ECWoC) among 5000+ participants, demonstrating builder spirit, creativity, and contribution to the open source community.",
+    "place": "Participation",
+    "image": "/certificates/elite_coders_winter_of_code.png"
+  },
+  {
+    "id": "competition-ieee-gtbit-amentis",
+    "title": "AMENTIS: Chartering the Unknown",
+    "issuer": "IEEE GTBIT SB",
+    "category": "Competitions",
+    "subCategory": "Logical Competitions",
+    "issueDate": "2026-04-10",
+    "skills": [
+      "Logical Reasoning",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "description": "Awarded a Certificate of Appreciation in recognition of active participation in AMENTIS: Chartering the Unknown, demonstrating logical reasoning, problem-solving, and determination.",
+    "place": "Participation",
+    "image": "/certificates/ieee_amentis_appreciation.png"
+  },
+  {
+    "id": "competition-elite-coders-open-source-hackathon-preassess",
+    "title": "Open Source Hackathon - Pre-Assessment Round",
+    "issuer": "Elite Coders",
+    "category": "Competitions",
+    "subCategory": "Open Source Events",
+    "issueDate": "2026-03-05",
+    "skills": [
+      "Open Source",
+      "Git",
+      "Technical Creativity",
+      "Problem Solving"
+    ],
+    "description": "Successfully qualified the Pre-Assessment Round of the Open Source Hackathon 2026, organized by Elite Coders.",
+    "place": "Participation",
+    "image": "/certificates/elite_coders_hackathon_preassess.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-16",
+    "title": "Daily Quiz - Management: September Series (16-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-16",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1482nd rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "1482nd Rank",
+    "image": "/certificates/unstop_management_sep_16.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-17",
+    "title": "Daily Quiz - Management: September Series (17-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-17",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 795th rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "795th Rank",
+    "image": "/certificates/unstop_management_sep_17.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-18",
+    "title": "Daily Quiz - Management: September Series (18-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-18",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1414th rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "1414th Rank",
+    "image": "/certificates/unstop_management_sep_18.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-19",
+    "title": "Daily Quiz - Management: September Series (19-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-19",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 621st rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "621st Rank",
+    "image": "/certificates/unstop_management_sep_19.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-20",
+    "title": "Daily Quiz - Management: September Series (20-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-20",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 475th rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "475th Rank",
+    "image": "/certificates/unstop_management_sep_20.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-21",
+    "title": "Daily Quiz - Management: September Series (21-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-21",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1312th rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "1312th Rank",
+    "image": "/certificates/unstop_management_sep_21.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-22",
+    "title": "Daily Quiz - Management: September Series (22-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-22",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_22.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-23",
+    "title": "Daily Quiz - Management: September Series (23-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-23",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_23.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-24",
+    "title": "Daily Quiz - Management: September Series (24-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-24",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_24.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-25",
+    "title": "Daily Quiz - Management: September Series (25-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-25",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_25.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-26",
+    "title": "Daily Quiz - Management: September Series (26-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-26",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_26.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-27",
+    "title": "Daily Quiz - Management: September Series (27-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-27",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_27.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-28",
+    "title": "Daily Quiz - Management: September Series (28-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-28",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_management_sep_28.png"
+  },
+  {
+    "id": "competition-vu-navratri-codethon-2025-day1",
+    "title": "Navratri Codethon 2025 - Day 1: Algorithms",
+    "issuer": "Vishwakarma University (VU)",
+    "category": "Competitions",
+    "subCategory": "Coding Contests",
+    "issueDate": "2025-10-22",
+    "skills": [
+      "Algorithms",
+      "Competitive Programming",
+      "Problem Solving",
+      "Data Structures"
+    ],
+    "description": "Participated in Day 1 of the Navratri Codethon 2025 focused on Algorithms (Shailaputri - Strength & Beginnings), organized by Vishwakarma University (VU), Pune.",
+    "place": "Participation",
+    "image": "/certificates/vu_navratri_codethon_day1.png"
+  },
+  {
+    "id": "competition-vu-navratri-codethon-2025-day2",
+    "title": "Navratri Codethon 2025 - Day 2: Data Structures",
+    "issuer": "Vishwakarma University (VU)",
+    "category": "Competitions",
+    "subCategory": "Coding Contests",
+    "issueDate": "2025-10-23",
+    "skills": [
+      "Data Structures",
+      "Competitive Programming",
+      "Problem Solving",
+      "Algorithms"
+    ],
+    "description": "Participated in Day 2 of the Navratri Codethon 2025 focused on Data Structures (Brahmacharini - Perseverance & Devotion), organized by Vishwakarma University (VU), Pune.",
+    "place": "Participation",
+    "image": "/certificates/vu_navratri_codethon_day2.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-30",
+    "title": "Daily Quiz - Management: September Series (30-09-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-09-30",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1002nd rank in the Daily Quiz of Management: September Series organized by Unstop.",
+    "place": "1002nd Rank",
+    "image": "/certificates/unstop_management_sep_30.png"
+  },
+  {
+    "id": "competition-unstop-engineering-daily-quiz-04",
+    "title": "Daily Quiz - Engineering: October Series (04-10-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-04",
+    "skills": [
+      "Engineering Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 212nd rank in the Daily Quiz of Engineering: October Series organized by Unstop.",
+    "place": "212nd Rank",
+    "image": "/certificates/unstop_engineering_oct_04.png"
+  },
+  {
+    "id": "competition-unstop-engineering-daily-quiz-05",
+    "title": "Daily Quiz - Engineering: October Series (05-10-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-05",
+    "skills": [
+      "Engineering Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 175th rank in the Daily Quiz of Engineering: October Series organized by Unstop.",
+    "place": "175th Rank",
+    "image": "/certificates/unstop_engineering_oct_05.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-oct-08",
+    "title": "Daily Quiz - Management: October Series (08-10-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-08",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1115th rank in the Daily Quiz of Management: October Series organized by Unstop.",
+    "place": "1115th Rank",
+    "image": "/certificates/unstop_management_oct_08.png"
+  },
+  {
+    "id": "competition-unstop-management-daily-quiz-oct-13",
+    "title": "Daily Quiz - Management: October Series (13-10-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-13",
+    "skills": [
+      "Management Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 1070th rank in the Daily Quiz of Management: October Series organized by Unstop.",
+    "place": "1070th Rank",
+    "image": "/certificates/unstop_management_oct_13.png"
+  },
+  {
+    "id": "competition-cbit-national-level-e-quiz",
+    "title": "National Level E-Quiz",
+    "issuer": "Chaitanya Bharathi Institute of Technology (CBIT)",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-10-15",
+    "skills": [
+      "Mathematics",
+      "General Quiz",
+      "Problem Solving"
+    ],
+    "description": "Participated in the National Level E-Quiz organized by the Department of Mathematics, Chaitanya Bharathi Institute of Technology (CBIT), Hyderabad.",
+    "place": "Participation",
+    "image": "/certificates/cbit_national_e_quiz.png"
+  },
+  {
+    "id": "competition-unstop-engineering-daily-quiz-nov-16",
+    "title": "Daily Quiz - Engineering: November Series (16-11-2025)",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2025-11-16",
+    "skills": [
+      "Engineering Concepts",
+      "General Knowledge",
+      "Problem Solving"
+    ],
+    "description": "Achieved 144th rank in the Daily Quiz of Engineering: November Series organized by Unstop.",
+    "place": "144th Rank",
+    "image": "/certificates/unstop_engineering_nov_16.png"
+  },
+  {
+    "id": "competition-unstop-treasure-hunt-december",
+    "title": "Treasure Hunt - December Series",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Treasure Hunts",
+    "issueDate": "2025-12-15",
+    "skills": [
+      "Problem Solving",
+      "Logical Reasoning",
+      "Tech Trivia"
+    ],
+    "description": "Participated in the Treasure Hunt - December Series of Treasure Hunt: Monthly Challenge organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_treasure_hunt_dec.png"
+  },
+  {
+    "id": "competition-iisc-pravega-stemposium",
+    "title": "STEMposium - Pravega XII",
+    "issuer": "Pravega, IISc",
+    "category": "Competitions",
+    "subCategory": "Academic Competitions",
+    "issueDate": "2026-01-25",
+    "skills": [
+      "Science & Technology",
+      "STEM Challenges",
+      "Technical Inquiry"
+    ],
+    "description": "Participated in the STEMposium of Pravega XII organized by Pravega, IISc.",
+    "place": "Participation",
+    "image": "/certificates/unstop_stemposium_pravega.png"
+  },
+  {
+    "id": "competition-tata-crucible-campus-quiz-2025",
+    "title": "TATA Crucible Campus Quiz 2025",
+    "issuer": "The Tata Group",
+    "category": "Competitions",
+    "subCategory": "Business Quizzes",
+    "issueDate": "2025-04-15",
+    "skills": [
+      "Business Intel",
+      "General Knowledge",
+      "Strategic Reasoning"
+    ],
+    "description": "Participated in the TATA Crucible Campus Quiz 2025 organized by the Tata Group.",
+    "place": "Participation",
+    "image": "/certificates/tata_crucible_campus_quiz_2025.png"
+  },
+  {
+    "id": "competition-unstop-prediction-league-kkr-lsg",
+    "title": "Unstop Prediction League - Week 1: KKR vs LSG",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2025-04-20",
+    "skills": [
+      "Data Analysis",
+      "Sports Analytics",
+      "Strategic Prediction"
+    ],
+    "description": "Participated in Week 1 - KKR vs LSG (Match 15) of the Unstop Prediction League organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_prediction_league_kkr_lsg.png"
+  },
+  {
+    "id": "competition-tata-imagination-challenge-quiz-2025",
+    "title": "Tata Quiz - Tata Imagination Challenge 2025",
+    "issuer": "Tata Group",
+    "category": "Competitions",
+    "subCategory": "Business Quizzes",
+    "issueDate": "2025-09-15",
+    "skills": [
+      "General Quiz",
+      "Business Innovation",
+      "Strategic Thinking"
+    ],
+    "description": "Participated in the Tata Quiz of Tata Imagination Challenge 2025 organized by the Tata Group.",
+    "place": "Participation",
+    "image": "/certificates/tata_imagination_challenge_quiz_2025.png"
+  },
+  {
+    "id": "competition-ey-techathon-6-round1",
+    "title": "EY Techathon 6.0 - Round 1: Executive Summary Submission",
+    "issuer": "EY",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2025-11-20",
+    "skills": [
+      "Proposal Writing",
+      "Technical Strategy",
+      "Innovation Pitching"
+    ],
+    "description": "Participated and submitted the executive summary for Round 1 of the EY Techathon 6.0 organized by EY.",
+    "place": "Participation",
+    "image": "/certificates/ey_techathon_6_round1.png"
+  },
+  {
+    "id": "competition-unstop-prediction-league-rr-rcb",
+    "title": "Unstop Prediction League - Week 1: RR vs RCB",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2025-04-21",
+    "skills": [
+      "Data Analysis",
+      "Sports Analytics",
+      "Strategic Prediction"
+    ],
+    "description": "Participated in Week 1 - RR vs RCB (Match 16) of the Unstop Prediction League organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_prediction_league_rr_rcb.png"
+  },
+  {
+    "id": "competition-unstop-prediction-league-csk-kkr",
+    "title": "Unstop Prediction League - Week 2: CSK vs KKR",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2025-04-27",
+    "skills": [
+      "Data Analysis",
+      "Sports Analytics",
+      "Strategic Prediction"
+    ],
+    "description": "Participated in Week 2 - CSK vs KKR (Match 22) of the Unstop Prediction League organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_prediction_league_csk_kkr.png"
+  },
+  {
+    "id": "competition-unstop-prediction-league-mi-pbks",
+    "title": "Unstop Prediction League - Week 2: MI vs PBKS",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2025-04-29",
+    "skills": [
+      "Data Analysis",
+      "Sports Analytics",
+      "Strategic Prediction"
+    ],
+    "description": "Participated in Week 2 - MI vs PBKS (Match 24) of the Unstop Prediction League organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_prediction_league_mi_pbks.png"
+  },
+  {
+    "id": "competition-unstop-prediction-league-gt-kkr",
+    "title": "Unstop Prediction League - Week 2: GT vs KKR",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2025-04-30",
+    "skills": [
+      "Data Analysis",
+      "Sports Analytics",
+      "Strategic Prediction"
+    ],
+    "description": "Participated in Week 2 - GT vs KKR (Match 25) of the Unstop Prediction League organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_prediction_league_gt_kkr.png"
+  },
+  {
+    "id": "competition-unstop-technova-quiz-2026",
+    "title": "TechNova National Quiz Challenge 2026",
+    "issuer": "Shri Vishnu Engineering College for Women (SVECW)",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-03-15",
+    "skills": [
+      "Technology Quiz",
+      "General Tech knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the TechNova National Quiz Challenge 2026 organized by Shri Vishnu Engineering College for Women (SVECW), Andhra Pradesh.",
+    "place": "Participation",
+    "image": "/certificates/unstop_technova_quiz_2026.png"
+  },
+  {
+    "id": "competition-unstop-tradition-hacks-2026",
+    "title": "Tradition Hacks: 2026 - Idea Submission Round",
+    "issuer": "Miro Meetups Kolkata",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-04-10",
+    "skills": [
+      "Idea Pitching",
+      "Problem Formulation",
+      "System Design"
+    ],
+    "description": "Participated in the Idea Submission Round of Tradition Hacks: 2026 organized by Miro Meetups Kolkata.",
+    "place": "Participation",
+    "image": "/certificates/unstop_tradition_hacks_2026.png"
+  },
+  {
+    "id": "competition-hackuverse-techtriad",
+    "title": "TechTriad",
+    "issuer": "HackuVerse",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-05-31",
+    "skills": [
+      "Competitive Programming",
+      "Software Engineering",
+      "Logical Troubleshooting"
+    ],
+    "description": "Participated in TechTriad organized by the HackuVerse.",
+    "place": "Participation",
+    "image": "/certificates/unstop_hackuverse_techtriad.png"
+  },
+  {
+    "id": "competition-unstop-technova-quizz-2026",
+    "title": "TechNova National Quiz Challenge 2026 - Quizz",
+    "issuer": "Shri Vishnu Engineering College for Women (SVECW)",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-03-16",
+    "skills": [
+      "Technology Quiz",
+      "General Tech knowledge",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Quizz of TechNova National Quiz Challenge 2026 organized by Shri Vishnu Engineering College for Women (SVECW), Andhra Pradesh.",
+    "place": "Participation",
+    "image": "/certificates/unstop_technova_quizz_2026.png"
+  },
+  {
+    "id": "competition-outthinkx-triq-2026",
+    "title": "TRIQ - Think Twice",
+    "issuer": "OUTTHINKX",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-06-11",
+    "skills": [
+      "Quick Thinking",
+      "Problem Solving",
+      "General Intellect"
+    ],
+    "description": "Achieved recognition in TRIQ - Think Twice, a battle of brains where instincts triumph over knowledge, presented by OUTTHINKX.",
+    "place": "Achievement",
+    "image": "/certificates/outthinkx_triq_achievement.png"
+  },
+  {
+    "id": "competition-unstop-devengers-online-round",
+    "title": "Devengers - Online Round",
+    "issuer": "Devengers",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-06-15",
+    "skills": [
+      "Software Development",
+      "Competitive Programming",
+      "Collaboration",
+      "Problem Solving"
+    ],
+    "description": "Participated as part of Team Vijayapandian T in the Online Round organized by the Devengers on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_devengers_online_round.png"
+  },
+  {
+    "id": "competition-campus-crew-100k-milestone",
+    "title": "100K Milestone Honor",
+    "issuer": "CampusCrew",
+    "category": "Competitions",
+    "subCategory": "Community Milestones",
+    "issueDate": "2026-06-26",
+    "skills": [
+      "Community Leadership",
+      "Collaboration",
+      "Networking",
+      "Growth Mindset"
+    ],
+    "description": "Recognized as an integral part of the CampusCrew journey and contributing to a community that has grown to 100,000+ students worldwide.",
+    "place": "Honor",
+    "image": "/certificates/campus_crew_100k_milestone.png"
+  },
+  {
+    "id": "competition-elite-coders-open-source-hackathon-pre-assessment",
+    "title": "Open Source Hackathon 2026 - Pre-Assessment Round",
+    "issuer": "Elite Coders",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-06-25",
+    "skills": [
+      "Open Source",
+      "Technical Creativity",
+      "Logic Assessment",
+      "Problem Solving"
+    ],
+    "description": "Successfully qualified the Pre-Assessment Round of the Open Source Hackathon 2026 organized by Elite Coders.",
+    "place": "Qualification",
+    "image": "/certificates/elite_coders_open_source_hackathon_pre_assessment_2026.png"
+  },
+  {
+    "id": "competition-sns-microthink-360",
+    "title": "MicroThink 360: Decode, Diagnose, Discover",
+    "issuer": "SNS College of Nursing",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-06-10",
+    "skills": [
+      "Critical Thinking",
+      "Problem Solving",
+      "Diagnostic Reasoning",
+      "Analysis"
+    ],
+    "description": "Participated in MicroThink 360: Decode, Diagnose, Discover organized by SNS College of Nursing, Coimbatore, Tamil Nadu on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_sns_microthink_360.png"
+  },
+  {
+    "id": "competition-utdallas-cash-me-if-you-can",
+    "title": "Cash Me If You Can",
+    "issuer": "The University of Texas at Dallas (TUTAD)",
+    "category": "Competitions",
+    "subCategory": "Business & Finance",
+    "issueDate": "2026-06-20",
+    "skills": [
+      "Financial Strategy",
+      "Problem Solving",
+      "Quantitative Reasoning",
+      "Business Analysis"
+    ],
+    "description": "Participated in Cash Me If You Can organized by The University of Texas at Dallas (TUTAD) on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_utdallas_cash_me_if_you_can.png"
+  },
+  {
+    "id": "competition-gla-placement-prep-quiz",
+    "title": "Placement Prep Quiz 2026",
+    "issuer": "GLA University (GLAU)",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-05-10",
+    "skills": [
+      "Placement Preparation",
+      "Aptitude & Coding",
+      "Problem Solving",
+      "Technical MCQ"
+    ],
+    "description": "Participated in Placement Prep Quiz 2026 organized by GLA University (GLAU), Uttar Pradesh on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_gla_placement_prep_quiz.png"
+  },
+  {
+    "id": "competition-unstop-nexus-ai-quiz-ignite-2026",
+    "title": "Nexus AI Quiz Ignite 2026",
+    "issuer": "Nexus",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-06-05",
+    "skills": [
+      "Artificial Intelligence",
+      "Generative AI",
+      "Tech Quiz",
+      "Problem Solving"
+    ],
+    "description": "Participated in Nexus AI Quiz Ignite 2026 organized by Nexus on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_nexus_ai_quiz_ignite_2026.png"
+  },
+  {
+    "id": "competition-unstop-superxgen-ai-startup-buildathon-2026",
+    "title": "AI Startup Buildathon 2026 - Beauty Salon Marketplace Challenge",
+    "issuer": "Superxgen",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-06-18",
+    "skills": [
+      "Startup Prototyping",
+      "Artificial Intelligence",
+      "System Architecture",
+      "Product Design"
+    ],
+    "description": "Participated in AI Startup Buildathon 2026 – Beauty Salon Marketplace Challenge of SuperXgen AI Builder Series organized by Superxgen on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_superxgen_ai_startup_buildathon_2026.png"
+  },
+  {
+    "id": "competition-unstop-build-it-26",
+    "title": "Build.IT '26",
+    "issuer": "Bal Bharati Public School Pitampura",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-05-12",
+    "skills": [
+      "Coding & Development",
+      "Problem Solving",
+      "Software Engineering",
+      "Technical Design"
+    ],
+    "description": "Participated in Build.IT '26 organized by Bal Bharati Public School Pitampura on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_build_it_26.png"
+  },
+  {
+    "id": "competition-gdg-session-zero-mlx-2026",
+    "title": "MLX - Session Zero 2026",
+    "issuer": "Google Developer Group on Campus, Heritage Institute of Technology",
+    "category": "Competitions",
+    "subCategory": "Developer Events",
+    "issueDate": "2026-05-29",
+    "skills": [
+      "Machine Learning",
+      "AI Development",
+      "Collaboration",
+      "Product Prototyping"
+    ],
+    "description": "Participated in MLX of Session Zero 2026 organized by Google Developer Group on Campus, Heritage Institute of Technology.",
+    "place": "Participation",
+    "image": "/certificates/gdg_session_zero_mlx_2026.png"
+  },
+  {
+    "id": "competition-unstop-week-of-wins-giva",
+    "title": "Week-of-Wins - Day 1: GIVA",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2026-05-15",
+    "skills": [
+      "Problem Solving",
+      "General Knowledge",
+      "Quick Thinking"
+    ],
+    "description": "Participated in Day 1 - GIVA of the Unstop Week-of-Wins organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_week_of_wins_giva.png"
+  },
+  {
+    "id": "competition-unstop-week-of-wins-bluetea",
+    "title": "Week-of-Wins - Day 3: Blue Tea",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2026-05-17",
+    "skills": [
+      "Problem Solving",
+      "General Knowledge",
+      "Quick Thinking"
+    ],
+    "description": "Participated in Day 3 - Blue Tea of the Unstop Week-of-Wins organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_week_of_wins_bluetea.png"
+  },
+  {
+    "id": "competition-unstop-week-of-wins-joyspoon",
+    "title": "Week-of-Wins - Day 4: Joyspoon",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2026-05-18",
+    "skills": [
+      "Problem Solving",
+      "General Knowledge",
+      "Quick Thinking"
+    ],
+    "description": "Participated in Day 4 - Joyspoon of the Unstop Week-of-Wins organized by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_week_of_wins_joyspoon.png"
+  },
+  {
+    "id": "competition-unstop-week-of-wins-intrcity",
+    "title": "Week-of-Wins - Day 6: IntrCity",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2026-05-20",
+    "skills": [
+      "Problem Solving",
+      "General Knowledge",
+      "Quick Thinking"
+    ],
+    "description": "Participated in Day 6 - IntrCity of the Unstop Week-of-Wins organised by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_week_of_wins_intrcity.png"
+  },
+  {
+    "id": "competition-unstop-week-of-wins-day7-unstop",
+    "title": "Week-of-Wins - Day 7: Unstop",
+    "issuer": "Unstop",
+    "category": "Competitions",
+    "subCategory": "Fun Challenges",
+    "issueDate": "2026-05-21",
+    "skills": [
+      "Problem Solving",
+      "General Knowledge",
+      "Quick Thinking"
+    ],
+    "description": "Participated in Day 7 - Unstop of Unstop Week-of-Wins organised by Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_week_of_wins_day7_unstop.png"
+  },
+  {
+    "id": "competition-quizcred-cyber-warrior",
+    "title": "QuizCred Cyber Warrior Challenge",
+    "issuer": "QuizCred",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-05-20",
+    "skills": [
+      "Cybersecurity",
+      "Information Security",
+      "Network Security",
+      "Tech Quiz"
+    ],
+    "description": "Participated in QuizCred Cyber Warrior Challenge organized by QuizCred.",
+    "place": "Participation",
+    "image": "/certificates/quizcred_cyber_warrior_challenge.png"
+  },
+  {
+    "id": "competition-unstop-quiz-galaxy-aptitude-reasoning",
+    "title": "Aptitude & Reasoning Quiz",
+    "issuer": "Quiz Galaxy",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-07-15",
+    "skills": [
+      "Aptitude",
+      "Reasoning",
+      "Problem Solving",
+      "Logical Thinking"
+    ],
+    "description": "Participated in the Aptitude & Reasoning Quiz organized by the Quiz Galaxy on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_quiz_galaxy_aptitude_reasoning.png"
+  },
+  {
+    "id": "competition-codeflow-front-web-developer-quiz",
+    "title": "Front Web Developer Quiz",
+    "issuer": "Codeflow Community",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-07-25",
+    "skills": [
+      "Front-End Development",
+      "Web Development",
+      "HTML/CSS",
+      "JavaScript"
+    ],
+    "description": "Achieved recognition as the Winner of the Front Web Developer Quiz organized by Codeflow Community.",
+    "place": "Winner",
+    "image": "/certificates/unstop_codeflow_front_web_dev_quiz.png"
+  },
+  {
+    "id": "competition-codeflow-front-web-developer-quiz-participation",
+    "title": "Front Web Developer Quiz - Participation",
+    "issuer": "Codeflow Community",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-07-25",
+    "skills": [
+      "Front-End Development",
+      "Web Development",
+      "HTML/CSS",
+      "JavaScript"
+    ],
+    "description": "Participated in the Front Web Developer Quiz organized by Codeflow Community.",
+    "place": "Participation",
+    "image": "/certificates/unstop_codeflow_front_web_dev_quiz_participation.png"
+  },
+  {
+    "id": "competition-easwari-summer-buildfest-26-project-expo",
+    "title": "Summer Buildfest'26: Project Expo",
+    "issuer": "Department of CSE, Easwari Engineering College",
+    "category": "Competitions",
+    "subCategory": "Project Expo",
+    "issueDate": "2026-08-07",
+    "skills": [
+      "Project Presentation",
+      "Software Engineering",
+      "Technical Prototyping",
+      "Teamwork"
+    ],
+    "description": "Participated as part of Team Direwolf in Summer Buildfest'26: Project Expo, organized by the Department of Computer Science & Engineering at Easwari Engineering College.",
+    "place": "Participation",
+    "image": "/certificates/easwari_summer_buildfest_26_project_expo.png"
+  },
+  {
+    "id": "competition-unstop-adobe-university-hackathon",
+    "title": "Adobe University Hackathon",
+    "issuer": "Adobe",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-08-09",
+    "skills": [
+      "Software Architecture",
+      "Problem Solving",
+      "UI/UX Design",
+      "Full-Stack Development"
+    ],
+    "description": "Participated in the Adobe University Hackathon organized by Adobe on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_adobe_university_hackathon.png"
+  },
+  {
+    "id": "competition-unstop-srmist-data-science-olympiad",
+    "title": "National Data Science Olympiad",
+    "issuer": "SRM Institute of Science and Technology (SRMIST)",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-08-15",
+    "skills": [
+      "Data Science",
+      "Machine Learning",
+      "Statistical Analysis",
+      "Problem Solving"
+    ],
+    "description": "Participated in the National Data Science Olympiad of Pinnacle Excellence Conclave 2026 organized by SRM Institute of Science and Technology (SRMIST), Kattankulathur, Chennai on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_srmist_data_science_olympiad.png"
+  },
+  {
+    "id": "competition-unstop-frontend-wars-qualifier",
+    "title": "Frontend Wars 2026: Build the Future - Qualifier Round",
+    "issuer": "Frontend Arena",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-08-16",
+    "skills": [
+      "Front-End Development",
+      "Web Development",
+      "HTML/CSS",
+      "JavaScript"
+    ],
+    "description": "Participated in the Qualifier Round of Frontend Wars 2026: Build the Future organized by Frontend Arena on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_frontend_wars_qualifier.png"
+  },
+  {
+    "id": "competition-lnct-apti-sphere-mathematics-reasoning-quiz",
+    "title": "Apti-SPHERE - Mathematics & Reasoning Quiz",
+    "issuer": "Entrepreneurship-Cell, LNCT Excellence",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-08-20",
+    "skills": [
+      "Mathematics",
+      "Logical Reasoning",
+      "Analytical Thinking",
+      "Problem Solving"
+    ],
+    "description": "Participated in Apti-SPHERE – The Mathematics & Reasoning Quiz and National-Level Online Aptitude Competition organized by Entrepreneurship-Cell, LNCT Excellence.",
+    "place": "Participation",
+    "image": "/certificates/lnct_apti_sphere_mathematics_reasoning_quiz.png"
+  },
+  {
+    "id": "competition-lnct-apti-sphere-aptitude-competition",
+    "title": "Apti-SPHERE - National-Level Online Aptitude Competition",
+    "issuer": "Entrepreneurship-Cell, LNCT Excellence",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-08-21",
+    "skills": [
+      "Aptitude",
+      "Logical Reasoning",
+      "Mathematical Aptitude",
+      "Decision-Making"
+    ],
+    "description": "Successfully completed the Apti-SPHERE National-Level Online Aptitude Competition organized by the Entrepreneurship-Cell, LNCT Excellence.",
+    "place": "Participation",
+    "image": "/certificates/lnct_apti_sphere_aptitude_competition.png"
+  },
+  {
+    "id": "competition-unstop-edulinkup-summer-of-code-2026",
+    "title": "Summer of Code 2026",
+    "issuer": "EduLinkUp",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-08-25",
+    "skills": [
+      "Software Engineering",
+      "Open Source",
+      "Full-Stack Development",
+      "Problem Solving"
+    ],
+    "description": "Participated in Summer of Code 2026 organized by EduLinkUp on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_edulinkup_summer_of_code_2026.png"
+  },
+  {
+    "id": "competition-unstop-omnikon-national-hackathon-2026",
+    "title": "Omnikon National Hackathon 2026",
+    "issuer": "Omnikon",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-08-28",
+    "skills": [
+      "Hackathons",
+      "Software Development",
+      "Rapid Prototyping",
+      "Teamwork"
+    ],
+    "description": "Participated as part of Team vijayapandian112007 in Omnikon National Hackathon 2026 organized by Omnikon on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_omnikon_national_hackathon_2026.png"
+  },
+  {
+    "id": "competition-unstop-bhaktiwala-bug-bash",
+    "title": "Bug Bash",
+    "issuer": "Bhaktiwala",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-08-29",
+    "skills": [
+      "Debugging",
+      "Code Quality",
+      "Software Testing",
+      "Problem Solving"
+    ],
+    "description": "Participated in Bug Bash organized by Bhaktiwala on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_bhaktiwala_bug_bash.png"
+  },
+  {
+    "id": "competition-unstop-internhill-code-sprint",
+    "title": "InternHill Code Sprint",
+    "issuer": "InternHill Solutions",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-08-30",
+    "skills": [
+      "Competitive Programming",
+      "Algorithms",
+      "Speed Coding",
+      "Problem Solving"
+    ],
+    "description": "Participated in InternHill Code Sprint organized by InternHill Solutions on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_internhill_code_sprint.png"
+  },
+  {
+    "id": "competition-unstop-ccoew-software-engineering-assessment",
+    "title": "Software Engineering Assessment",
+    "issuer": "MKSSS's Cummins College of Engineering for Women (CCOEW), Pune",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-08-31",
+    "skills": [
+      "Software Engineering",
+      "System Design",
+      "Core Computer Science",
+      "Problem Solving"
+    ],
+    "description": "Participated in Software Engineering Assessment organized by MKSSS's Cummins College of Engineering for Women (CCOEW), Pune on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_ccoew_software_engineering_assessment.png"
+  },
+  {
+    "id": "competition-unstop-frontend-arena-frontend-odyssey-2026",
+    "title": "The Frontend Odyssey 2026",
+    "issuer": "Frontend Arena",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-09-02",
+    "skills": [
+      "Front-End Development",
+      "Web Development",
+      "UI/UX Engineering",
+      "JavaScript"
+    ],
+    "description": "Participated in The Frontend Odyssey 2026 organized by Frontend Arena on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_frontend_arena_frontend_odyssey_2026.png"
+  },
+  {
+    "id": "competition-edulinkup-elusoc-summer-of-code-2026",
+    "title": "ELUSOC (EduLinkUp Summer of Code 2026)",
+    "issuer": "EduLinkUp",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-09-09",
+    "skills": [
+      "Open Source",
+      "Software Development",
+      "Full-Stack Engineering",
+      "Project Contribution"
+    ],
+    "description": "Awarded Certificate of Participation for participating in ELUSOC (EduLinkUp Summer of Code 2026) from June through August 2026.",
+    "place": "Participation",
+    "image": "/certificates/edulinkup_elusoc_summer_of_code_2026.png"
+  },
+  {
+    "id": "competition-unstop-tradition-hacks-project-sub",
+    "title": "Tradition Hacks: 2026 - Project Submission",
+    "issuer": "Miro Meetups Kolkata",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-04-12",
+    "skills": [
+      "Prototype Construction",
+      "Software Development",
+      "Technical Implementation"
+    ],
+    "description": "Participated in the Project Submission round of Tradition Hacks: 2026 organized by Miro Meetups Kolkata.",
+    "place": "Participation",
+    "image": "/certificates/unstop_tradition_hacks_project_sub.png"
+  },
+  {
+    "id": "competition-unstop-tradition-hacks-participation",
+    "title": "Tradition Hacks: 2026",
+    "issuer": "Miro Meetups Kolkata",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-04-13",
+    "skills": [
+      "Hackathons",
+      "Team Collaboration",
+      "Software Engineering"
+    ],
+    "description": "Participated in Tradition Hacks: 2026 organized by Miro Meetups Kolkata.",
+    "place": "Participation",
+    "image": "/certificates/unstop_tradition_hacks_participation.png"
+  },
+  {
+    "id": "competition-elite-coders-brain-blitz-underground",
+    "title": "Brain Blitz by Underground - Elite Quiz Series",
+    "issuer": "Elite Coders",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-10-07",
+    "credentialId": "EC-CERT-2026-057387",
+    "skills": [
+      "Problem Solving",
+      "Data Structures",
+      "Technical Excellence",
+      "Algorithms",
+      "Logic & Comprehension"
+    ],
+    "description": "Awarded Certificate of Appreciation by Elite Coders for demonstrating outstanding dedication and technical excellence by scoring 75% in the Brain Blitz by Underground assessment as part of the Elite Quiz Series.",
+    "place": "75% Score (Appreciation)",
+    "image": "/certificates/elite_coders_brain_blitz_underground_quiz.png"
+  },
+  {
+    "id": "badge-codechef-bronze",
+    "title": "Problem Solver Bronze Badge",
+    "issuer": "CodeChef",
+    "category": "Badges",
+    "subCategory": "Competitive Programming",
+    "issueDate": "2026-02-15",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Competitive Programming",
+      "Problem Solving"
+    ],
+    "description": "Earned by solving 50 algorithmic problems on CodeChef, demonstrating analytical and structural coding capabilities.",
+    "rarity": "rare",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/codechef_bronze_badge.png"
+  },
+  {
+    "id": "badge-codechef-silver-streak",
+    "title": "Silver Streak Badge",
+    "issuer": "CodeChef",
+    "category": "Badges",
+    "subCategory": "Competitive Programming",
+    "issueDate": "2026-02-20",
+    "skills": [
+      "Consistency",
+      "Daily Coding",
+      "Problem Solving",
+      "Data Structures"
+    ],
+    "description": "Earned for maintaining a continuous 25-day coding streak on CodeChef, showcasing outstanding dedication and persistent problem-solving habits.",
+    "rarity": "epic",
+    "badgeIcon": "knight",
+    "image": "/certificates/codechef_silver_streak_badge.png"
+  },
+  {
+    "id": "badge-codechef-silver-problems",
+    "title": "Problem Solver Silver Badge",
+    "issuer": "CodeChef",
+    "category": "Badges",
+    "subCategory": "Competitive Programming",
+    "issueDate": "2026-03-10",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Competitive Programming",
+      "Advanced Problem Solving"
+    ],
+    "description": "Earned by solving 250 algorithmic problems on CodeChef, demonstrating intermediate-to-advanced analytical capabilities and efficient coding implementation.",
+    "rarity": "legendary",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/codechef_silver_badge.png"
+  },
+  {
+    "id": "badge-leetcode-50-days-2026",
+    "title": "50 Days Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Annual Medals",
+    "issueDate": "2026-03-15",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Consistency",
+      "Problem Solving"
+    ],
+    "description": "Earned for active problem solving on LeetCode for 50+ days in the year 2026, showcasing high consistency and technical capability.",
+    "rarity": "rare",
+    "badgeIcon": "gcp_ai",
+    "image": "/certificates/leetcode_50_days_2026.png"
+  },
+  {
+    "id": "badge-leetcode-100-days-2026",
+    "title": "100 Days Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Annual Medals",
+    "issueDate": "2026-04-11",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Consistency",
+      "Problem Solving"
+    ],
+    "description": "Earned for active problem solving on LeetCode for 100+ days in the year 2026, showcasing persistent problem-solving habits.",
+    "rarity": "epic",
+    "badgeIcon": "gcp_ai",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-200-days-2026",
+    "title": "200 Days Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Annual Medals",
+    "issueDate": "2026-07-19",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Consistency",
+      "Advanced Problem Solving"
+    ],
+    "description": "Earned for active problem solving on LeetCode for 200+ days in the year 2026, demonstrating outstanding coding dedication.",
+    "rarity": "legendary",
+    "badgeIcon": "gcp_ai",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-may-2026",
+    "title": "May Daily Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Daily Medals",
+    "issueDate": "2026-05-31",
+    "skills": [
+      "Daily Problem Solving",
+      "Algorithms",
+      "Consistency",
+      "Data Structures"
+    ],
+    "description": "Earned by completing the May LeetCode Daily Coding Challenge series for May 2026.",
+    "rarity": "rare",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-june-2026",
+    "title": "June Daily Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Daily Medals",
+    "issueDate": "2026-06-30",
+    "skills": [
+      "Daily Problem Solving",
+      "Algorithms",
+      "Consistency",
+      "Data Structures"
+    ],
+    "description": "Earned by completing the June LeetCode Daily Coding Challenge series for June 2026.",
+    "rarity": "rare",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-july-2026",
+    "title": "July Daily Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Daily Medals",
+    "issueDate": "2026-07-31",
+    "skills": [
+      "Daily Problem Solving",
+      "Algorithms",
+      "Consistency",
+      "Data Structures"
+    ],
+    "description": "Earned by completing the July LeetCode Daily Coding Challenge series for July 2026.",
+    "rarity": "rare",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-august-2026",
+    "title": "August Daily Badge 2026",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Daily Medals",
+    "issueDate": "2026-08-31",
+    "skills": [
+      "Daily Problem Solving",
+      "Algorithms",
+      "Consistency",
+      "Data Structures"
+    ],
+    "description": "Earned by completing the August LeetCode Daily Coding Challenge series for August 2026.",
+    "rarity": "rare",
+    "badgeIcon": "gold_star",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-leetcode-top-sql-50",
+    "title": "Top SQL 50 Badge",
+    "issuer": "LeetCode",
+    "category": "Badges",
+    "subCategory": "Study Plan Medals",
+    "issueDate": "2026-05-15",
+    "skills": [
+      "SQL",
+      "Database Queries",
+      "Relational Databases",
+      "Data Manipulation"
+    ],
+    "description": "Earned by successfully completing the LeetCode Top SQL 50 Study Plan, demonstrating mastery of SQL queries.",
+    "rarity": "epic",
+    "badgeIcon": "azure_dev",
+    "image": "/certificates/leetcode_badge_list_2026.png"
+  },
+  {
+    "id": "badge-ibm-skillsbuild-intro-llm",
+    "title": "Introduction to Large Language Models",
+    "issuer": "IBM SkillsBuild",
+    "category": "Badges",
+    "subCategory": "Artificial Intelligence",
+    "issueDate": "2026-06-20",
+    "skills": [
+      "Large Language Models",
+      "Generative AI",
+      "Deep Learning",
+      "Natural Language Processing"
+    ],
+    "description": "Earned for successfully completing the Introduction to Large Language Models course on IBM SkillsBuild, validating foundational knowledge of LLM architectures, training, and use cases.",
+    "rarity": "rare",
+    "badgeIcon": "deep_learning",
+    "image": "/certificates/ibm_skillsbuild_intro_llm.png"
+  },
+  {
+    "id": "badge-ibm-skillsbuild-foundations-genai",
+    "title": "Foundations in Generative AI",
+    "issuer": "IBM SkillsBuild",
+    "category": "Badges",
+    "subCategory": "Artificial Intelligence",
+    "issueDate": "2026-06-20",
+    "skills": [
+      "Generative AI",
+      "Foundational Models",
+      "Prompt Engineering",
+      "AI Applications"
+    ],
+    "description": "Earned for completing the Foundations in Generative AI badge course, validating key concepts of foundational models and techniques of Generative AI.",
+    "rarity": "rare",
+    "badgeIcon": "gcp_ai",
+    "image": "/certificates/ibm_skillsbuild_foundations_genai.png"
+  },
+  {
+    "id": "badge-ibm-skillsbuild-ethical-considerations-genai",
+    "title": "Ethical Considerations for Generative AI",
+    "issuer": "IBM SkillsBuild",
+    "category": "Badges",
+    "subCategory": "Artificial Intelligence",
+    "issueDate": "2026-06-20",
+    "skills": [
+      "AI Ethics",
+      "Generative AI",
+      "Responsible AI",
+      "AI Governance"
+    ],
+    "description": "Earned for completing the Ethical Considerations for Generative AI course on IBM SkillsBuild, verifying understanding of biases, hallucinations, privacy concerns, and responsible AI deployment principles.",
+    "rarity": "rare",
+    "badgeIcon": "azure_dev",
+    "image": "/certificates/ibm_skillsbuild_ethical_considerations_genai.png"
+  }
+]
