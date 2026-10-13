@@ -114,7 +114,7 @@ export const BadgeWall: React.FC = () => {
                   onMouseEnter={playHover}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className={`bg-glass-card border rounded-xl p-4 flex flex-col items-center justify-center text-center cursor-pointer relative overflow-hidden transition-all ${
+                  className={`bg-glass-card border rounded-xl p-3.5 sm:p-4 flex flex-col items-center justify-between text-center cursor-pointer relative overflow-hidden transition-all min-h-[195px] ${
                     isSelected
                       ? 'border-cyan-400 bg-cyan-950/20 ring-1 ring-cyan-400/30'
                       : config.badgeBorder
@@ -132,7 +132,7 @@ export const BadgeWall: React.FC = () => {
 
                   {/* Emblem Circle */}
                   <div
-                    className={`w-14 h-14 rounded-full flex items-center justify-center border bg-slate-950/80 mb-3 relative ${
+                    className={`w-13 h-13 sm:w-14 sm:h-14 rounded-full flex items-center justify-center border bg-slate-950/80 mb-2.5 relative flex-shrink-0 ${
                       isSelected ? 'border-cyan-400' : 'border-white/5'
                     }`}
                   >
@@ -142,15 +142,17 @@ export const BadgeWall: React.FC = () => {
                     )}
                   </div>
 
-                  {/* Badge Title */}
-                  <h4 className="text-[11px] font-extrabold text-slate-200 font-mono tracking-wide uppercase line-clamp-2 h-8 flex items-center justify-center">
-                    {badge.title}
-                  </h4>
+                  {/* Badge Title & Platform Info Container */}
+                  <div className="w-full flex flex-col items-center justify-center flex-1 my-1">
+                    <h4 className="text-[11px] sm:text-xs font-bold text-slate-100 tracking-wide uppercase text-center leading-snug line-clamp-3 w-full">
+                      {badge.title}
+                    </h4>
 
-                  {/* Platform Subtag */}
-                  <span className="text-[9px] text-slate-500 font-mono mt-1 uppercase truncate w-full">
-                    {badge.issuer}
-                  </span>
+                    {/* Platform Subtag */}
+                    <span className="text-[9px] text-slate-400 font-mono mt-2 uppercase truncate w-full block">
+                      {badge.issuer}
+                    </span>
+                  </div>
                 </motion.div>
               );
             })}
