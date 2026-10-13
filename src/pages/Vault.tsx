@@ -4,6 +4,7 @@ import { Search, Filter, RefreshCw, Layers, FileText } from 'lucide-react';
 import { achievementsData } from '../data/achievementsData';
 import type { Achievement } from '../data/achievementsData';
 import { playClick, playHover } from '../utils/sounds';
+import { formatShortDateWithMonth } from '../utils/date';
 
 interface VaultProps {
   initialCategory: string;
@@ -285,7 +286,7 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
                           <span className={`px-2 py-0.5 rounded text-[9px] font-mono uppercase border ${cardTheme.labelBg}`}>
                             {item.issuer}
                           </span>
-                          <span className="text-[10px] text-slate-500 font-mono">{item.issueDate}</span>
+                          <span className="text-[10px] text-slate-400 font-mono">{formatShortDateWithMonth(item.issueDate)}</span>
                         </div>
 
                         {/* Title */}

@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ShieldCheck, Calendar, Cpu, Link, Award, CheckCircle } from 'lucide-react';
 import type { Achievement } from '../data/achievementsData';
 import { playClick, playScan, playUnlock } from '../utils/sounds';
+import { formatDateWithMonth } from '../utils/date';
 
 interface CertificateModalProps {
   achievement: Achievement | null;
@@ -217,7 +218,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
                   </div>
                   <div className="flex justify-between items-center text-slate-400 border-b border-white/5 pb-1.5">
                     <span className="flex items-center gap-1.5"><Calendar size={13} className="text-cyan-400" /> Issued Date</span>
-                    <span className="text-slate-200">{achievement.issueDate}</span>
+                    <span className="text-slate-200">{formatDateWithMonth(achievement.issueDate)}</span>
                   </div>
                   {achievement.place && (
                     <div className="flex justify-between items-center text-slate-400 border-b border-white/5 pb-1.5">

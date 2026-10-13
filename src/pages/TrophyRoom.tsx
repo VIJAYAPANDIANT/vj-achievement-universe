@@ -4,6 +4,7 @@ import { GitBranch, Users, Calendar, Sparkles, ExternalLink } from 'lucide-react
 import { achievementsData } from '../data/achievementsData';
 import type { Achievement } from '../data/achievementsData';
 import { playClick, playHover } from '../utils/sounds';
+import { formatShortDateWithMonth } from '../utils/date';
 
 export const TrophyRoom: React.FC = () => {
   // Filter for hackathons and competitions
@@ -103,8 +104,8 @@ export const TrophyRoom: React.FC = () => {
             <span className={`px-2 py-0.5 rounded text-[9px] font-mono border ${style.badgeBg} flex items-center gap-1`}>
               <span className="text-[10px]">{style.medal}</span> {item.place || item.subCategory.toUpperCase()}
             </span>
-            <span className="text-[10px] text-slate-500 font-mono flex items-center gap-1">
-              <Calendar size={11} /> {item.issueDate}
+            <span className="text-[10px] text-slate-400 font-mono flex items-center gap-1">
+              <Calendar size={11} /> {formatShortDateWithMonth(item.issueDate)}
             </span>
           </div>
 
