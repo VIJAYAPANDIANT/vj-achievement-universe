@@ -113,7 +113,19 @@ export const CommandCenter: React.FC = () => {
     { name: 'Internship Opportunities', progress: 100, status: 'COMPLETED', color: 'from-emerald-500 to-cyan-500' },
   ];
 
-  // Featured items definitions matching achievementsData
+  // Command links definition for HUD terminal dock
+  const commandLinks = [
+    { name: 'GitHub', icon: '🐙', url: 'https://github.com/VIJAYAPANDIANT', color: 'hover:text-white hover:border-white/30 hover:bg-white/5' },
+    { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/vijayapandian-t/', color: 'hover:text-blue-400 hover:border-blue-500/30 hover:bg-blue-950/20' },
+    { name: 'LeetCode', icon: '🧠', url: 'https://leetcode.com/u/hackervj18/', color: 'hover:text-[#ffa116] hover:border-[#ffa116]/30 hover:bg-amber-950/20' },
+    { name: 'HackerRank', icon: '🏅', url: 'https://www.hackerrank.com/profile/vijayapandian111', color: 'hover:text-emerald-400 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
+    { name: 'GeeksforGeeks', icon: '📚', url: 'https://www.geeksforgeeks.org/profile/vijayapandiant11', color: 'hover:text-emerald-500 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
+    { name: 'CodeChef', icon: '🏆', url: 'https://www.codechef.com/users/vijay_code07', color: 'hover:text-amber-500 hover:border-amber-500/30 hover:bg-amber-950/20' },
+    { name: 'Portfolio', icon: '🌍', url: 'https://vijayapandian-t-portfolio.vercel.app/', color: 'hover:text-cyan-400 hover:border-cyan-500/30 hover:bg-cyan-950/20' },
+    { name: 'Download Resume', icon: '📄', url: 'https://drive.google.com/file/d/19Jxhh-z0wC_gVPZ85XuRgP-YXpyGtFBN/view?usp=sharing', color: 'hover:text-pink-400 hover:border-pink-500/30 hover:bg-pink-950/20', isAction: true },
+  ];
+
+  // Featured items definitions matching achievementsData (10 balanced items)
   const featuredAchievements = [
     {
       id: 'zero2site',
@@ -169,6 +181,61 @@ export const CommandCenter: React.FC = () => {
       glow: 'shadow-[0_0_20px_rgba(236,72,153,0.3)] border-pink-500/25',
       accentColor: 'text-pink-400',
       badge: '🤖 AI RESEARCHER'
+    },
+    {
+      id: 'codec-uiux',
+      tag: '🎨 UI/UX ARCHITECTURE',
+      title: 'UI/UX Designer Intern',
+      place: 'Codec Technologies',
+      description: 'Designed wireframes, prototypes, user journey workflows, and cohesive UI component systems using Figma.',
+      skills: ['UI/UX Design', 'Figma', 'Wireframing', 'Prototyping', 'User Research'],
+      glow: 'shadow-[0_0_20px_rgba(234,179,8,0.3)] border-amber-500/25',
+      accentColor: 'text-amber-400',
+      badge: '🎨 UI/UX DESIGNER'
+    },
+    {
+      id: 'bharatcares-ibm',
+      tag: '☁️ CLOUD & GEN AI',
+      title: 'Gen AI & Cloud Computing Intern',
+      place: 'BharatCares & IBM SkillsBuild',
+      description: 'Completed comprehensive cloud computing architectures and enterprise generative AI solutions training with IBM SkillsBuild.',
+      skills: ['Generative AI', 'Cloud Computing', 'IBM SkillsBuild', 'AI Ethics'],
+      glow: 'shadow-[0_0_20px_rgba(99,102,241,0.3)] border-indigo-500/25',
+      accentColor: 'text-indigo-400',
+      badge: '☁️ GEN AI INTERN'
+    },
+    {
+      id: 'elevate-sql',
+      tag: '🗄️ DATABASE SYSTEMS',
+      title: 'SQL Developer Intern',
+      place: 'Elevate Labs',
+      description: 'Architected relational schemas, performed database normalization, indexing, and high-performance complex SQL querying.',
+      skills: ['SQL', 'Relational Schemas', 'Query Optimization', 'Database Normalization'],
+      glow: 'shadow-[0_0_20px_rgba(20,184,166,0.3)] border-teal-500/25',
+      accentColor: 'text-teal-400',
+      badge: '🗄️ SQL ARCHITECT'
+    },
+    {
+      id: 'ibm-1m1b-ai',
+      tag: '🌱 SUSTAINABLE AI',
+      title: 'AI for Sustainability Intern',
+      place: '1M1B & IBM SkillsBuild',
+      description: 'Built AI-driven sustainable development models and participated in real-world community impact projects.',
+      skills: ['AI for Sustainability', 'Social Impact', 'Machine Learning', 'Data Ethics'],
+      glow: 'shadow-[0_0_20px_rgba(34,197,94,0.3)] border-green-500/25',
+      accentColor: 'text-green-400',
+      badge: '🌱 GREEN AI FELLOW'
+    },
+    {
+      id: 'easwari-iis-winner',
+      tag: '🏆 INNOVATION CHALLENGE',
+      title: 'Project Challenge Winner',
+      place: 'Easwari Eng. College & Nokia',
+      description: 'Secured top honors presenting an innovative IoT and software automation solution at the Nokia-sponsored Innovation Challenge.',
+      skills: ['Innovation Challenge', 'IoT Integration', 'Full Stack Prototype', 'Presentation'],
+      glow: 'shadow-[0_0_20px_rgba(249,115,22,0.3)] border-orange-500/25',
+      accentColor: 'text-orange-400',
+      badge: '🏆 1ST PLACE WINNER'
     }
   ];
 
@@ -310,45 +377,6 @@ export const CommandCenter: React.FC = () => {
                 <span className="text-slate-400">COLLABORATION:</span>
                 <span className="text-emerald-400 font-bold">🤝 AVAILABLE FOR TEAM</span>
               </div>
-            </div>
-          </motion.div>
-
-          {/* Card: Command Links */}
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.3 }}
-            className="bg-glass-card border border-white/5 rounded-2xl p-5"
-          >
-            <h3 className="text-xs text-purple-400 font-bold border-b border-white/10 pb-2.5 mb-4 tracking-wider flex items-center gap-2">
-              <Network size={14} className="text-purple-400" />
-              🌐 HUD COMMAND EXTERNAL LINKS
-            </h3>
-
-            <div className="grid grid-cols-2 gap-3 text-[10px]">
-              {[
-                { name: 'GitHub', icon: '🐙', url: 'https://github.com/VIJAYAPANDIANT', color: 'hover:text-white hover:border-white/30 hover:bg-white/5' },
-                { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/vijayapandian-t/', color: 'hover:text-blue-400 hover:border-blue-500/30 hover:bg-blue-950/20' },
-                { name: 'LeetCode', icon: '🧠', url: 'https://leetcode.com/u/hackervj18/', color: 'hover:text-[#ffa116] hover:border-[#ffa116]/30 hover:bg-amber-950/20' },
-                { name: 'HackerRank', icon: '🏅', url: 'https://www.hackerrank.com/profile/vijayapandian111', color: 'hover:text-emerald-400 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
-                { name: 'GeeksforGeeks', icon: '📚', url: 'https://www.geeksforgeeks.org/profile/vijayapandiant11', color: 'hover:text-emerald-500 hover:border-emerald-500/30 hover:bg-emerald-950/20' },
-                { name: 'CodeChef', icon: '🏆', url: 'https://www.codechef.com/users/vijay_code07', color: 'hover:text-amber-500 hover:border-amber-500/30 hover:bg-amber-950/20' },
-                { name: 'Portfolio', icon: '🌍', url: 'https://vijayapandian-t-portfolio.vercel.app/', color: 'hover:text-cyan-400 hover:border-cyan-500/30 hover:bg-cyan-950/20' },
-                { name: 'Download Resume', icon: '📄', url: 'https://drive.google.com/file/d/19Jxhh-z0wC_gVPZ85XuRgP-YXpyGtFBN/view?usp=sharing', color: 'hover:text-pink-400 hover:border-pink-500/30 hover:bg-pink-950/20', isAction: true },
-              ].map((link, idx) => (
-                <a
-                  key={idx}
-                  href={link.url}
-                  target={link.url !== '#' ? '_blank' : undefined}
-                  rel="noopener noreferrer"
-                  onClick={() => playClick()}
-                  onMouseEnter={playHover}
-                  className={`flex items-center gap-2 p-2.5 rounded-xl border border-white/5 bg-slate-950/60 transition-all duration-200 cursor-pointer ${link.color}`}
-                >
-                  <span className="text-xs">{link.icon}</span>
-                  <span className="font-bold truncate">{link.name}</span>
-                </a>
-              ))}
             </div>
           </motion.div>
 
@@ -726,6 +754,42 @@ export const CommandCenter: React.FC = () => {
         </div>
 
       </div>
+
+      {/* ─── FULL-WIDTH BOTTOM COMMAND DOCK: EXTERNAL LINKS ─── */}
+      <motion.div 
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="mt-8 bg-glass-card border border-white/5 rounded-2xl p-6"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-white/10 pb-3 mb-4 gap-2">
+          <h3 className="text-xs text-purple-400 font-bold tracking-wider flex items-center gap-2">
+            <Network size={14} className="text-purple-400" />
+            🌐 HUD COMMAND EXTERNAL LINKS & DATA TERMINALS
+          </h3>
+          <span className="text-[9px] text-slate-500 font-mono tracking-widest uppercase">
+            STATUS: 8 COMMS NODES ONLINE // FULL BANDWIDTH
+          </span>
+        </div>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-3 text-[10px]">
+          {commandLinks.map((link, idx) => (
+            <a
+              key={idx}
+              href={link.url}
+              target={link.url !== '#' ? '_blank' : undefined}
+              rel="noopener noreferrer"
+              onClick={() => playClick()}
+              onMouseEnter={playHover}
+              className={`flex items-center justify-center gap-2 p-3 rounded-xl border border-white/5 bg-slate-950/60 transition-all duration-200 cursor-pointer ${link.color}`}
+            >
+              <span className="text-sm">{link.icon}</span>
+              <span className="font-bold truncate">{link.name}</span>
+            </a>
+          ))}
+        </div>
+      </motion.div>
+
     </div>
   );
 };
