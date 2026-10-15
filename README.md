@@ -108,7 +108,6 @@ Below is the directory tree mapping the telemetry systems of the workspace:
 - 💼 **LinkedIn**: [linkedin.com/in/vijayapandian-t](https://www.linkedin.com/in/vijayapandian-t/)
 - 🧠 **LeetCode**: [leetcode.com/hackervj18](https://leetcode.com/u/hackervj18/)
 - 📚 **GeeksforGeeks**: [geeksforgeeks.org/vijayapandiant11](https://www.geeksforgeeks.org/profile/vijayapandiant11)
-- 🏆 **Codeforces**: [codeforces.com/vijayapandian112007](https://codeforces.com/profile/vijayapandian112007)
 - 🔥 **CodeChef**: [codechef.com/vijay_code07](https://www.codechef.com/users/vijay_code07)
 - 🏅 **HackerRank**: [hackerrank.com/vijayapandian111](https://www.hackerrank.com/profile/vijayapandian111)
 
