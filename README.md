@@ -109,7 +109,7 @@ Below is the directory tree mapping the systems of the workspace:
 | **Sector (Institution)** | SRM Easwari Engineering College |
 | **Coordinates (Location)** | Chennai, Tamil Nadu, India |
 | **Comm Channels** | 📧 [vijayapandian112007@gmail.com](mailto:vijayapandian112007@gmail.com) |
-| **Resume Node** | 📄 [Download Resume](https://drive.google.com/file/d/19Jxhh-z0wC_gVPZ85XuRgP-YXpyGtFBN/view?usp=sharing) |
+| **Resume Node** | 📄 [Download Resume](https://drive.google.com/file/d/10a4hRhKhG9I_VOeHNyssMPDaDEJdsBsJ/view?usp=sharing) |
 
 ### Interactive Coding & Social Nodes:
 
