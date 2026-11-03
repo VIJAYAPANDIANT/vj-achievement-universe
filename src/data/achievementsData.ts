@@ -2122,6 +2122,54 @@ export const achievementsData: Achievement[] = [
     place: 'Participation',
     image: '/certificates/tvs_credit_epic_8_it_challenge.png'
   },
+  {
+    id: 'competition-unstop-inspire-leap-aptitude-reasoning-test',
+    title: 'India Aptitude & Reasoning Excellence Test 2026',
+    issuer: 'Inspire Leap',
+    category: 'Competitions',
+    subCategory: 'Logical Competitions',
+    issueDate: '2026-10-16',
+    skills: ['Aptitude', 'Logical Reasoning', 'Critical Thinking', 'Problem Solving', 'Analytical Ability'],
+    description: 'Participated in the Assessment of India Aptitude & Reasoning Excellence Test 2026 organized by Inspire Leap on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_inspire_leap_aptitude_reasoning_test.png'
+  },
+  {
+    id: 'competition-unstop-amaanitvam-fullstack-developer-internship',
+    title: 'Full Stack Developer Internship',
+    issuer: 'Amaanitvam Foundation',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-10-17',
+    skills: ['Full Stack Development', 'Web Development', 'Frontend Development', 'Backend Development', 'Problem Solving'],
+    description: 'Participated as Team Vijayapandian T in the Full Stack Developer Internship challenge organized by Amaanitvam Foundation.',
+    place: 'Participation',
+    image: '/certificates/unstop_amaanitvam_fullstack_developer_internship.png'
+  },
+  {
+    id: 'competition-unstop-sathyabama-innovibe',
+    title: 'Innovibe',
+    issuer: 'Sathyabama Institute of Science and Technology',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-10-21',
+    skills: ['Innovation', 'Tech Challenges', 'Team Tech Miracle', 'Problem Solving', 'Engineering'],
+    description: 'Participated as part of Team Tech Miracle in Innovibe organized by Sathyabama Institute of Science and Technology, Chennai on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_sathyabama_innovibe.png'
+  },
+  {
+    id: 'competition-unstop-rankup-codesprint',
+    title: 'CodeSprint',
+    issuer: 'RANKUP',
+    category: 'Competitions',
+    subCategory: 'Coding Contests',
+    issueDate: '2026-10-21',
+    skills: ['Competitive Programming', 'Algorithms', 'Data Structures', 'Problem Solving', 'Coding'],
+    description: 'Participated in CodeSprint organized by RANKUP on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_rankup_codesprint.png'
+  },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
     id: 'badge-codechef-bronze',
