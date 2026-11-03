@@ -1,9 +1,9 @@
 import { useMemo } from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Briefcase, Trophy, BookOpen, Award, Sparkles, Flame, ChevronRight } from 'lucide-react';
+import { Calendar, Briefcase, Trophy, BookOpen, Award, Sparkles, Flame } from 'lucide-react';
 import { achievementsData } from '../data/achievementsData';
 import type { Achievement } from '../data/achievementsData';
-import { playClick, playHover } from '../utils/sounds';
+import { playHover } from '../utils/sounds';
 import { formatDateWithMonth, getMonthName } from '../utils/date';
 
 export const Timeline: React.FC = () => {
@@ -172,21 +172,6 @@ export const Timeline: React.FC = () => {
                                 {item.description}
                               </p>
                             </div>
-
-                            {/* Right hand verify URL link */}
-                            {item.url && (
-                              <motion.a
-                                whileHover={{ scale: 1.05 }}
-                                whileTap={{ scale: 0.95 }}
-                                onClick={playClick}
-                                href={item.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-1 text-[10px] text-cyan-400 font-mono hover:text-cyan-300 transition-colors uppercase border border-cyan-500/30 bg-cyan-950/40 hover:bg-cyan-900/40 rounded-lg px-3 py-1.5 self-start md:self-auto cursor-pointer shrink-0 shadow-[0_0_10px_rgba(6,182,212,0.1)]"
-                              >
-                                Verify <ChevronRight size={10} />
-                              </motion.a>
-                            )}
                           </motion.div>
                         ))}
                       </div>
