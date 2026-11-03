@@ -105,6 +105,18 @@ export const achievementsData: Achievement[] = [
   },
   // ─── HACKATHONS ────────────────────────────────────────────────────────────
   {
+    id: "hackathon-genie-hive-project-eclipse",
+    title: "Project : Eclipse Hackathon",
+    issuer: "Genie Hive & Unstop",
+    category: "Hackathons",
+    subCategory: "Tech Hackathons",
+    issueDate: "2026-11-03",
+    skills: ["Hackathons", "Project Development", "Team Money Heist", "Software Engineering", "Rapid Prototyping", "Innovation"],
+    description: "Participated as part of Team Money Heist in Genie X Hub represents Project : Eclipse Hackathon organized by Genie Hive Private Limited on Unstop.",
+    image: "/certificates/unstop_genie_hive_project_eclipse_hackathon.png",
+    place: "Participation"
+  },
+  {
     id: "hackathon-hackers-cult-hackblox-2026",
     title: "HACKBLOX 2026",
     issuer: "Hackers Cult & HackBlox",
