@@ -2746,6 +2746,42 @@
     "image": "/certificates/unstop_builder_club_datacamp_5day_skills_sprint.png"
   },
   {
+    "id": "competition-unstop-devengers-gemini-quizwar-2026",
+    "title": "Gemini Quizwar 2026",
+    "issuer": "Devengers",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-10-11",
+    "skills": [
+      "Gemini AI",
+      "Artificial Intelligence",
+      "Tech Quizzes",
+      "Problem Solving",
+      "Generative AI"
+    ],
+    "description": "Participated in Gemini Quizwar 2026 organized by Devengers on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_devengers_gemini_quizwar_2026.png"
+  },
+  {
+    "id": "competition-unstop-gradient-learnings-data-analytics-hackathon",
+    "title": "Data Analytics Hackathon",
+    "issuer": "Gradient Learnings",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-10-11",
+    "skills": [
+      "Data Analytics",
+      "Team Money Heist",
+      "Hackathons",
+      "Data Visualization",
+      "Statistical Analysis"
+    ],
+    "description": "Participated as part of Team Money Heist in the Data Analytics Hackathon organized by Gradient Learnings on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_gradient_learnings_data_analytics_hackathon.png"
+  },
+  {
     "id": "badge-codechef-bronze",
     "title": "Problem Solver Bronze Badge",
     "issuer": "CodeChef",
