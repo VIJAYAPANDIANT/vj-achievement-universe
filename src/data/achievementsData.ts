@@ -248,7 +248,7 @@ export const achievementsData: Achievement[] = [
     issuer: "IIT Kharagpur (NPTEL)",
     category: "Courses",
     subCategory: "Online Courses",
-    issueDate: "2026-10-25",
+    issueDate: "2026-11-03",
     credentialId: "NPTEL26MG129S985025019",
     skills: ["Management Information Systems", "MIS", "Enterprise Systems", "Database Management", "Information Technology Strategy"],
     description: "Successfully completed the 12-week NPTEL Online Certification course on Management Information System, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with an Elite consolidated score of 82%.",
@@ -2298,6 +2298,45 @@ export const achievementsData: Achievement[] = [
     place: "Participation"
   },
   // ─── BADGES ────────────────────────────────────────────────────────────────
+  {
+    id: "badge-leetcode-october-2026",
+    title: "October Daily Badge 2026",
+    issuer: "LeetCode",
+    category: "Badges",
+    subCategory: "Daily Medals",
+    issueDate: "2026-10-31",
+    skills: ["Daily Problem Solving", "Algorithms", "Consistency", "Data Structures"],
+    description: "Earned by completing the October LeetCode Daily Coding Challenge series for October 2026.",
+    image: "/certificates/leetcode_badge_list_2026.png",
+    rarity: "rare",
+    badgeIcon: "gold_star"
+  },
+  {
+    id: "badge-leetcode-annual-2026",
+    title: "Annual Badge 2026",
+    issuer: "LeetCode",
+    category: "Badges",
+    subCategory: "Annual Medals",
+    issueDate: "2026-10-27",
+    skills: ["Consistency", "Algorithms", "Data Structures", "Advanced Problem Solving", "Annual Milestone"],
+    description: "Earned on LeetCode for completing the 2026 Annual Coding challenge milestone and demonstrating year-round programming consistency.",
+    image: "/certificates/leetcode_badge_list_2026.png",
+    rarity: "legendary",
+    badgeIcon: "trophy"
+  },
+  {
+    id: "badge-leetcode-september-2026",
+    title: "September Daily Badge 2026",
+    issuer: "LeetCode",
+    category: "Badges",
+    subCategory: "Daily Medals",
+    issueDate: "2026-09-30",
+    skills: ["Daily Problem Solving", "Algorithms", "Consistency", "Data Structures"],
+    description: "Earned by completing the September LeetCode Daily Coding Challenge series for September 2026.",
+    image: "/certificates/leetcode_badge_list_2026.png",
+    rarity: "rare",
+    badgeIcon: "gold_star"
+  },
   {
     id: "badge-leetcode-august-2026",
     title: "August Daily Badge 2026",

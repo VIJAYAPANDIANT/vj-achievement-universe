@@ -189,14 +189,14 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
             </div>
 
             {/* Achievement Telemetry Metadata Details */}
-            <div className="bg-black/30 p-5 sm:p-6 flex flex-col justify-between overflow-y-auto min-h-0 max-h-[85vh] lg:max-h-none">
-              <div>
+            <div className="bg-black/30 p-5 sm:p-6 flex flex-col justify-between h-full min-h-0 overflow-hidden">
+              <div className="overflow-y-auto flex-1 min-h-0 pr-1">
                 <span className="text-[10px] text-slate-500 font-mono uppercase tracking-widest">Metadata HUD</span>
                 <h3 className="text-xl font-extrabold text-white mt-1 uppercase tracking-wide">
                   {achievement.title}
                 </h3>
                 
-                <div className="mt-4 flex flex-wrap gap-2 items-center text-xs">
+                <div className="mt-3 flex flex-wrap gap-2 items-center text-xs">
                   <span className="px-2 py-0.5 rounded border border-cyan-500/20 bg-cyan-950/20 text-cyan-400 font-mono text-[10px] uppercase">
                     {achievement.category}
                   </span>
@@ -206,12 +206,12 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
                   </span>
                 </div>
 
-                <p className="text-slate-300 text-xs mt-4 leading-relaxed font-sans border-l-2 border-purple-500/30 pl-3 py-1 bg-white/2 rounded-r-md">
+                <p className="text-slate-300 text-xs mt-3 leading-relaxed font-sans border-l-2 border-purple-500/30 pl-3 py-1 bg-white/2 rounded-r-md">
                   {achievement.description}
                 </p>
 
                 {/* Info specifications */}
-                <div className="mt-5 space-y-2.5 font-mono text-xs">
+                <div className="mt-4 space-y-2 font-mono text-xs">
                   <div className="flex justify-between items-center text-slate-400 border-b border-white/5 pb-1.5">
                     <span className="flex items-center gap-1.5"><ShieldCheck size={13} className="text-cyan-400" /> Issuer</span>
                     <span className="text-slate-200 text-right">{achievement.issuer}</span>
@@ -247,7 +247,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
                 </div>
 
                 {/* Skill tags */}
-                <div className="mt-5">
+                <div className="mt-4">
                   <span className="text-[10px] text-slate-500 font-mono uppercase tracking-widest block mb-2">Verified Skill Tags</span>
                   <div className="flex flex-wrap gap-1.5">
                     {achievement.skills.map((skill) => (
@@ -263,7 +263,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
               </div>
 
               {/* Verify & Download credentials button */}
-              <div className="mt-6 pt-4 border-t border-white/5 space-y-2">
+              <div className="mt-4 pt-3 border-t border-white/5 space-y-2 flex-shrink-0">
                 {achievement.image && (
                   <motion.a
                     whileHover={{ scale: 1.02 }}
