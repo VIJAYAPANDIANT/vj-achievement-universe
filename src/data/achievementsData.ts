@@ -242,6 +242,19 @@ export const achievementsData: Achievement[] = [
     place: 'Winner',
     image: '/certificates/build_fast_with_ai_ai_build_challenge_winner.png'
   },
+  {
+    id: 'hackathon-build-fast-with-ai-idea-submission',
+    title: 'Build Fast with AI - Idea Submission',
+    issuer: 'Build Fast with AI',
+    category: 'Hackathons',
+    subCategory: 'AI Hackathons',
+    issueDate: '2026-10-13',
+    credentialId: 'BFWAI/HACK 26',
+    skills: ['Idea Pitching', 'Generative AI', 'Rapid Prototyping', 'AI Ideation', 'Problem Solving'],
+    description: 'Participated in the Idea Submission round of Build Fast with AI: AI Build Challenge 2026 (BFWAI/HACK 26), organized by Build Fast with AI.',
+    place: 'Participation',
+    image: '/certificates/build_fast_with_ai_idea_submission.png'
+  },
   // ─── COURSES ───────────────────────────────────────────────────────────────
   {
     id: 'course-hackerrank-sql',
@@ -2048,6 +2061,18 @@ export const achievementsData: Achievement[] = [
     description: 'Participated in the Unstop Week-of-Wins series organized by Unstop.',
     place: 'Participation',
     image: '/certificates/unstop_week_of_wins_2026.png'
+  },
+  {
+    id: 'competition-unstop-detox-evox-1-participation',
+    title: 'EVOX 1.0',
+    issuer: 'DETOX',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-10-13',
+    skills: ['Software Development', 'Hackathons', 'Team Tech Miracle', 'Innovation', 'Full-Stack Development'],
+    description: 'Participated as part of Team Tech Miracle in EVOX 1.0 organized by DETOX on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_detox_evox_1_participation.png'
   },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
