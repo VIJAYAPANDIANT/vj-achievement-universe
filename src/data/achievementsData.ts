@@ -229,6 +229,19 @@ export const achievementsData: Achievement[] = [
     projectTitle: 'AI: Transforming Ideas into Impact',
     image: '/certificates/easwari_industry_institution_summit_8_project_challenge_winner.png'
   },
+  {
+    id: 'hackathon-build-fast-with-ai-challenge-winner',
+    title: 'Build Fast with AI: AI Build Challenge 2026',
+    issuer: 'Build Fast with AI',
+    category: 'Hackathons',
+    subCategory: 'AI Hackathons',
+    issueDate: '2026-10-12',
+    credentialId: 'BFWAI/HACK 26',
+    skills: ['Generative AI', 'Rapid Prototyping', 'AI Engineering', 'Full-Stack Development', 'Hackathon Winner'],
+    description: 'Declared the Winner of the Build Fast with AI: AI Build Challenge 2026 (BFWAI/HACK 26), organized by Build Fast with AI, showcasing outstanding innovation and rapid AI application development.',
+    place: 'Winner',
+    image: '/certificates/build_fast_with_ai_ai_build_challenge_winner.png'
+  },
   // ─── COURSES ───────────────────────────────────────────────────────────────
   {
     id: 'course-hackerrank-sql',
@@ -2011,6 +2024,30 @@ export const achievementsData: Achievement[] = [
     description: 'Participated as part of Team Money Heist in the Data Analytics Hackathon organized by Gradient Learnings on Unstop.',
     place: 'Participation',
     image: '/certificates/unstop_gradient_learnings_data_analytics_hackathon.png'
+  },
+  {
+    id: 'competition-unstop-frontend-arena-prompt-run-2026',
+    title: 'Prompt Run 2026',
+    issuer: 'Frontend Arena',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-10-12',
+    skills: ['Prompt Engineering', 'Front-End Development', 'AI Prompts', 'Web Development', 'Problem Solving'],
+    description: 'Participated in Prompt Run 2026 organized by Frontend Arena on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_frontend_arena_prompt_run_2026.png'
+  },
+  {
+    id: 'competition-unstop-week-of-wins-2026',
+    title: 'Unstop Week-of-Wins',
+    issuer: 'Unstop',
+    category: 'Competitions',
+    subCategory: 'Fun Challenges',
+    issueDate: '2026-10-12',
+    skills: ['Problem Solving', 'Gamified Challenges', 'Critical Thinking', 'Engagement', 'Aptitude'],
+    description: 'Participated in the Unstop Week-of-Wins series organized by Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_week_of_wins_2026.png'
   },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
