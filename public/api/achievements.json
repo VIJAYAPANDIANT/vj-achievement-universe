@@ -1088,20 +1088,20 @@
   },
   {
     "id": "course-guvi-python",
-    "title": "Python Course",
+    "title": "Python Programming Course: Beginner to Advanced with Certification",
     "issuer": "GUVI Geek Networks",
     "category": "Courses",
     "subCategory": "Online Courses",
     "issueDate": "2025-08-03",
-    "credentialId": "2421JrK31752fwuj01",
+    "credentialId": "2421Jrk31752fwuj01",
     "skills": [
       "Python",
       "Programming Fundamentals",
       "Control Flow",
       "Data Structures"
     ],
-    "description": "Completed the Python Course offered by GUVI Geek Networks (an HCL Company and Google for Education Partner), covering core programming concepts, data structures, and problem-solving.",
-    "url": "https://www.guvi.in/certificate?id=2421JrK31752fwuj01",
+    "description": "Completed the Python Programming Course: Beginner to Advanced with Certification offered by GUVI Geek Networks (an HCL Company and Google for Education Partner), covering core programming concepts, data structures, and problem-solving.",
+    "url": "https://www.guvi.in/certificate?id=2421Jrk31752fwuj01",
     "image": "/certificates/guvi_python.png"
   },
   {
