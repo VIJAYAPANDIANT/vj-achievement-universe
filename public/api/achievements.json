@@ -283,6 +283,63 @@
     "image": "/certificates/iiit_surat_dev_heat_hackathon.png"
   },
   {
+    "id": "course-udemy-flask-master-class",
+    "title": "Flask Master Class For Beginners To Pro",
+    "issuer": "Udemy",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-10-27",
+    "credentialId": "UC-0f0a22a4-a022-44ef-bd6f-b8fb1e282b1c",
+    "skills": [
+      "Flask",
+      "Python",
+      "Backend Web Development",
+      "REST APIs",
+      "Full-Stack Development"
+    ],
+    "description": "Completed the Flask Master Class For Beginners To Pro on Udemy instructed by Arbaz Khan, covering Flask fundamentals, web routing, templates, database integration, and RESTful API deployment.",
+    "url": "https://ude.my/UC-0f0a22a4-a022-44ef-bd6f-b8fb1e282b1c",
+    "image": "/certificates/udemy_flask_master_class.png"
+  },
+  {
+    "id": "course-cisco-ccna-intro-networks",
+    "title": "CCNA: Introduction to Networks",
+    "issuer": "Easwari Engineering College & Cisco Networking Academy",
+    "category": "Courses",
+    "subCategory": "Professional Certificates",
+    "issueDate": "2026-10-27",
+    "credentialId": "f779a149-e759-4f06-980a-b5e26ec8d39b",
+    "skills": [
+      "CCNA",
+      "Networking",
+      "Network Architecture",
+      "IP Addressing",
+      "Subnetting",
+      "Routing & Switching",
+      "Cisco Technologies"
+    ],
+    "description": "Successfully completed the CCNA: Introduction to Networks course offered by Easwari Engineering College through the Cisco Networking Academy program, covering network protocols, IPv4/IPv6, ethernet switching, and router configuration.",
+    "image": "/certificates/cisco_ccna_introduction_to_networks.png"
+  },
+  {
+    "id": "course-nptel-mis",
+    "title": "Management Information System",
+    "issuer": "IIT Kharagpur (NPTEL)",
+    "category": "Courses",
+    "subCategory": "Online Courses",
+    "issueDate": "2026-10-25",
+    "credentialId": "NPTEL26MG129S985025019",
+    "skills": [
+      "Management Information Systems",
+      "MIS",
+      "Enterprise Systems",
+      "Database Management",
+      "Information Technology Strategy"
+    ],
+    "description": "Successfully completed the 12-week NPTEL Online Certification course on Management Information System, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with an Elite consolidated score of 82%.",
+    "image": "/certificates/nptel_management_information_system.png"
+  },
+  {
     "id": "course-aws-developer-associate-practice-exam",
     "title": "Official Practice Exam: AWS Certified Developer - Associate (DVA-C02 - English)",
     "issuer": "AWS Training & Certification",
