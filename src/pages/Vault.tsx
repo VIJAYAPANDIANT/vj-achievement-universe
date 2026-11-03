@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, RefreshCw, Layers, FileText } from 'lucide-react';
+import { Search, Filter, RefreshCw, Layers, FileText, ArrowUpDown } from 'lucide-react';
 import { achievementsData } from '../data/achievementsData';
 import type { Achievement } from '../data/achievementsData';
 import { playClick, playHover } from '../utils/sounds';
@@ -16,6 +16,7 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
   
   // Set default category. If initialCategory is "all", clear it.
   const [selectedCategory, setSelectedCategory] = useState<string>('Courses');
+  const [sortOrder, setSortOrder] = useState<'desc' | 'asc'>('desc');
 
   useEffect(() => {
     if (initialCategory && initialCategory !== 'all') {
@@ -74,31 +75,40 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
     setSelectedSkills([]);
   };
 
-  // Filtered achievements
+  // Filtered achievements sorted chronologically (current/newest on top, oldest on bottom)
   const filteredAchievements = useMemo(() => {
-    return achievementsData.filter(achievement => {
-      // 1. Category Filter
-      if (selectedCategory && achievement.category !== selectedCategory) return false;
-      
-      // 2. Search Query Filter
-      if (searchQuery) {
-        const query = searchQuery.toLowerCase();
-        const matchesTitle = achievement.title.toLowerCase().includes(query);
-        const matchesIssuer = achievement.issuer.toLowerCase().includes(query);
-        const matchesDesc = achievement.description.toLowerCase().includes(query);
-        const matchesSkills = achievement.skills.some(s => s.toLowerCase().includes(query));
-        if (!matchesTitle && !matchesIssuer && !matchesDesc && !matchesSkills) return false;
-      }
+    return achievementsData
+      .filter(achievement => {
+        // 1. Category Filter
+        if (selectedCategory && achievement.category !== selectedCategory) return false;
+        
+        // 2. Search Query Filter
+        if (searchQuery) {
+          const query = searchQuery.toLowerCase();
+          const matchesTitle = achievement.title.toLowerCase().includes(query);
+          const matchesIssuer = achievement.issuer.toLowerCase().includes(query);
+          const matchesDesc = achievement.description.toLowerCase().includes(query);
+          const matchesSkills = achievement.skills.some(s => s.toLowerCase().includes(query));
+          if (!matchesTitle && !matchesIssuer && !matchesDesc && !matchesSkills) return false;
+        }
 
-      // 3. Issuer Filter
-      if (selectedIssuers.length > 0 && !selectedIssuers.includes(achievement.issuer)) return false;
+        // 3. Issuer Filter
+        if (selectedIssuers.length > 0 && !selectedIssuers.includes(achievement.issuer)) return false;
 
-      // 4. Skills Filter
-      if (selectedSkills.length > 0 && !selectedSkills.every(s => achievement.skills.includes(s))) return false;
+        // 4. Skills Filter
+        if (selectedSkills.length > 0 && !selectedSkills.every(s => achievement.skills.includes(s))) return false;
 
-      return true;
-    });
-  }, [selectedCategory, searchQuery, selectedIssuers, selectedSkills]);
+        return true;
+      })
+      .sort((a, b) => {
+        const timeA = new Date(a.issueDate).getTime();
+        const timeB = new Date(b.issueDate).getTime();
+        if (timeA !== timeB) {
+          return sortOrder === 'desc' ? timeB - timeA : timeA - timeB;
+        }
+        return b.id.localeCompare(a.id);
+      });
+  }, [selectedCategory, searchQuery, selectedIssuers, selectedSkills, sortOrder]);
 
   // Categories list
   const categories = ['Courses', 'Internships', 'Hackathons', 'Workshops', 'Competitions'];
@@ -231,7 +241,17 @@ export const Vault: React.FC<VaultProps> = ({ initialCategory, onSelectAchieveme
         <div className="lg:col-span-3">
           <div className="w-full flex justify-between items-center text-[10px] font-mono text-slate-500 mb-4 select-none">
             <span>QUERY MATCHES: {filteredAchievements.length} CREDENTIALS FOUND</span>
-            <span>SYSTEM CORRELATION: v1.02</span>
+            <button
+              onClick={() => {
+                playClick();
+                setSortOrder(prev => prev === 'desc' ? 'asc' : 'desc');
+              }}
+              className="flex items-center gap-1.5 px-2.5 py-1 rounded border border-white/5 bg-white/2 hover:border-cyan-500/30 text-cyan-400 hover:text-cyan-300 font-mono transition-colors cursor-pointer"
+              title="Toggle month-wise chronological ordering"
+            >
+              <ArrowUpDown size={11} />
+              <span>{sortOrder === 'desc' ? 'ORDER: CURRENT (TOP)' : 'ORDER: OLDEST (TOP)'}</span>
+            </button>
           </div>
 
           <AnimatePresence mode="wait">

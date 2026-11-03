@@ -36,6 +36,14 @@ export const TrophyRoom: React.FC = () => {
       }
     });
 
+    const sortByDateDesc = (a: Achievement, b: Achievement) =>
+      new Date(b.issueDate).getTime() - new Date(a.issueDate).getTime();
+
+    gold.sort(sortByDateDesc);
+    silver.sort(sortByDateDesc);
+    bronze.sort(sortByDateDesc);
+    participation.sort(sortByDateDesc);
+
     return { gold, silver, bronze, participation };
   }, [trophies]);
 

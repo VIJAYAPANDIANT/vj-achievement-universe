@@ -6,9 +6,11 @@ import type { Achievement } from '../data/achievementsData';
 import { playClick, playHover } from '../utils/sounds';
 
 export const BadgeWall: React.FC = () => {
-  // Filter for Badges category
+  // Filter for Badges category sorted chronologically (newest first)
   const badges = useMemo(() => {
-    return achievementsData.filter((a) => a.category === 'Badges');
+    return achievementsData
+      .filter((a) => a.category === 'Badges')
+      .sort((a, b) => new Date(b.issueDate).getTime() - new Date(a.issueDate).getTime());
   }, []);
 
   const [selectedBadge, setSelectedBadge] = useState<Achievement>(badges[0] || null);
