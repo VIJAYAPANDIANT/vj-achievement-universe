@@ -332,6 +332,44 @@
     "image": "/certificates/build_fast_with_ai_idea_submission.png"
   },
   {
+    "id": "hackathon-product-space-ai-product-buildathon-26",
+    "title": "AI Product Buildathon '26",
+    "issuer": "Product Space",
+    "category": "Hackathons",
+    "subCategory": "AI Hackathons",
+    "issueDate": "2026-09-02",
+    "credentialId": "PSCERT-E166G58529",
+    "skills": [
+      "Product Management",
+      "Artificial Intelligence",
+      "AI Product Design",
+      "Generative AI",
+      "Rapid Prototyping"
+    ],
+    "description": "Participated in the AI Product Buildathon '26 organized by Product Space, demonstrating exceptional commitment and product-focused AI engineering.",
+    "place": "Participation",
+    "image": "/certificates/product_space_ai_product_buildathon_26.png"
+  },
+  {
+    "id": "hackathon-hackers-cult-hackblox-2026",
+    "title": "HACKBLOX 2026",
+    "issuer": "Hackers Cult & HackBlox",
+    "category": "Hackathons",
+    "subCategory": "Tech Hackathons",
+    "issueDate": "2026-10-23",
+    "skills": [
+      "Artificial Intelligence",
+      "Open Source",
+      "Hackathons",
+      "Team Collaboration",
+      "Full-Stack Development",
+      "Innovation"
+    ],
+    "description": "Received Certificate of Participation for HACKBLOX 2026, an inspiring celebration of innovation and open source technology organized by Hackers Cult and HackBlox.",
+    "place": "Participation",
+    "image": "/certificates/hackblox_2026_participation.png"
+  },
+  {
     "id": "course-hackerrank-sql",
     "title": "SQL (Basic)",
     "issuer": "HackerRank",
@@ -3144,6 +3182,24 @@
     "description": "Participated in CodeSprint organized by RANKUP on Unstop.",
     "place": "Participation",
     "image": "/certificates/unstop_rankup_codesprint_overall.png"
+  },
+  {
+    "id": "competition-simats-techtrove-3",
+    "title": "TechTrove 3.0",
+    "issuer": "SIMATS Engineering",
+    "category": "Competitions",
+    "subCategory": "Project Expo",
+    "issueDate": "2026-10-06",
+    "skills": [
+      "Predictive Engineering",
+      "Technical Symposium",
+      "Innovation",
+      "Engineering",
+      "Problem Solving"
+    ],
+    "description": "Participated in TechTrove 3.0, organized by the Department of Predictive Engineering, SIMATS Engineering, SIMATS, Chennai on 5th & 6th October 2026.",
+    "place": "Participation",
+    "image": "/certificates/simats_engineering_techtrove_3.png"
   },
   {
     "id": "badge-codechef-bronze",
