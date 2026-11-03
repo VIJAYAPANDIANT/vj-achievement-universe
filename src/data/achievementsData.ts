@@ -2218,6 +2218,42 @@ export const achievementsData: Achievement[] = [
     place: 'Participation',
     image: '/certificates/unstop_frontend_arena_build_battle.png'
   },
+  {
+    id: 'competition-unstop-inspire-leap-aptitude-reasoning-overall',
+    title: 'India Aptitude & Reasoning Excellence Test 2026',
+    issuer: 'Inspire Leap Private Limited',
+    category: 'Competitions',
+    subCategory: 'Logical Competitions',
+    issueDate: '2026-10-30',
+    skills: ['Aptitude', 'Logical Reasoning', 'Critical Thinking', 'Problem Solving', 'Analytical Ability'],
+    description: 'Participated in India Aptitude & Reasoning Excellence Test 2026 organized by Inspire Leap Private Limited on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_inspire_leap_aptitude_reasoning_test_overall.png'
+  },
+  {
+    id: 'competition-unstop-frontend-arena-next-station-2026',
+    title: 'Next Station 2026',
+    issuer: 'Frontend Arena',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-11-02',
+    skills: ['Frontend Development', 'Web Development', 'Team Tech Miracle', 'UI/UX Design', 'Problem Solving'],
+    description: 'Participated as part of Team Tech Miracle in Next Station 2026 organized by Frontend Arena on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_frontend_arena_next_station_2026.png'
+  },
+  {
+    id: 'competition-unstop-rankup-codesprint-overall',
+    title: 'CodeSprint',
+    issuer: 'RANKUP',
+    category: 'Competitions',
+    subCategory: 'Coding Contests',
+    issueDate: '2026-11-04',
+    skills: ['Competitive Programming', 'Algorithms', 'Data Structures', 'Problem Solving', 'Coding'],
+    description: 'Participated in CodeSprint organized by RANKUP on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_rankup_codesprint_overall.png'
+  },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
     id: 'badge-codechef-bronze',
