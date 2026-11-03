@@ -819,6 +819,17 @@ export const achievementsData: Achievement[] = [
     image: "/certificates/novitech_fullstack_masterclass.png"
   },
   {
+    id: "workshop-guvi-frame-to-work",
+    title: "Frame-to-Work: Crack Your Dream Job in Top Companies",
+    issuer: "GUVI Geek Networks",
+    category: "Workshops",
+    subCategory: "Skill Camps",
+    issueDate: "2025-11-08",
+    skills: ["Career Development", "Learning Roadmaps", "Interview Preparation", "Industry Skills", "Tech Careers"],
+    description: "Participated in GUVI's webinar \"Frame-to-Work Crack Your Dream Job in Top Companies - The Ultimate Learning Path\" held on November 08, 2025.",
+    image: "/certificates/guvi_frame_to_work_webinar.png"
+  },
+  {
     id: "workshop-novitech-uiux",
     title: "30 Days MasterClass in UI/UX Design",
     issuer: "NoviTech R&D Private Limited",
@@ -895,6 +906,17 @@ export const achievementsData: Achievement[] = [
     image: "/certificates/novitech_github_open_source.png"
   },
   {
+    id: "workshop-guvi-devops-hero",
+    title: "From Zero to DevOps Hero: Master Jenkins, Docker & Kubernetes Step-by-Step",
+    issuer: "GUVI Geek Networks",
+    category: "Workshops",
+    subCategory: "Tech Workshops",
+    issueDate: "2025-08-20",
+    skills: ["DevOps", "Docker", "Kubernetes", "Jenkins", "CI/CD", "Cloud Infrastructure"],
+    description: "Participated in GUVI's workshop \"From Zero to DevOps Hero: Master Jenkins, Docker & Kubernetes Step-by-Step\" held on August 20, 2025, exploring containerization, orchestration, and continuous integration pipelines.",
+    image: "/certificates/guvi_devops_hero_workshop.png"
+  },
+  {
     id: "workshop-aifortechies-python-ai",
     title: "Python using AI Workshop",
     issuer: "AI for Techies",
@@ -904,6 +926,17 @@ export const achievementsData: Achievement[] = [
     skills: ["Python", "Generative AI", "Interactive Visualizations", "AI-assisted Development"],
     description: "Participated in the Python using AI Workshop by AI for Techies, gaining hands-on knowledge on generating interactive visualizations, debugging python code using AI, and writing prompt-based scripts.",
     image: "/certificates/aifortechies_python_ai.png"
+  },
+  {
+    id: "workshop-guvi-data-analytics-tools",
+    title: "Master the Tools of Data Analytics - Excel, Power BI & Tableau",
+    issuer: "GUVI Geek Networks",
+    category: "Workshops",
+    subCategory: "Tech Workshops",
+    issueDate: "2025-08-08",
+    skills: ["Data Analytics", "Microsoft Excel", "Power BI", "Tableau", "Data Visualization"],
+    description: "Participated in GUVI's webinar \"Master the Tools of Data Analytics - Excel, Power BI & Tableau\" held on August 08, 2025, exploring business intelligence and data visualization workflows.",
+    image: "/certificates/guvi_data_analytics_tools_webinar.png"
   },
   // ─── COMPETITIONS ──────────────────────────────────────────────────────────
   {
