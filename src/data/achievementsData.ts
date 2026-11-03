@@ -1917,6 +1917,18 @@ export const achievementsData: Achievement[] = [
     image: '/certificates/unstop_iim_rohtak_think_tank.png'
   },
   {
+    id: 'competition-pes-mcoe-game-of-codes-2026',
+    title: 'Game of Codes 2026',
+    issuer: "P.E.S.'s Modern College of Engineering (MCOE), Pune",
+    category: 'Competitions',
+    subCategory: 'Coding Contests',
+    issueDate: '2026-10-02',
+    skills: ['Competitive Programming', 'Algorithms', 'Data Structures', 'Problem Solving', 'Speed Coding'],
+    description: 'Awarded Certificate of Participation for enthusiastic participation and valuable contribution in Game of Codes 2026 organized by the Department of Computer Engineering & ACM Chapter at P.E.S. Modern College of Engineering (MCOE), Pune, powered by Unstop.',
+    place: 'Participation',
+    image: '/certificates/pes_mcoe_game_of_codes_2026.png'
+  },
+  {
     id: 'competition-unstop-detox-evox-1',
     title: 'EVOX 1.0 - Project Submission',
     issuer: 'DETOX',
@@ -1927,18 +1939,6 @@ export const achievementsData: Achievement[] = [
     description: 'Participated as part of Team Tech Miracle in the Submission through Unstop of EVOX 1.0 organized by DETOX.',
     place: 'Participation',
     image: '/certificates/unstop_detox_evox_1.png'
-  },
-  {
-    id: 'competition-pes-mcoe-game-of-codes-2026',
-    title: 'Game of Codes 2026',
-    issuer: "P.E.S.'s Modern College of Engineering (MCOE), Pune",
-    category: 'Competitions',
-    subCategory: 'Coding Contests',
-    issueDate: '2026-10-05',
-    skills: ['Competitive Programming', 'Algorithms', 'Data Structures', 'Problem Solving', 'Speed Coding'],
-    description: 'Awarded Certificate of Participation for enthusiastic participation and valuable contribution in Game of Codes 2026 organized by the Department of Computer Engineering & ACM Chapter at P.E.S. Modern College of Engineering (MCOE), Pune, powered by Unstop.',
-    place: 'Participation',
-    image: '/certificates/pes_mcoe_game_of_codes_2026.png'
   },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
