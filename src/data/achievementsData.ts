@@ -44,18 +44,6 @@ export const achievementsData: Achievement[] = [
     image: "/certificates/elevate_labs_sql_internship.png"
   },
   {
-    id: "internship-tamizhan-skills-rise",
-    title: "Web Development Intern (RISE)",
-    issuer: "Tamizhan Skills",
-    category: "Internships",
-    subCategory: "Online Internships",
-    issueDate: "2026-04-05",
-    credentialId: "TS-RISE-WD-2603854",
-    skills: ["Web Development", "Frontend Development", "HTML/CSS", "JavaScript"],
-    description: "Successfully completed the RISE Internship Program in the domain of Web Development from March 1, 2026 to March 31, 2026 at Tamizhan Skills.",
-    image: "/certificates/tamizhan_skills_web_dev_internship.png"
-  },
-  {
     id: "internship-1m1b-green",
     title: "1M1B Green Internship",
     issuer: "1M1B Green Skills Academy & AICTE",
@@ -101,58 +89,6 @@ export const achievementsData: Achievement[] = [
     skills: ["Java Development", "Object-Oriented Programming", "Backend Development", "Software Engineering"],
     description: "Successfully completed a 1-Month AICTE & ICAC Approved internship program as a Java Developer Intern at Codec Technologies Pvt. Ltd.",
     image: "/certificates/codec_java_internship.png"
-  },
-  {
-    id: "internship-novitech-ai",
-    title: "Artificial Intelligence Intern",
-    issuer: "NoviTech R&D Private Limited",
-    category: "Internships",
-    subCategory: "Offline Internships",
-    issueDate: "2025-12-31",
-    credentialId: "AIIN14887",
-    skills: ["Artificial Intelligence", "Deep Learning", "Neural Networks", "AI Engineering"],
-    description: "Successfully completed a one month internship in Artificial Intelligence from December 1, 2025 to December 31, 2025 at NoviTech R&D Private Limited.",
-    url: "https://www.novitechrd.com",
-    image: "/certificates/novitech_ai_internship.png"
-  },
-  {
-    id: "internship-novitech-ml",
-    title: "Machine Learning Intern",
-    issuer: "NoviTech R&D Private Limited",
-    category: "Internships",
-    subCategory: "Offline Internships",
-    issueDate: "2025-11-30",
-    credentialId: "MLIN8451",
-    skills: ["Machine Learning", "Model Training", "Predictive Analytics"],
-    description: "Successfully completed a one month internship in Machine Learning from November 1, 2025 to November 30, 2025 at NoviTech R&D Private Limited, Coimbatore.",
-    url: "https://www.novitechrd.com",
-    image: "/certificates/novitech_machine_learning.jpg"
-  },
-  {
-    id: "internship-cognifyz",
-    title: "Java Development Intern",
-    issuer: "Cognifyz Technologies",
-    category: "Internships",
-    subCategory: "Online Internships",
-    issueDate: "2025-09-29",
-    credentialId: "CTI/A1/C208788",
-    skills: ["Java Development", "Core Java", "Problem Solving", "Communication"],
-    description: "Served as a Java Development Intern from August 2025 to September 2025. Displayed remarkable dedication, sincerity, and exceptional coordination and communication skills.",
-    url: "https://www.cognifyz.com",
-    image: "/certificates/cognifyz_internship.jpg"
-  },
-  {
-    id: "internship-novitech-da",
-    title: "Data Analytics Intern",
-    issuer: "NoviTech R&D Private Limited",
-    category: "Internships",
-    subCategory: "Offline Internships",
-    issueDate: "2025-09-28",
-    credentialId: "DAIN12477",
-    skills: ["Data Analytics", "Statistical Analysis", "Data Visualizations"],
-    description: "Successfully completed a one month internship in Data Analytics from August 28th to September 28th 2025 at NoviTech R&D Private Limited, Coimbatore.",
-    url: "https://www.novitechrd.com",
-    image: "/certificates/novitech_data_analytics.jpg"
   },
   {
     id: "internship-zero2site",

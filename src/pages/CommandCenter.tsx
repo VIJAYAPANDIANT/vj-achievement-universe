@@ -139,48 +139,48 @@ export const CommandCenter: React.FC = () => {
       badge: '💼 CORE ARCHITECT'
     },
     {
-      id: 'cognifyz',
-      tag: '☕ CORE DEVELOPMENT',
-      title: 'Java Development Intern',
-      place: 'Cognifyz Technologies',
-      description: 'Implemented core Java systems, worked on complexity optimizations, solved structural problems, and coordinated with teams.',
-      skills: ['Java Development', 'Core Java', 'Problem Solving'],
+      id: 'codec-java',
+      tag: '☕ JAVA BACKEND ARCHITECTURE',
+      title: 'Java Developer Intern',
+      place: 'Codec Technologies',
+      description: 'Engineered backend architectures, OOP components, and system services in an AICTE & ICAC approved internship.',
+      skills: ['Java Development', 'OOP', 'Backend Development'],
       glow: 'shadow-[0_0_20px_rgba(59,130,246,0.3)] border-blue-500/25',
       accentColor: 'text-blue-400',
-      badge: '☕ JAVA DEVELOPER'
+      badge: '☕ JAVA ARCHITECT'
     },
     {
-      id: 'novitech-da',
-      tag: '📊 STATISTICAL ANALYSIS',
-      title: 'Data Analytics Intern',
-      place: 'NoviTech R&D',
-      description: 'Successfully conducted statistical analysis and designed data visualizations to extract actionable insights.',
-      skills: ['Data Analytics', 'Statistical Analysis', 'Data Visualization'],
-      glow: 'shadow-[0_0_20px_rgba(6,182,212,0.3)] border-cyan-500/25',
-      accentColor: 'text-cyan-400',
-      badge: '📊 DATA ANALYST'
+      id: '1m1b-green',
+      tag: '🌿 SUSTAINABILITY & ESG',
+      title: '1M1B Green Internship',
+      place: '1M1B & AICTE',
+      description: 'Participated in live sustainability projects supported by Salesforce and AICTE, developing sustainable strategy models.',
+      skills: ['Sustainable Mindset', 'Live Projects', 'Sustainability Strategy'],
+      glow: 'shadow-[0_0_20px_rgba(16,185,129,0.3)] border-emerald-500/25',
+      accentColor: 'text-emerald-400',
+      badge: '🌿 SUSTAINABILITY LEAD'
     },
     {
-      id: 'novitech-ml',
-      tag: '🧠 MODEL ENGINEERING',
-      title: 'Machine Learning Intern',
-      place: 'NoviTech R&D',
-      description: 'Trained ML predictive models, evaluated metrics, and processed data layers for automated systems.',
-      skills: ['Machine Learning', 'Model Training', 'Predictive Analytics'],
+      id: 'build-fast-ai-winner',
+      tag: '🏆 HACKATHON WINNER',
+      title: 'AI Build Challenge Winner',
+      place: 'Build Fast with AI',
+      description: 'Declared Winner of the Build Fast with AI: AI Build Challenge 2026, delivering rapid prototyping Gen AI applications.',
+      skills: ['Generative AI', 'Rapid Prototyping', 'AI Engineering'],
+      glow: 'shadow-[0_0_20px_rgba(249,115,22,0.3)] border-orange-500/25',
+      accentColor: 'text-orange-400',
+      badge: '🏆 AI CHAMPION'
+    },
+    {
+      id: 'product-space-buildathon',
+      tag: '🚀 PRODUCT INNOVATION',
+      title: "AI Product Buildathon '26",
+      place: 'Product Space',
+      description: 'Engineered AI product prototypes demonstrating exceptional commitment during the national AI Product Buildathon.',
+      skills: ['Product Management', 'Artificial Intelligence', 'AI Product Design'],
       glow: 'shadow-[0_0_20px_rgba(168,85,247,0.3)] border-purple-500/25',
       accentColor: 'text-purple-400',
-      badge: '🧠 AI ENGINEER'
-    },
-    {
-      id: 'novitech-ai',
-      tag: '🤖 ADVANCED AI',
-      title: 'Artificial Intelligence Intern',
-      place: 'NoviTech R&D',
-      description: 'Worked on neural network architectures, deep learning models, and computer vision systems during an intensive R&D internship.',
-      skills: ['Artificial Intelligence', 'Deep Learning', 'Neural Networks', 'AI Engineering'],
-      glow: 'shadow-[0_0_20px_rgba(236,72,153,0.3)] border-pink-500/25',
-      accentColor: 'text-pink-400',
-      badge: '🤖 AI RESEARCHER'
+      badge: '🚀 AI PRODUCT LEAD'
     },
     {
       id: 'codec-uiux',
