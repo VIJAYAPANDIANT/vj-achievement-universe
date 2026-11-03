@@ -43,14 +43,14 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 md:p-6 overflow-y-auto">
         {/* Backdrop glass blur */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={() => { playClick(); onClose(); }}
-          className="absolute inset-0 bg-black/85 backdrop-blur-xl"
+          className="fixed inset-0 bg-black/85 backdrop-blur-xl"
         />
 
         {/* Modal Outer Container */}
@@ -58,10 +58,10 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
           initial={{ scale: 0.9, opacity: 0, y: 20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.9, opacity: 0, y: 20 }}
-          className="relative w-full max-w-5xl bg-glass border border-cyan-500/20 rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(6,182,212,0.15)] z-10"
+          className="relative w-full max-w-5xl max-h-[92vh] flex flex-col bg-glass border border-cyan-500/20 rounded-2xl overflow-hidden shadow-[0_0_50px_rgba(6,182,212,0.15)] z-10 my-auto"
         >
           {/* Top Panel HUD */}
-          <div className="flex justify-between items-center px-6 py-4 bg-black/40 border-b border-white/5">
+          <div className="flex justify-between items-center px-5 py-3 sm:px-6 sm:py-3.5 bg-black/40 border-b border-white/5 flex-shrink-0">
             <div className="flex items-center gap-2 font-mono text-xs">
               <Cpu className="text-cyan-400 animate-spin-slow" size={14} />
               <span className="text-slate-400">DATABASE RESOURCE / ID: </span>
@@ -75,9 +75,9 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
             </button>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 min-h-[500px]">
+          <div className="grid grid-cols-1 lg:grid-cols-3 flex-1 min-h-0 overflow-y-auto lg:overflow-hidden">
             {/* Decrypting Scanning Screen OR Certificate Visualizer */}
-            <div className={`lg:col-span-2 bg-[#05040f] p-6 flex items-center justify-center relative min-h-[350px] border-b lg:border-b-0 lg:border-r border-white/5 ${
+            <div className={`lg:col-span-2 bg-[#05040f] p-4 sm:p-6 flex items-center justify-center relative border-b lg:border-b-0 lg:border-r border-white/5 h-full min-h-[300px] lg:min-h-0 overflow-hidden ${
               isDecrypting ? 'scanline' : ''
             }`}>
               <AnimatePresence mode="wait">
@@ -116,12 +116,12 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     exit={{ opacity: 0 }}
-                    className="w-full h-full flex items-center justify-center border border-cyan-500/10 rounded-xl p-2 bg-[#04030d] relative overflow-hidden"
+                    className="w-full h-full max-h-full flex items-center justify-center border border-cyan-500/15 rounded-xl p-4 sm:p-6 md:p-8 bg-[#04030d] relative overflow-hidden shadow-inner"
                   >
                     <img 
                       src={achievement.image} 
                       alt={achievement.title} 
-                      className="max-h-[350px] md:max-h-[420px] w-auto object-contain rounded-lg shadow-2xl border border-white/10"
+                      className="max-h-[44vh] sm:max-h-[48vh] lg:max-h-[55vh] max-w-full w-auto h-auto object-contain rounded-lg shadow-2xl border border-white/10"
                     />
                   </motion.div>
                 ) : (
@@ -189,7 +189,7 @@ export const CertificateModal: React.FC<CertificateModalProps> = ({ achievement,
             </div>
 
             {/* Achievement Telemetry Metadata Details */}
-            <div className="bg-black/30 p-6 flex flex-col justify-between">
+            <div className="bg-black/30 p-5 sm:p-6 flex flex-col justify-between overflow-y-auto min-h-0 max-h-[85vh] lg:max-h-none">
               <div>
                 <span className="text-[10px] text-slate-500 font-mono uppercase tracking-widest">Metadata HUD</span>
                 <h3 className="text-xl font-extrabold text-white mt-1 uppercase tracking-wide">
