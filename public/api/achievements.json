@@ -3018,6 +3018,80 @@
     "image": "/certificates/unstop_rankup_codesprint.png"
   },
   {
+    "id": "competition-unstop-hackers-cult-hackblox-ai-opensource",
+    "title": "Hackblox AI & Open Source Hackathon",
+    "issuer": "Hackers Cult",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-10-23",
+    "skills": [
+      "Artificial Intelligence",
+      "Open Source",
+      "Hackathons",
+      "Team Money Heist",
+      "Full-Stack Development",
+      "Problem Solving"
+    ],
+    "description": "Participated as part of Team Money Heist in Hackblox AI & Open Source Hackathon organized by Hackers Cult on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_hackers_cult_hackblox_ai_opensource_hackathon.png"
+  },
+  {
+    "id": "competition-unstop-builder-club-datacamp-skills-sprint-overall",
+    "title": "Builder Club x DataCamp 5-Day Skills Sprint",
+    "issuer": "Builder Club",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-10-26",
+    "skills": [
+      "Data Science",
+      "Data Analytics",
+      "Skill Sprint",
+      "DataCamp",
+      "Builder Club",
+      "Problem Solving"
+    ],
+    "description": "Participated in the Builder Club x DataCamp 5-Day Skills Sprint organized by Builder Club on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_builder_club_datacamp_skills_sprint.png"
+  },
+  {
+    "id": "competition-unstop-jbit-brainblitz-quiz",
+    "title": "Brainblitz Quiz Competition",
+    "issuer": "JB Institute of Technology (JBIT), Dehradun",
+    "category": "Competitions",
+    "subCategory": "Tech Quizzes",
+    "issueDate": "2026-10-26",
+    "skills": [
+      "Technical Quizzes",
+      "Problem Solving",
+      "Analytical Ability",
+      "Logical Reasoning",
+      "General Technology"
+    ],
+    "description": "Participated in Brainblitz Quiz Competition organized by JB Institute of Technology (JBIT), Dehradun on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_jbit_brainblitz_quiz_competition.png"
+  },
+  {
+    "id": "competition-unstop-frontend-arena-build-battle",
+    "title": "Build Battle",
+    "issuer": "Frontend Arena",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-10-28",
+    "skills": [
+      "Frontend Development",
+      "Web Development",
+      "UI/UX Design",
+      "Rapid Prototyping",
+      "Problem Solving"
+    ],
+    "description": "Participated in Build Battle organized by Frontend Arena on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_frontend_arena_build_battle.png"
+  },
+  {
     "id": "badge-codechef-bronze",
     "title": "Problem Solver Bronze Badge",
     "issuer": "CodeChef",
