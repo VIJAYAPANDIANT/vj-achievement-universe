@@ -2674,6 +2674,78 @@
     "image": "/certificates/unstop_detox_evox_1.png"
   },
   {
+    "id": "competition-unstop-boss-console-contributor-hackathon",
+    "title": "BOSS $1000 Contributor Hackathon",
+    "issuer": "BOSS Console",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-10-10",
+    "skills": [
+      "Open Source",
+      "Hackathons",
+      "Software Development",
+      "Contribution",
+      "Problem Solving"
+    ],
+    "description": "Participated in the BOSS $1000 Contributor Hackathon organized by BOSS Console on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_boss_console_contributor_hackathon.png"
+  },
+  {
+    "id": "competition-unstop-algoxilla-algothon-2026-submission",
+    "title": "ALGOTHON'26 - Submission",
+    "issuer": "Algoxilla",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-10-10",
+    "skills": [
+      "Prototype Construction",
+      "Software Engineering",
+      "Hackathons",
+      "Project Submission",
+      "Algorithms"
+    ],
+    "description": "Participated in ALGOTHON'26 — Submission of Algothon'26 organized by Algoxilla on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_algoxilla_algothon_2026_submission.png"
+  },
+  {
+    "id": "competition-algoxilla-algothon-2026",
+    "title": "ALGOTHON'26",
+    "issuer": "Algoxilla",
+    "category": "Competitions",
+    "subCategory": "Hackathons",
+    "issueDate": "2026-10-10",
+    "skills": [
+      "Algorithms",
+      "Innovative Solutions",
+      "Hackathons",
+      "Problem Solving",
+      "Software Engineering"
+    ],
+    "description": "Awarded Certificate of Participation for actively participating in ALGOTHON'26, demonstrating enthusiasm, creativity, and a commitment to building innovative solutions organized by Algoxilla.",
+    "place": "Participation",
+    "image": "/certificates/algoxilla_algothon_2026.png"
+  },
+  {
+    "id": "competition-unstop-builder-club-datacamp-skills-sprint",
+    "title": "Builder Club x DataCamp 5-Day Skills Sprint",
+    "issuer": "Builder Club",
+    "category": "Competitions",
+    "subCategory": "Tech Challenges",
+    "issueDate": "2026-10-10",
+    "skills": [
+      "Data Science",
+      "Data Analytics",
+      "Skill Sprint",
+      "DataCamp",
+      "Problem Solving"
+    ],
+    "description": "Participated in the 5-Day Skills Sprint of Builder Club x DataCamp 5-Day Skills Sprint organized by Builder Club on Unstop.",
+    "place": "Participation",
+    "image": "/certificates/unstop_builder_club_datacamp_5day_skills_sprint.png"
+  },
+  {
     "id": "badge-codechef-bronze",
     "title": "Problem Solver Bronze Badge",
     "issuer": "CodeChef",
