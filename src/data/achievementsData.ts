@@ -2074,6 +2074,54 @@ export const achievementsData: Achievement[] = [
     place: 'Participation',
     image: '/certificates/unstop_detox_evox_1_participation.png'
   },
+  {
+    id: 'competition-unstop-outthinkx-qrisis',
+    title: 'QRISIS',
+    issuer: 'OutThinkX',
+    category: 'Competitions',
+    subCategory: 'Tech Quizzes',
+    issueDate: '2026-10-14',
+    skills: ['Critical Thinking', 'Problem Solving', 'Tech Quizzes', 'Analytical Reasoning', 'Logic'],
+    description: 'Participated in QRISIS organized by OutThinkX on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_outthinkx_qrisis.png'
+  },
+  {
+    id: 'competition-unstop-hidevs-ai-quest-beyond-the-wrapper',
+    title: 'AI Quest: Beyond the Wrapper',
+    issuer: 'HiDevs',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-10-15',
+    skills: ['Artificial Intelligence', 'Generative AI', 'AI Engineering', 'Full-Stack AI', 'Problem Solving'],
+    description: 'Participated in AI Quest: Beyond the Wrapper organized by HiDevs on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_hidevs_ai_quest_beyond_the_wrapper.png'
+  },
+  {
+    id: 'competition-unstop-gl-bajaj-ai-hackathon-for-builders',
+    title: 'AI Hackathon for Builders',
+    issuer: 'GL Bajaj Institute of Management and Research',
+    category: 'Competitions',
+    subCategory: 'Hackathons',
+    issueDate: '2026-10-15',
+    skills: ['Artificial Intelligence', 'Hackathons', 'Team vijayapandian112007', 'Rapid Prototyping', 'AI Engineering'],
+    description: 'Participated as part of Team vijayapandian112007 in AI Hackathon for Builders organized by GL Bajaj Institute of Management and Research on Unstop.',
+    place: 'Participation',
+    image: '/certificates/unstop_gl_bajaj_ai_hackathon_for_builders.png'
+  },
+  {
+    id: 'competition-tvs-credit-epic-8-it-challenge',
+    title: 'TVS Credit E.P.I.C 8.0 - IT Challenge',
+    issuer: 'TVS Credit',
+    category: 'Competitions',
+    subCategory: 'Tech Challenges',
+    issueDate: '2026-10-15',
+    skills: ['Information Technology', 'Problem Solving', 'Algorithm Design', 'System Architecture', 'Analytical Thinking'],
+    description: 'Participated as vijayapandian112007 in the TVS Credit E.P.I.C 8.0 - IT Challenge organized by TVS Credit.',
+    place: 'Participation',
+    image: '/certificates/tvs_credit_epic_8_it_challenge.png'
+  },
   // ─── BADGES ────────────────────────────────────────────────────────────────
   {
     id: 'badge-codechef-bronze',
