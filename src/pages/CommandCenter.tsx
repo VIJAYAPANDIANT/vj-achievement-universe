@@ -558,7 +558,7 @@ export const CommandCenter: React.FC = () => {
                   { title: 'Full Stack Development', desc: 'Deploying end-to-end full stack environments with dynamic database state binding and responsive design grids.', icon: '⚡', color: 'hover:border-purple-500/30' },
                   { title: 'UI/UX Design', desc: 'Designing intuitive wireframes, interactive prototypes, user journey workflows, and digital design assets using Figma, Canva, and WordPress.', icon: '🎨', color: 'hover:border-amber-500/30' },
                   { title: 'Cloud Computing', desc: 'Structuring cloud infrastructure with Google Cloud Platform, setting VM engines, Kubernetes orchestration, and network routing configurations.', icon: '☁️', color: 'hover:border-indigo-500/30' },
-                  { title: 'Artificial Intelligence', desc: 'Training statistical predictive models, model architectures, regression vectors, and deep learning algorithms with TensorFlow.', icon: '🧠', color: 'hover:border-pink-500/30' },
+                  { title: 'Artificial Intelligence & ML', desc: 'Developing intelligent data pipelines and predictive models using NumPy, Pandas, Matplotlib, deep learning with TensorFlow, and LLM architectures.', icon: '🧠', color: 'hover:border-pink-500/30' },
                   { title: 'Database Management', desc: 'Designing database schemes, relational structure models, query procedures, and Firebase real-time database indexing.', icon: '💾', color: 'hover:border-teal-500/30' },
                   { title: 'Problem Solving', desc: 'Analyzing algorithmic structures, time/space complexity optimization, competitive programming challenges, and recursive systems.', icon: '⚔️', color: 'hover:border-red-500/30' }
                 ].map((spec, idx) => (
@@ -718,12 +718,12 @@ export const CommandCenter: React.FC = () => {
                           skills: ['Figma', 'WordPress', 'Canva']
                         },
                         {
-                          title: '📊 Data Analytics [Basic]',
-                          skills: ['Python', 'Excel', 'SQL']
+                          title: '🤖 AI & Machine Learning',
+                          skills: ['NumPy', 'Pandas', 'Matplotlib', 'LLMs', 'TensorFlow']
                         },
                         {
                           title: '🛠 Tools & Technologies',
-                          skills: ['Git', 'GitHub', 'GitLab', 'VS Code', 'Eclipse', 'IntelliJ IDEA']
+                          skills: ['Git', 'GitHub', 'GitLab', 'VS Code', 'Eclipse', 'IntelliJ IDEA', 'Excel']
                         }
                       ].map((cat, idx) => (
                         <div key={idx} className="flex flex-col gap-2 p-3 rounded-xl border border-white/5 bg-slate-950/45">
