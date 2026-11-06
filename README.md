@@ -192,7 +192,7 @@ To boot this telemetry console in your local development environment:
 | **Operator** | **Vijayapandian T** |
 | **Vocation** | B.E. Computer Science and Engineering (Pre-Final Year) |
 | **Institution** | SRM Easwari Engineering College, Chennai, India |
-| **Specialization** | Full-Stack Engineering • AI/ML Systems • Cloud & Network Infrastructure |
+| **Specialization** | Full-Stack Engineering • UI/UX Design (Figma, Canva, WordPress) • AI/ML Systems • Cloud & Network Infrastructure |
 | **Direct Comms** | 📧 [vijayapandian112007@gmail.com](mailto:vijayapandian112007@gmail.com) |
 | **Resume Node** | 📄 [Download Official Curriculum Vitae](https://drive.google.com/file/d/10a4hRhKhG9I_VOeHNyssMPDaDEJdsBsJ/view?usp=sharing) |
 

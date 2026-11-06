@@ -80,6 +80,7 @@ export const CommandCenter: React.FC = () => {
       { name: 'React.js', level: 90, category: 'frontend' },
       { name: 'JavaScript', level: 95, category: 'language' },
       { name: 'TypeScript', level: 88, category: 'language' },
+      { name: 'UI/UX (Figma/Canva)', level: 88, category: 'frontend' },
       { name: 'Node.js', level: 82, category: 'backend' },
       { name: 'Firebase', level: 80, category: 'backend' },
       { name: 'Java', level: 85, category: 'language' },
@@ -107,6 +108,7 @@ export const CommandCenter: React.FC = () => {
   // Objectives progress simulation mapping
   const objectives = [
     { name: 'Full Stack Development', progress: 92, status: 'EXCELLENT', color: 'from-cyan-500 to-blue-500' },
+    { name: 'UI/UX & Prototyping (Figma/Canva)', progress: 90, status: 'EXCELLENT', color: 'from-amber-500 to-pink-500' },
     { name: 'Cloud Computing', progress: 85, status: 'ADVANCED', color: 'from-blue-500 to-purple-500' },
     { name: 'AI & Machine Learning', progress: 74, status: 'STABLE', color: 'from-purple-500 to-pink-500' },
     { name: 'Open Source Contributions', progress: 60, status: 'EVOLVING', color: 'from-pink-500 to-orange-500' },
@@ -187,8 +189,8 @@ export const CommandCenter: React.FC = () => {
       tag: '🎨 UI/UX ARCHITECTURE',
       title: 'UI/UX Designer Intern',
       place: 'Codec Technologies',
-      description: 'Designed wireframes, prototypes, user journey workflows, and cohesive UI component systems using Figma.',
-      skills: ['UI/UX Design', 'Figma', 'Wireframing', 'Prototyping', 'User Research'],
+      description: 'Designed wireframes, prototypes, user journey workflows, and cohesive UI component systems using Figma, Canva, and WordPress.',
+      skills: ['UI/UX Design', 'Figma', 'Canva', 'WordPress', 'Wireframing', 'Prototyping'],
       glow: 'shadow-[0_0_20px_rgba(234,179,8,0.3)] border-amber-500/25',
       accentColor: 'text-amber-400',
       badge: '🎨 UI/UX DESIGNER'
@@ -548,12 +550,13 @@ export const CommandCenter: React.FC = () => {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
               >
                 {[
                   { title: 'Frontend Development', desc: 'Crafting responsive, high-fidelity user interfaces, CSS grid modules, micro-interactions, and component state architectures.', icon: '⚛️', color: 'hover:border-cyan-500/30' },
                   { title: 'Backend Development', desc: 'Designing secure application interfaces, RESTful API systems, business logics, file handling, and computational algorithms.', icon: '🔌', color: 'hover:border-blue-500/30' },
                   { title: 'Full Stack Development', desc: 'Deploying end-to-end full stack environments with dynamic database state binding and responsive design grids.', icon: '⚡', color: 'hover:border-purple-500/30' },
+                  { title: 'UI/UX Design', desc: 'Designing intuitive wireframes, interactive prototypes, user journey workflows, and digital design assets using Figma, Canva, and WordPress.', icon: '🎨', color: 'hover:border-amber-500/30' },
                   { title: 'Cloud Computing', desc: 'Structuring cloud infrastructure with Google Cloud Platform, setting VM engines, Kubernetes orchestration, and network routing configurations.', icon: '☁️', color: 'hover:border-indigo-500/30' },
                   { title: 'Artificial Intelligence', desc: 'Training statistical predictive models, model architectures, regression vectors, and deep learning algorithms with TensorFlow.', icon: '🧠', color: 'hover:border-pink-500/30' },
                   { title: 'Database Management', desc: 'Designing database schemes, relational structure models, query procedures, and Firebase real-time database indexing.', icon: '💾', color: 'hover:border-teal-500/30' },

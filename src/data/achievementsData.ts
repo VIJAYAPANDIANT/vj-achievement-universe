@@ -74,7 +74,7 @@ export const achievementsData: Achievement[] = [
     subCategory: "Online Internships",
     issueDate: "2026-02-01",
     credentialId: "CORPORATE8752d549ce59e1733940555",
-    skills: ["UI/UX Design", "User Research", "Wireframing", "Prototyping", "Figma"],
+    skills: ["UI/UX Design", "Figma", "Canva", "WordPress", "Wireframing", "Prototyping", "User Research"],
     description: "Successfully completed a 1-Month AICTE & ICAC Approved internship program as a UI/UX Designer Intern at Codec Technologies Pvt. Ltd.",
     image: "/certificates/codec_uiux_internship.png"
   },
@@ -886,7 +886,7 @@ export const achievementsData: Achievement[] = [
     subCategory: "Masterclasses",
     issueDate: "2025-10-25",
     credentialId: "NT_B11UIUXT156",
-    skills: ["UI/UX Design", "Wireframing", "Prototyping", "User Research", "Figma"],
+    skills: ["UI/UX Design", "Figma", "Canva", "WordPress", "Wireframing", "Prototyping", "User Research"],
     description: "Completed the 30 Days MasterClass in UI/UX Design from September 15th to October 25th, 2025 conducted by NoviTech R&D Private Limited.",
     url: "https://www.novitechrd.com",
     image: "/certificates/novitech_uiux_masterclass.png"
