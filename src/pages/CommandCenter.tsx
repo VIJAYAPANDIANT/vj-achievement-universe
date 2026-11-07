@@ -23,6 +23,7 @@ export const CommandCenter: React.FC = () => {
   const [isScanning, setIsScanning] = useState(false);
   const [scanProgress, setScanProgress] = useState(0);
   const [selectedFeatured, setSelectedFeatured] = useState<string | null>(null);
+  const [selectedRadarSkill, setSelectedRadarSkill] = useState<string>('SQL');
 
   // Compute stats from achievementsData
   const stats = useMemo(() => {
@@ -50,6 +51,9 @@ export const CommandCenter: React.FC = () => {
 
     return { courses, hackathons, wins, internships, workshops, competitions, badges, projects };
   }, []);
+
+
+
 
 
 
@@ -104,6 +108,11 @@ export const CommandCenter: React.FC = () => {
       };
     });
   }, []);
+
+
+
+
+  const activeSkillObj = useMemo(() => radarSkills.find(s => s.name === selectedRadarSkill) || radarSkills[0], [radarSkills, selectedRadarSkill]);
 
   // Objectives progress simulation mapping
   const objectives = [
@@ -602,79 +611,110 @@ export const CommandCenter: React.FC = () => {
                 exit={{ opacity: 0, y: -10 }}
                 className="bg-glass-card border border-white/5 rounded-2xl p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 relative overflow-hidden w-full"
               >
-                {/* SVG Radar graphic */}
-                <div className="relative w-[260px] h-[260px] xs:w-[280px] xs:h-[280px] sm:w-80 sm:h-80 max-w-full flex-shrink-0 flex items-center justify-center mx-auto my-2">
-                  
-                  {/* Radar Scanning Line Layer */}
-                  <motion.div 
-                    className="absolute inset-0 z-10 pointer-events-none"
-                    animate={{ rotate: radarRotating ? 360 : 0 }}
-                    transition={{ repeat: Infinity, duration: 8, ease: 'linear' }}
-                    style={{ originX: '50%', originY: '50%' }}
-                  >
-                    <svg viewBox="0 0 300 300" className="w-full h-full">
-                      {/* Sweeper radial line with glow */}
-                      <line x1="150" y1="150" x2="150" y2="40" stroke="rgba(6, 182, 212, 0.6)" strokeWidth="2.5" />
-                      {/* Gradient cone scan sweep sector */}
-                      <path d="M150 150 L150 40 A110 110 0 0 1 200 65 Z" fill="url(#radarSweepGrad)" opacity="0.4" />
-                      
-                      <defs>
-                        <radialGradient id="radarSweepGrad" cx="50%" cy="50%" r="50%">
-                          <stop offset="0%" stopColor="rgba(6, 182, 212, 0.4)" />
-                          <stop offset="100%" stopColor="rgba(6, 182, 212, 0)" />
-                        </radialGradient>
-                      </defs>
-                    </svg>
-                  </motion.div>
-
-                  {/* Static Radar Mesh (Concentric circles, axes) */}
-                  <svg viewBox="0 0 300 300" className="absolute inset-0 w-full h-full pointer-events-none">
-                    {/* Background concentric circles */}
-                    <circle cx="150" cy="150" r="110" fill="none" stroke="rgba(6, 182, 212, 0.12)" strokeWidth="1" strokeDasharray="3 3" />
-                    <circle cx="150" cy="150" r="88" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
-                    <circle cx="150" cy="150" r="66" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" strokeDasharray="4 4" />
-                    <circle cx="150" cy="150" r="44" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
-                    <circle cx="150" cy="150" r="22" fill="none" stroke="rgba(6, 182, 212, 0.1)" strokeWidth="1" />
-
-                    {/* Crosshair lines */}
-                    <line x1="150" y1="20" x2="150" y2="280" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
-                    <line x1="20" y1="150" x2="280" y2="150" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
+                {/* SVG Radar graphic & Inspection Panel Column */}
+                <div className="flex flex-col items-center flex-shrink-0 w-full md:w-auto">
+                  <div className="relative w-[260px] h-[260px] xs:w-[280px] xs:h-[280px] sm:w-80 sm:h-80 max-w-full flex-shrink-0 flex items-center justify-center mx-auto my-2">
                     
-                    {/* Diagonal axes */}
-                    <line x1="58" y1="58" x2="242" y2="242" stroke="rgba(6, 182, 212, 0.08)" strokeWidth="1" strokeDasharray="2 2" />
-                    <line x1="58" y1="242" x2="242" y2="58" stroke="rgba(6, 182, 212, 0.08)" strokeWidth="1" strokeDasharray="2 2" />
-
-                    {/* Skill points connecting polygon */}
-                    <polygon
-                      points={radarSkills.map(s => `${s.x},${s.y}`).join(' ')}
-                      fill="rgba(139, 92, 246, 0.15)"
-                      stroke="rgba(139, 92, 246, 0.5)"
-                      strokeWidth="1.5"
-                    />
-                  </svg>
-
-                  {/* Skill Interactive Nodes */}
-                  <div className="absolute inset-0 z-20">
-                    {radarSkills.map((skill, idx) => (
-                      <div 
-                        key={idx}
-                        className="absolute w-2 h-2 -ml-1 -mt-1 rounded-full group cursor-pointer"
-                        style={{ left: `${(skill.x / 300) * 100}%`, top: `${(skill.y / 300) * 100}%` }}
-                        onMouseEnter={playHover}
-                        title={skill.name}
-                      >
-                        {/* Glow halo */}
-                        <div className="absolute -inset-2 rounded-full bg-cyan-400/20 group-hover:bg-cyan-400/50 transition-colors animate-ping duration-1000" />
-                        <div className="absolute -inset-1 rounded-full bg-cyan-500/40 group-hover:bg-cyan-500/80 transition-colors" />
-                        <div className="relative w-2 h-2 rounded-full bg-white shadow-neon-cyan" />
+                    {/* Radar Scanning Line Layer */}
+                    <motion.div 
+                      className="absolute inset-0 z-10 pointer-events-none"
+                      animate={{ rotate: radarRotating ? 360 : 0 }}
+                      transition={{ repeat: Infinity, duration: 8, ease: 'linear' }}
+                      style={{ originX: '50%', originY: '50%' }}
+                    >
+                      <svg viewBox="0 0 300 300" className="w-full h-full">
+                        {/* Sweeper radial line with glow */}
+                        <line x1="150" y1="150" x2="150" y2="40" stroke="rgba(6, 182, 212, 0.6)" strokeWidth="2.5" />
+                        {/* Gradient cone scan sweep sector */}
+                        <path d="M150 150 L150 40 A110 110 0 0 1 200 65 Z" fill="url(#radarSweepGrad)" opacity="0.4" />
                         
-                        {/* Tooltip text bubble */}
-                        <div className="hidden group-hover:flex absolute left-4 -top-3.5 bg-slate-950 border border-cyan-500/30 px-2 py-0.5 rounded text-[8px] whitespace-nowrap text-cyan-400 z-30 font-mono shadow-2xl">
-                          {skill.name}
-                        </div>
-                      </div>
-                    ))}
+                        <defs>
+                          <radialGradient id="radarSweepGrad" cx="50%" cy="50%" r="50%">
+                            <stop offset="0%" stopColor="rgba(6, 182, 212, 0.4)" />
+                            <stop offset="100%" stopColor="rgba(6, 182, 212, 0)" />
+                          </radialGradient>
+                        </defs>
+                      </svg>
+                    </motion.div>
+
+                    {/* Static Radar Mesh (Concentric circles, axes) */}
+                    <svg viewBox="0 0 300 300" className="absolute inset-0 w-full h-full pointer-events-none">
+                      {/* Background concentric circles */}
+                      <circle cx="150" cy="150" r="110" fill="none" stroke="rgba(6, 182, 212, 0.12)" strokeWidth="1" strokeDasharray="3 3" />
+                      <circle cx="150" cy="150" r="88" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
+                      <circle cx="150" cy="150" r="66" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" strokeDasharray="4 4" />
+                      <circle cx="150" cy="150" r="44" fill="none" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
+                      <circle cx="150" cy="150" r="22" fill="none" stroke="rgba(6, 182, 212, 0.1)" strokeWidth="1" />
+
+                      {/* Crosshair lines */}
+                      <line x1="150" y1="20" x2="150" y2="280" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
+                      <line x1="20" y1="150" x2="280" y2="150" stroke="rgba(6, 182, 212, 0.15)" strokeWidth="1" />
+                      
+                      {/* Diagonal axes */}
+                      <line x1="58" y1="58" x2="242" y2="242" stroke="rgba(6, 182, 212, 0.08)" strokeWidth="1" strokeDasharray="2 2" />
+                      <line x1="58" y1="242" x2="242" y2="58" stroke="rgba(6, 182, 212, 0.08)" strokeWidth="1" strokeDasharray="2 2" />
+
+                      {/* Skill points connecting polygon */}
+                      <polygon
+                        points={radarSkills.map(s => `${s.x},${s.y}`).join(' ')}
+                        fill="rgba(139, 92, 246, 0.15)"
+                        stroke="rgba(139, 92, 246, 0.5)"
+                        strokeWidth="1.5"
+                      />
+                    </svg>
+
+                    {/* Skill Interactive Nodes */}
+                    <div className="absolute inset-0 z-20">
+                      {radarSkills.map((skill, idx) => {
+                        const isSelected = selectedRadarSkill === skill.name;
+                        return (
+                          <div 
+                            key={idx}
+                            className="absolute w-8 h-8 -ml-4 -mt-4 flex items-center justify-center group cursor-pointer z-30 touch-manipulation"
+                            style={{ left: `${(skill.x / 300) * 100}%`, top: `${(skill.y / 300) * 100}%` }}
+                            onMouseEnter={() => { playHover(); setSelectedRadarSkill(skill.name); }}
+                            onClick={() => { playClick(); setSelectedRadarSkill(skill.name); }}
+                            onTouchStart={() => { playClick(); setSelectedRadarSkill(skill.name); }}
+                            title={`${skill.name} (${skill.level}%)`}
+                          >
+                            {/* Glow halo */}
+                            <div className={`absolute -inset-1 rounded-full bg-cyan-400/20 group-hover:bg-cyan-400/60 transition-colors ${isSelected ? 'bg-cyan-400/60 animate-ping duration-1000' : ''}`} />
+                            <div className={`absolute inset-0.5 rounded-full bg-cyan-500/40 group-hover:bg-cyan-500/90 transition-colors ${isSelected ? 'bg-cyan-400 border border-white' : ''}`} />
+                            <div className={`relative w-2.5 h-2.5 rounded-full ${isSelected ? 'bg-cyan-300 scale-125' : 'bg-white'} shadow-neon-cyan transition-transform`} />
+                            
+                            {/* Tooltip text bubble - dynamically oriented inward so it never clips offscreen */}
+                            <div className={`
+                              ${isSelected ? 'flex' : 'hidden group-hover:flex'} 
+                              absolute ${skill.x > 150 ? 'right-6' : 'left-6'} -top-2
+                              bg-slate-950/95 border border-cyan-400/60 px-2 py-0.5 rounded-md 
+                              text-[10px] whitespace-nowrap text-cyan-300 font-mono font-bold z-40 
+                              shadow-[0_0_15px_rgba(6,182,212,0.5)] pointer-events-none backdrop-blur-md
+                            `}>
+                              <span>{skill.name}</span>
+                              <span className="text-purple-400 ml-1.5">{skill.level}%</span>
+                            </div>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
+
+                  {/* Inspected Node Vector Readout Card */}
+                  <div className="w-full max-w-[280px] sm:max-w-xs mt-2 p-2.5 rounded-xl border border-cyan-500/30 bg-slate-950/85 backdrop-blur-md shadow-[0_0_15px_rgba(6,182,212,0.15)] text-center">
+                    <div className="flex justify-between items-center text-[10px] font-mono border-b border-white/5 pb-1 mb-1.5">
+                      <span className="text-slate-400 uppercase tracking-widest">INSPECTED VECTOR</span>
+                      <span className="text-purple-400 font-bold uppercase">[{activeSkillObj.category}]</span>
+                    </div>
+                    <div className="flex justify-between items-center font-mono">
+                      <span className="text-cyan-300 font-extrabold text-xs tracking-wider">{activeSkillObj.name}</span>
+                      <span className="text-cyan-400 text-xs font-bold bg-cyan-950/60 border border-cyan-500/30 px-2 py-0.5 rounded">
+                        {activeSkillObj.level}% PROFICIENCY
+                      </span>
+                    </div>
+                  </div>
+                  <span className="text-[9px] text-slate-500 font-mono text-center mt-1 block">
+                    💡 Tap any node on the radar to inspect skill vectors
+                  </span>
                 </div>
 
                 {/* Radar Details column */}
