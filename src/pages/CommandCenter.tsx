@@ -388,23 +388,24 @@ export const CommandCenter: React.FC = () => {
         <div className="lg:col-span-8 flex flex-col gap-8">
           
           {/* Tabs header panel */}
-          <div className="flex border-b border-white/5 gap-2 select-none">
+          <div className="flex overflow-x-auto no-scrollbar border-b border-white/5 gap-1 sm:gap-2 select-none scroll-smooth pb-0.5 w-full">
             {[
-              { id: 'status', label: 'SYSTEM OVERVIEW', icon: <Terminal size={14} /> },
-              { id: 'specialization', label: 'SPECIALIZATION MATRIX', icon: <Layers size={14} /> },
-              { id: 'radar', label: 'SKILLS RADAR', icon: <Radar size={14} /> },
+              { id: 'status', label: 'SYSTEM OVERVIEW', shortLabel: 'OVERVIEW', icon: <Terminal size={14} className="shrink-0" /> },
+              { id: 'specialization', label: 'SPECIALIZATION MATRIX', shortLabel: 'SPECIALIZATION', icon: <Layers size={14} className="shrink-0" /> },
+              { id: 'radar', label: 'SKILLS RADAR', shortLabel: 'SKILLS RADAR', icon: <Radar size={14} className="shrink-0" /> },
             ].map(tab => (
               <button
                 key={tab.id}
                 onClick={() => { playClick(); setActiveTab(tab.id as any); }}
-                className={`flex items-center gap-2 px-5 py-3 font-mono text-xs uppercase tracking-wider transition-all border-b-2 cursor-pointer ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 py-2.5 sm:px-5 sm:py-3 font-mono text-[11px] sm:text-xs uppercase tracking-wider transition-all border-b-2 cursor-pointer shrink-0 whitespace-nowrap ${
                   activeTab === tab.id
                     ? 'border-cyan-500 text-cyan-400 font-bold bg-cyan-950/5'
                     : 'border-transparent text-slate-400 hover:text-white'
                 }`}
               >
                 {tab.icon}
-                {tab.label}
+                <span className="hidden sm:inline">{tab.label}</span>
+                <span className="inline sm:hidden">{tab.shortLabel}</span>
               </button>
             ))}
           </div>
@@ -599,10 +600,10 @@ export const CommandCenter: React.FC = () => {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
-                className="bg-glass-card border border-white/5 rounded-2xl p-6 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden"
+                className="bg-glass-card border border-white/5 rounded-2xl p-4 sm:p-6 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-8 relative overflow-hidden w-full"
               >
                 {/* SVG Radar graphic */}
-                <div className="relative w-80 h-80 flex-shrink-0 flex items-center justify-center">
+                <div className="relative w-[260px] h-[260px] xs:w-[280px] xs:h-[280px] sm:w-80 sm:h-80 max-w-full flex-shrink-0 flex items-center justify-center mx-auto my-2">
                   
                   {/* Radar Scanning Line Layer */}
                   <motion.div 
@@ -679,7 +680,7 @@ export const CommandCenter: React.FC = () => {
                 {/* Radar Details column */}
                 <div className="flex-1 w-full flex flex-col justify-between">
                   <div>
-                    <div className="flex justify-between items-center border-b border-white/10 pb-2 mb-4">
+                    <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b border-white/10 pb-2 mb-4">
                       <h4 className="text-xs text-white font-bold uppercase tracking-wider flex items-center gap-1.5">
                         <Radar size={12} className="text-cyan-400" />
                         OPERATOR TECHNOLOGICAL COMPENDIUM
