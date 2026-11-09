@@ -111,8 +111,51 @@ export const Analytics: React.FC = () => {
     }));
   }, []);
 
+  // Custom PolarAngleAxis tick formatter to wrap long labels (e.g. "Artificial Intelligence") on mobile
+  const renderRadarTick = (props: any) => {
+    const { x, y, textAnchor, payload } = props;
+    const value: string = payload?.value || '';
+
+    const words = value.split(' ');
+    if (value.length > 10 && words.length > 1) {
+      let line1 = words[0];
+      let line2 = words.slice(1).join(' ');
+      if (words.length > 2) {
+        const mid = Math.ceil(words.length / 2);
+        line1 = words.slice(0, mid).join(' ');
+        line2 = words.slice(mid).join(' ');
+      }
+      return (
+        <text
+          x={x}
+          y={y}
+          textAnchor={textAnchor}
+          fill="rgba(255,255,255,0.6)"
+          fontSize={8}
+          fontFamily="monospace"
+        >
+          <tspan x={x} dy="-0.25em">{line1}</tspan>
+          <tspan x={x} dy="1.15em">{line2}</tspan>
+        </text>
+      );
+    }
+
+    return (
+      <text
+        x={x}
+        y={y}
+        textAnchor={textAnchor}
+        fill="rgba(255,255,255,0.6)"
+        fontSize={8}
+        fontFamily="monospace"
+      >
+        {value}
+      </text>
+    );
+  };
+
   return (
-    <div className="w-full max-w-7xl mx-auto px-6 py-6 min-h-[calc(100vh-140px)] flex flex-col z-10 select-none">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-4 sm:py-6 min-h-[calc(100vh-140px)] flex flex-col z-10 select-none">
       {/* Header Telemetry */}
       <div className="flex flex-col border-l border-cyan-500/30 pl-4 py-1 mb-8">
         <span className="text-[10px] text-cyan-400 font-mono tracking-widest uppercase">Decryption Console Active</span>
@@ -254,18 +297,18 @@ export const Analytics: React.FC = () => {
         </div>
 
         {/* Competencies Radar chart */}
-        <div className="lg:col-span-3 bg-glass border border-white/5 rounded-xl p-5 flex flex-col justify-between">
+        <div className="lg:col-span-3 bg-glass border border-white/5 rounded-xl p-3.5 sm:p-5 flex flex-col justify-between overflow-hidden">
           <div className="flex items-center gap-1.5 border-b border-white/5 pb-3 mb-4 font-mono text-xs font-bold text-cyan-400 select-none">
             <Compass size={14} /> SKILL_COMPASS_INDEX
           </div>
           {radarData.length > 0 ? (
-            <div className="h-[220px] w-full">
+            <div className="h-[230px] sm:h-[240px] w-full">
               <ResponsiveContainer width="100%" height="100%">
-                <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
+                <RadarChart cx="50%" cy="50%" outerRadius="55%" data={radarData} margin={{ top: 8, right: 8, bottom: 8, left: 8 }}>
                   <PolarGrid stroke="rgba(255,255,255,0.05)" />
                   <PolarAngleAxis
                     dataKey="subject"
-                    tick={{ fill: 'rgba(255,255,255,0.5)', fontSize: 8, fontFamily: 'monospace' }}
+                    tick={renderRadarTick}
                   />
                   <PolarRadiusAxis
                     angle={30}
@@ -284,7 +327,7 @@ export const Analytics: React.FC = () => {
               </ResponsiveContainer>
             </div>
           ) : (
-            <div className="flex items-center justify-center text-slate-500 font-mono text-xs h-[220px]">
+            <div className="flex items-center justify-center text-slate-500 font-mono text-xs h-[230px]">
               NO SKILLS TELEMETRY INDEXED
             </div>
           )}
