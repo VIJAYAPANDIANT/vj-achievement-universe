@@ -1,118 +1,169 @@
 <div align="center">
 
 # 🌌 VJ Achievement Universe
-### *Immersive Sci-Fi Achievement Decryption Console & Cybernetic Developer Vault*
+### *Next-Generation Sci-Fi Achievement Decryption Console & Cybernetic Developer Vault*
 
-[![Live Deployment](https://img.shields.io/badge/Production%20Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vj-achievement-universe.vercel.app)
-[![Total Achievements](https://img.shields.io/badge/Verified%20Credentials-207%2B-06b6d4?style=for-the-badge&logo=shieldsdotio&logoColor=white)](https://vj-achievement-universe.vercel.app/vault)
-[![React](https://img.shields.io/badge/React-19.2-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4.3-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Production Deployment](https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vj-achievement-universe.vercel.app)
+[![Verified Credentials](https://img.shields.io/badge/Verified%20Credentials-208%2B-06b6d4?style=for-the-badge&logo=shieldsdotio&logoColor=white)](https://vj-achievement-universe.vercel.app/vault)
+[![React](https://img.shields.io/badge/React-19.2.6-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-6.0.2-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4.3.0-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![Three.js](https://img.shields.io/badge/Three.js-WebGL-000000?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
-[![Vite](https://img.shields.io/badge/Vite-8.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
+[![Vite](https://img.shields.io/badge/Vite-8.0.12-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br/>
 
-[**Explore Live Universe »**](https://vj-achievement-universe.vercel.app) &nbsp;|&nbsp; [**Launch Vault »**](https://vj-achievement-universe.vercel.app/vault) &nbsp;|&nbsp; [**View Analytics »**](https://vj-achievement-universe.vercel.app/analytics) &nbsp;|&nbsp; [**Developer Profile »**](https://github.com/VIJAYAPANDIANT)
+[**🌐 Live Console**](https://vj-achievement-universe.vercel.app) &nbsp;•&nbsp;
+[**🗄️ Credential Vault**](https://vj-achievement-universe.vercel.app/vault) &nbsp;•&nbsp;
+[**📊 Analytics HUD**](https://vj-achievement-universe.vercel.app/analytics) &nbsp;•&nbsp;
+[**🏆 Trophy Room**](https://vj-achievement-universe.vercel.app/trophies) &nbsp;•&nbsp;
+[**🎖️ Badge Wall**](https://vj-achievement-universe.vercel.app/badges) &nbsp;•&nbsp;
+[**🕹️ Command Center**](https://vj-achievement-universe.vercel.app/command) &nbsp;•&nbsp;
+[**👨‍🚀 Operator Profile**](https://github.com/VIJAYAPANDIANT)
 
 </div>
 
 ---
 
-## 🧭 Executive Overview
+## 📑 Table of Contents
 
-**VJ Achievement Universe** is a state-of-the-art, gamified developer portfolio and credential telemetry system. Architected to emulate a sci-fi planetary telemetry HUD (Heads-Up Display), the application catalogs, verifies, and dynamically decrypts **207+ verified technical credentials**, including university specializations, enterprise certifications, hackathon podium finishes, technical internships, competitive programming medals, and engineering workshops.
-
-Engineered with glassmorphism, glowing neon conduits, micro-interactions, responsive 3D WebGL orbits, optimized canvas particle fields, real-time telemetry diagnostics, and synthesized Web Audio API tactile feedback.
-
-> [!NOTE]  
-> **Telemetry Notice**: This console features an integrated Web Audio API sound synthesizer simulating holographic scans, tactile clicks, and decryption frequencies. Ensure your browser audio permissions are enabled for complete sensory telemetry.
+- [Executive Overview](#-executive-overview)
+- [Live Telemetry Metrics](#-live-telemetry-metrics)
+- [Core Operational Modules](#-core-operational-modules)
+- [Key Architectural Innovations](#-key-architectural-innovations)
+- [Technological Specifications](#-technological-specifications)
+- [Repository Blueprint](#-repository-blueprint)
+- [Local Installation & Setup](#-local-installation--setup)
+- [Command Scripts](#-command-scripts)
+- [Operator Telemetry & Communications](#-operator-telemetry--communications)
+- [License & Intellectual Property](#-license--intellectual-property)
 
 ---
 
-## ⚡ Core Operational Modules
+## 🧭 Executive Overview
 
-The navigation bridge routes across seven specialized telemetry consoles:
+**VJ Achievement Universe** is an enterprise-grade, gamified developer portfolio and telemetry console architected to simulate an interstellar command bridge. Designed to move far beyond static resume lists, the platform catalogs, verifies, and dynamically decrypts **208+ verified technical credentials** spanning academic specializations, enterprise industry certifications, competitive programming medals, hackathon podium finishes, engineering internships, and technical research workshops.
 
-| Module | Identifier | Core Capabilities & Functionality |
-| :--- | :---: | :--- |
-| **Universe** | `SYS_ORBIT` | Interactive, physics-based 3D orbital galaxy mapping achievements across cosmic trajectories. Includes an operator bioHUD, quick telemetry stats, and external communication links. |
-| **Vault** | `SYS_VAULT` | High-performance catalog filterable by category (`Courses`, `Internships`, `Hackathons`, `Workshops`, `Competitions`), search query, and skills. Features month-wise chronological toggle (`Current First` vs `Oldest First`). |
-| **Trophy Room** | `SYS_PODIUM` | Visual hall of honor exhibiting hackathon victories, contest podium finishes, and academic awards as 3D gyroscopic tilt cards with holographic neon reflections. |
-| **Badge Wall** | `SYS_BADGES` | Gamified achievement matrix organizing daily streaks and milestone medals across rarity tiers (*Common*, *Rare*, *Epic*, *Legendary*) with issuer telemetry tags. |
-| **Timeline** | `SYS_FLIGHT` | Chronological developmental flight track documenting academic progression and professional milestones from 2024 through 2026. |
-| **Analytics** | `SYS_METRICS` | Real-time diagnostic command dashboard visualizing growth velocity (Area Chart), category distribution (Donut Matrix), and technical skill balance (Radar Chart). |
-| **Command Center** | `SYS_BRIDGE` | Executive overview dashboard featuring live telemetry feeds, featured holographic credentials in balanced responsive matrices, and an integrated external command dock. |
+Engineered with cutting-edge web technologies, the platform features:
+- **Zero-Latency Glassmorphism UI**: Bespoke cybernetic dark themes with responsive neon illumination conduits.
+- **Interactive 3D Celestial Engine**: WebGL-powered 3D planetary orbits with real-time physics and GPU-accelerated particle stars.
+- **Holographic Decryption Protocol**: Procedural modal visualizer with interactive certificate inspection, RSA key hashes, and instant issuer verification.
+- **Native Synthesized Audio Telemetry**: Zero-asset sound engine powered entirely by the HTML5 Web Audio API.
+- **Comprehensive Mobile-First Responsiveness**: Precision touch manipulation, non-clipping radar polar charts, and fluid layout scaling across all viewports.
+
+> [!NOTE]  
+> **Sensory Telemetry Notice**: This console features an integrated Web Audio API procedural synthesizer simulating holographic scans, tactile clicks, and decryption frequencies. Ensure your browser audio permissions are enabled for complete sensory immersion.
 
 ---
 
 ## 📊 Live Telemetry Metrics
 
 ```
-╔═════════════════════════════════════════════════════════════════════════╗
-║                      VJ ACHIEVEMENT UNIVERSE METRICS                    ║
-╠═══════════════════════════════════╦═════════════════════════════════════╣
-║ Total Verified Credentials        ║ 207+ Authentic Records              ║
-║ Competitions & Technical Contests ║ 110 Events (Rankings & Awards)      ║
-║ Professional & Online Courses     ║ 51 Courses (NPTEL, Cisco, AWS, etc) ║
-║ Gamified & Platform Badges        ║ 17 Medals (LeetCode, CodeChef, IBM) ║
-║ Hands-on Technical Workshops      ║ 12 Intensive Practical Camps        ║
-║ Hackathons & Design Sprints       ║ 10 High-Intensity Challenges        ║
-║ Engineering & Software Internships║ 7 Verified Industry Roles           ║
-║ Podium Finishes & Global Wins     ║ 15 Top Honor Positions              ║
-╚═══════════════════════════════════╩═════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                      VJ ACHIEVEMENT UNIVERSE TELEMETRY                        ║
+╠═══════════════════════════════════════╦═══════════════════════════════════════╣
+║ Total Verified Credentials            ║ 208 Authentic Digital Records         ║
+║ Competitions & Technical Contests     ║ 110 Events (Rankings & Honors)        ║
+║ Professional & Enterprise Courses     ║ 51 Courses (NPTEL, Cisco, AWS, etc.)  ║
+║ Gamified & Platform Badges            ║ 17 Medals (LeetCode, CodeChef, IBM)   ║
+║ Hands-on Technical Workshops          ║ 12 Practical Engineering Camps        ║
+║ Hackathons & Product Sprints          ║ 10 High-Intensity Builds              ║
+║ Engineering & Software Internships    ║ 8 Verified Industry Roles             ║
+║ Podium Finishes & Global Wins         ║ 15 Top Placement Awards               ║
+╚═══════════════════════════════════════╩═══════════════════════════════════════╝
 ```
 
 ---
 
-## 🔬 System Architecture & Features
+## ⚡ Core Operational Modules
+
+The navigation bridge connects across seven dedicated telemetry subsystems:
+
+| Console | Identifier | Route | Core Capabilities & Functionality |
+| :--- | :---: | :---: | :--- |
+| **Universe** | `SYS_ORBIT` | `/` | Interactive 3D orbital galaxy mapping achievements across cosmic trajectories. Features operator bioHUD, quick telemetry counts, and external communication links. |
+| **Vault** | `SYS_VAULT` | `/vault` | High-performance catalog filterable by category (`Courses`, `Internships`, `Hackathons`, `Workshops`, `Competitions`, `Badges`), real-time search query, and skills. Features dual-mode chronological sorting (`Current First` vs `Oldest First`). |
+| **Trophy Room** | `SYS_PODIUM` | `/trophies` | Visual hall of honor exhibiting hackathon victories, contest podium finishes, and academic awards as 3D gyroscopic tilt cards with holographic neon reflections. |
+| **Badge Wall** | `SYS_BADGES` | `/badges` | Gamified achievement matrix organizing daily streaks and milestone medals across rarity tiers (*Common*, *Rare*, *Epic*, *Legendary*) with issuer telemetry metadata. |
+| **Timeline** | `SYS_FLIGHT` | `/timeline` | Chronological developmental flight track documenting academic progression and professional milestones from 2024 through 2026. |
+| **Analytics** | `SYS_METRICS` | `/analytics` | Real-time diagnostic command dashboard visualizing growth velocity (Area Chart), category distribution (Donut Matrix), and technical skill balance via the **Skill Compass Index** (Polar Radar Chart). |
+| **Command Center** | `SYS_BRIDGE` | `/command` | Executive overview dashboard featuring live telemetry feeds, 360° interactive Skills Radar scanning array, operator technological compendium, and an integrated external command dock. |
+
+---
+
+## 🔬 Key Architectural Innovations
 
 ### 1. 🛡️ Holographic Decryption Modal
-- Real-time cryptographic decryption simulation with progress bars, RSA key hashes, and procedural sound feedback.
-- Centered, viewport-constrained container (`max-h-[92vh]`) ensuring HUD headers and action controls remain fixed and fully visible on all screen sizes.
-- Framed high-resolution original scan visualizer with responsive margins and dark borders matching sci-fi console aesthetics.
-- Instant access to official issuer portals (NPTEL Swayam, Cisco Networking Academy, Unstop, SoloLearn, Coursera).
+- Real-time cryptographic decryption simulation featuring progress bars, RSA key hashes, and procedural sound feedback.
+- Viewport-constrained container (`max-h-[92vh]`) ensuring HUD headers and action controls remain fixed and fully accessible on all screen resolutions.
+- High-resolution certificate visualizer with responsive margins and dark cybernetic borders matching sci-fi console aesthetics.
+- Instant access to official issuer portals (NPTEL Swayam, Cisco Networking Academy, Unstop, SoloLearn, Coursera, IBM).
 
 ### 2. 🌌 3D Celestial Orbital Engine
-- Built using Three.js, `@react-three/fiber`, and Canvas 2D.
+- Built with **Three.js**, **React Three Fiber (`@react-three/fiber`)**, and **Drei (`@react-three/drei`)**.
 - Dynamic drag-to-rotate orbital physics allowing users to manipulate space vectors and examine celestial node hierarchies in real time.
-- GPU-accelerated particle field rendering 60+ FPS continuously with minimal power consumption.
+- GPU-accelerated particle field rendering 60+ FPS continuously with minimal power consumption and automatic resource cleanup.
 
 ### 3. 🔍 Smart Query & Month-Wise Vault Sorting
 - Dual-mode chronological sorting engine allowing users to toggle between current/newest achievements on top or historical milestones first.
 - Instant fuzzy search across titles, issuers, credential IDs, and verified skill tags.
-- Multi-dimensional skill filters for narrowing down specific competencies (e.g., Python, AWS, CCNA, Deep Learning, SQL, MIS).
+- Multi-dimensional skill filters for isolating specific competencies (e.g., Python, AWS, CCNA, Deep Learning, SQL, MIS, React).
 
-### 4. 🔊 Synthesized Audio Telemetry
-- Zero external audio files: synthesized on the fly via the HTML5 Web Audio API.
-- Generates procedural frequencies, resonance blips, holographic decryption scans, and tactile button clicks.
+### 4. 🧭 Mobile-Resilient Skill Compass Index
+- Responsive SVG Polar Radar Chart in the Analytics console tracking core competencies (*Problem Solving*, *Algorithms*, *General Knowledge*, *Data Structures*, *Generative AI*, *Artificial Intelligence*).
+- Custom multi-line SVG tick renderer (`renderRadarTick`) preventing long labels from clipping outside mobile screen boundaries.
+- Fine-tuned `outerRadius` (`55%`) with balanced padding for seamless visibility on screens as narrow as 320px.
+
+### 5. 🎯 360° Skills Radar with Inward Tooltip Orientation
+- Continuous rotating radar sweeper with toggleable scanner controls (`PAUSE SCANNER` / `ROTATE SCANNER`).
+- Large touch-manipulation hitboxes (`w-6 h-6`) ensuring effortless tap inspection on touchscreen devices.
+- Dynamic inward-oriented tooltips (`skill.x > 150 ? 'right-4' : 'left-4'`) ensuring perimeter labels (like SQL and React.js) never overflow the viewport edges.
+
+### 6. 🔊 Zero-Asset Procedural Audio Engine
+- Synthesizes all audio on the fly via the native HTML5 Web Audio API — requiring zero external MP3/WAV file downloads.
+- Generates customizable sine and square wave frequencies for tactile button clicks, resonance blips, holographic scans, and unlock confirmations.
 
 ---
 
 ## 🛠️ Technological Specifications
 
-| Layer | Technology | Version | Purpose |
+### Frontend & Core Architecture
+| Component | Technology | Version | Architectural Role |
 | :--- | :--- | :--- | :--- |
-| **UI Framework** | [React](https://react.dev/) | `v19.2.6` | Component-driven reactivity, Concurrent Mode, and state management |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) | `v6.0.2` | Complete static typing, interface contracts, and compile-time safety |
-| **Build Engine** | [Vite](https://vite.dev/) | `v8.0.12` | Next-generation frontend tooling and sub-second Hot Module Replacement |
-| **CSS Architecture** | [Tailwind CSS](https://tailwindcss.com/) | `v4.3.0` | Custom cyber-dark color palettes, neon glow tokens, and glassmorphism |
-| **3D & Canvas** | [Three.js](https://threejs.org/) / [Fiber](https://r3f.docs.pmnd.rs/) | `v0.184` / `v9.6` | 3D celestial particle systems and interactive orbital core geometry |
-| **Motion Physics** | [Framer Motion](https://www.framer.com/motion/) | `v12.40.0` | Route state orchestration, holographic reveals, and gesture physics |
-| **Visual Diagnostics**| [Recharts](https://recharts.org/) | `v3.8.1` | Responsive SVG charts (Radar, Area, Bar, and Donut metrics) |
-| **Iconography** | [Lucide React](https://lucide.dev/) | `v1.17.0` | Minimalist HUD iconography and vector telemetry symbols |
-| **Audio Engine** | Web Audio API | Native Browser | High-frequency audio synthesis for immersive sound effects |
+| **UI Framework** | [React](https://react.dev/) | `19.2.6` | Component-driven reactivity, Concurrent Mode, and state management |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) | `6.0.2` | Static typing, interface contracts, and compile-time code safety |
+| **Build Engine** | [Vite](https://vite.dev/) | `8.0.12` | Next-generation frontend tooling and instant Hot Module Replacement (HMR) |
+| **Styling Engine** | [Tailwind CSS](https://tailwindcss.com/) | `4.3.0` | Custom cyber-dark color tokens, neon glow filters, and glassmorphism |
+| **Routing** | React Router | `v7` | Client-side declarative route orchestration across console modules |
+
+### 3D Graphics, Animations & Visualizations
+| Component | Technology | Version | Architectural Role |
+| :--- | :--- | :--- | :--- |
+| **3D Engine** | [Three.js](https://threejs.org/) | `0.184.0` | Core WebGL rendering engine for the 3D celestial orbital galaxy |
+| **React 3D Bridge** | [@react-three/fiber](https://r3f.docs.pmnd.rs/) | `9.6.1` | Declarative Three.js scene graph management |
+| **3D Helpers** | [@react-three/drei](https://github.com/pmndrs/drei) | `10.7.7` | Camera controls, orbital damping, and particle helpers |
+| **Motion Physics** | [Framer Motion](https://www.framer.com/motion/) | `12.40.0` | Route state orchestration, holographic reveals, and gesture physics |
+| **Timeline Motion** | [GSAP](https://greensock.com/gsap/) | `3.15.0` | High-performance tweening and sequenced orbital timelines |
+| **Data Diagnostics** | [Recharts](https://recharts.org/) | `3.8.1` | Responsive SVG charts (Polar Radar, Area, Bar, and Donut metrics) |
+| **Iconography** | [Lucide React](https://lucide.dev/) | `1.17.0` | Minimalist HUD iconography and vector telemetry symbols |
+
+### Audio & Telemetry
+| Component | Technology | Version | Architectural Role |
+| :--- | :--- | :--- | :--- |
+| **Audio Synthesizer** | HTML5 Web Audio API | `Native` | High-frequency procedural audio synthesis for tactile feedback |
 
 ---
 
-## 📂 Repository Structure
+## 📂 Repository Blueprint
 
 ```
 c:/Certificate/
 ├── public/
 │   ├── certificates/            # High-resolution original scans & credential proofs
-│   └── favicon.svg              # Holographic vector icon
+│   ├── avatar.png               # Operator holographic portrait
+│   ├── favicon.svg              # Futuristic vector badge icon
+│   └── icons.svg                # Vector symbol definitions
 ├── src/
 │   ├── components/
 │   │   ├── CertificateModal.tsx # Viewport-constrained holographic credential decryptor
@@ -120,12 +171,12 @@ c:/Certificate/
 │   │   ├── Navbar.tsx           # Telemetry bridge navigation controller
 │   │   └── SpaceBackground.tsx  # Optimized canvas starry backdrop
 │   ├── data/
-│   │   └── achievementsData.ts  # Master database housing 206+ verified achievement nodes
+│   │   └── achievementsData.ts  # Master database housing 208+ verified achievement nodes
 │   ├── pages/
-│   │   ├── Analytics.tsx        # Diagnostic visual reporting & radar skill matrix
+│   │   ├── Analytics.tsx        # Diagnostic reporting & mobile-resilient Skill Compass Index
 │   │   ├── BadgeWall.tsx        # Tiered gaming badge matrix & streak showcase
-│   │   ├── CommandCenter.tsx    # Operations bridge with featured matrix & command dock
-│   │   ├── Timeline.tsx         # Chronological developmental flight track
+│   │   ├── CommandCenter.tsx    # Operations bridge with 360° Skills Radar & external dock
+│   │   ├── Timeline.tsx         # Chronological developmental flight track (2024-2026)
 │   │   ├── TrophyRoom.tsx       # 3D interactive podium cards & victory showcases
 │   │   ├── Universe.tsx         # 3D orbital interactive celestial simulation
 │   │   └── Vault.tsx            # Filterable & searchable credential records database
@@ -135,7 +186,7 @@ c:/Certificate/
 │   ├── App.tsx                  # Root layout, router, and audio initialization
 │   ├── index.css                # Tailwind CSS v4 styling rules & custom neon filters
 │   └── main.tsx                 # Application mounting point
-├── package.json                 # Dependency manifests and scripts
+├── package.json                 # Dependency manifests, scripts, and engine specs
 ├── tailwind.config.js           # Visual design tokens & animation keyframes
 ├── tsconfig.json                # TypeScript compiler configuration
 └── vite.config.ts               # Vite bundler plugins and optimizations
@@ -148,10 +199,10 @@ c:/Certificate/
 To boot this telemetry console in your local development environment:
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (`v18.0.0` or higher recommended)
+- [Node.js](https://nodejs.org/) (`v18.0.0` or higher recommended; tested up to Node v24)
 - `npm` or `pnpm` package manager
 
-### Installation Steps
+### Step-by-Step Installation
 
 1. **Clone the repository**:
    ```bash
@@ -164,37 +215,49 @@ To boot this telemetry console in your local development environment:
    npm install
    ```
 
-3. **Start the local development server**:
+3. **Launch the development server**:
    ```bash
    npm run dev
    ```
    Open your browser and navigate to `http://localhost:5173`.
 
-4. **Compile production build**:
+4. **Verify TypeScript & Compile Production Bundle**:
    ```bash
    npm run build
    ```
-   Produces a minified, production-optimized bundle inside the `dist/` folder.
+   Compiles static typing with `tsc -b` and produces a minified, tree-shaken production bundle inside `dist/`.
 
-5. **Preview production build locally**:
+5. **Preview Production Build**:
    ```bash
    npm run preview
    ```
+   Boots a local production server to test the generated `dist/` build.
 
 ---
 
-## 👨‍🚀 Operator Telemetry & Comms
+## 📜 Command Scripts
+
+| Command | Action | Purpose |
+| :--- | :--- | :--- |
+| `npm run dev` | `vite` | Starts the local dev server with sub-second HMR |
+| `npm run build` | `tsc -b && vite build` | Type-checks codebase and generates production distribution |
+| `npm run preview` | `vite preview` | Previews the compiled production build locally |
+| `npm run lint` | `eslint .` | Runs ESLint validation across project files |
+
+---
+
+## 👨‍🚀 Operator Telemetry & Communications
 
 <div align="center">
 
-| Attribute | Specification |
+| Metric | Operator Specification |
 | :--- | :--- |
 | **Operator** | **Vijayapandian T** |
 | **Vocation** | B.E. Computer Science and Engineering (Pre-Final Year) |
 | **Institution** | SRM Easwari Engineering College, Chennai, India |
-| **Specialization** | Full-Stack Engineering • UI/UX Design (Figma, Canva, WordPress) • AI/ML Systems • Cloud & Network Infrastructure |
+| **Core Specialization** | Full-Stack Software Engineering • UI/UX Design (Figma, Canva, WordPress) • AI/ML Systems • Cloud & Network Infrastructure |
 | **Direct Comms** | 📧 [vijayapandian112007@gmail.com](mailto:vijayapandian112007@gmail.com) |
-| **Resume Node** | 📄 [Download Official Curriculum Vitae](https://drive.google.com/file/d/10a4hRhKhG9I_VOeHNyssMPDaDEJdsBsJ/view?usp=sharing) |
+| **Curriculum Vitae** | 📄 [Download Official Curriculum Vitae](https://drive.google.com/file/d/10a4hRhKhG9I_VOeHNyssMPDaDEJdsBsJ/view?usp=sharing) |
 
 <br/>
 
@@ -213,13 +276,14 @@ To boot this telemetry console in your local development environment:
 
 ---
 
-## 📜 License
+## 📜 License & Intellectual Property
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for full details.
+This project is open-source under the **[MIT License](LICENSE)**.
 
 ```
 Copyright (c) 2026 Vijayapandian T.
-All digital certificates, verified credential hashes, and visual assets are registered property of the operator and issuing authorities.
+All digital certificates, verified credential hashes, and personal visual assets are 
+registered property of the operator and the respective issuing authorities.
 ```
 
 <div align="center">
