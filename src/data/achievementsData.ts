@@ -91,6 +91,19 @@ export const achievementsData: Achievement[] = [
     image: "/certificates/codec_java_internship.png"
   },
   {
+    id: "internship-cognifyz-java",
+    title: "Java Development Intern",
+    issuer: "Cognifyz Technologies",
+    category: "Internships",
+    subCategory: "Online Internships",
+    issueDate: "2025-09-29",
+    credentialId: "CTI/A1/C208788",
+    skills: ["Java Development", "Object-Oriented Programming", "Backend Development", "Software Engineering", "Core Java"],
+    description: "Successfully completed the Java Development Internship at Cognifyz Technologies from August 2025 to September 2025 (Intern ID: CTI/A1/C208788). Displayed remarkable dedication, sincerity, attention to detail, and a strong passion for Java development.",
+    url: "https://www.cognifyz.com",
+    image: "/certificates/cognifyz_java_internship.png"
+  },
+  {
     id: "internship-zero2site",
     title: "Cloud Development Intern",
     issuer: "Zero2site",
