@@ -243,6 +243,43 @@ export const achievementsData: Achievement[] = [
   },
   // ─── COURSES ───────────────────────────────────────────────────────────────
   {
+    id: "course-cisco-ccna-switching-routing-wireless-essentials",
+    title: "CCNA: Switching, Routing, and Wireless Essentials",
+    issuer: "Easwari Engineering College & Cisco Networking Academy",
+    category: "Courses",
+    subCategory: "Professional Certificates",
+    issueDate: "2026-11-18",
+    credentialId: "3400817d-bcaa-4bbf-9042-c972f160943c",
+    skills: ["CCNA", "Switching & Routing", "Wireless Essentials", "VLANs", "Routing Protocols", "Network Security", "Cisco Technologies"],
+    description: "Successfully completed the CCNA: Switching, Routing, and Wireless Essentials course offered by Easwari Engineering College (Autonomous) through the Cisco Networking Academy program, covering switching technologies, router configurations, wireless LANs, VLANs, and network troubleshooting.",
+    image: "/certificates/cisco_ccna_switching_routing_wireless_essentials.png"
+  },
+  {
+    id: "course-aws-certified-ai-practitioner",
+    title: "AWS Certified AI Practitioner",
+    issuer: "AWS Training & Certification",
+    category: "Courses",
+    subCategory: "Professional Certificates",
+    issueDate: "2026-11-06",
+    credentialId: "dfe72596a3df4e03a06c4b1864bc2c6c",
+    url: "https://aws.amazon.com/verification",
+    skills: ["AWS Certified", "Artificial Intelligence", "Machine Learning", "Generative AI", "Cloud Computing", "AWS AI Services"],
+    description: "Earned the official AWS Certified AI Practitioner certification from Amazon Web Services (Validation Number: dfe72596a3df4e03a06c4b1864bc2c6c), validating knowledge of artificial intelligence, machine learning concepts, and AWS generative AI technologies.",
+    image: "/certificates/aws_certified_ai_practitioner.png"
+  },
+  {
+    id: "course-nptel-mis",
+    title: "Management Information System",
+    issuer: "IIT Kharagpur (NPTEL)",
+    category: "Courses",
+    subCategory: "Online Courses",
+    issueDate: "2026-11-03",
+    credentialId: "NPTEL26MG129S985025019",
+    skills: ["Management Information Systems", "MIS", "Enterprise Systems", "Database Management", "Information Technology Strategy"],
+    description: "Successfully completed the 12-week NPTEL Online Certification course on Management Information System, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with an Elite consolidated score of 82%.",
+    image: "/certificates/nptel_management_information_system.png"
+  },
+  {
     id: "course-udemy-flask-master-class",
     title: "Flask Master Class For Beginners To Pro",
     issuer: "Udemy",
@@ -266,18 +303,6 @@ export const achievementsData: Achievement[] = [
     skills: ["CCNA", "Networking", "Network Architecture", "IP Addressing", "Subnetting", "Routing & Switching", "Cisco Technologies"],
     description: "Successfully completed the CCNA: Introduction to Networks course offered by Easwari Engineering College through the Cisco Networking Academy program, covering network protocols, IPv4/IPv6, ethernet switching, and router configuration.",
     image: "/certificates/cisco_ccna_introduction_to_networks.png"
-  },
-  {
-    id: "course-nptel-mis",
-    title: "Management Information System",
-    issuer: "IIT Kharagpur (NPTEL)",
-    category: "Courses",
-    subCategory: "Online Courses",
-    issueDate: "2026-11-03",
-    credentialId: "NPTEL26MG129S985025019",
-    skills: ["Management Information Systems", "MIS", "Enterprise Systems", "Database Management", "Information Technology Strategy"],
-    description: "Successfully completed the 12-week NPTEL Online Certification course on Management Information System, funded by the MoE, Govt. of India, and coordinated by IIT Kharagpur, with an Elite consolidated score of 82%.",
-    image: "/certificates/nptel_management_information_system.png"
   },
   {
     id: "course-aws-developer-associate-practice-exam",
