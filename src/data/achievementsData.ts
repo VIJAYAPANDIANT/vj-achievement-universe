@@ -118,6 +118,18 @@ export const achievementsData: Achievement[] = [
   },
   // ─── HACKATHONS ────────────────────────────────────────────────────────────
   {
+    id: "hackathon-elite-coders-codesprint-2026",
+    title: "Codesprint 2026",
+    issuer: "Elite Coders & UPES ACM",
+    category: "Hackathons",
+    subCategory: "Open Source Hackathons",
+    issueDate: "2026-11-20",
+    skills: ["Open Source", "MVP Development", "Problem Solving", "Rapid Prototyping", "Software Engineering", "Team Collaboration"],
+    description: "Achieved Top 500 RANK in Codesprint 2026, selected from over 15,000+ participants nationwide. Awarded Certificate of Appreciation by Elite Coders and UPES ACM in recognition of outstanding contributions, dedication, collaboration, and exceptional performance throughout the Idea-to-Pitch cycle.",
+    image: "/certificates/elite_coders_codesprint_2026.jpg",
+    place: "Top 500 Rank"
+  },
+  {
     id: "hackathon-genie-hive-project-eclipse",
     title: "Project : Eclipse Hackathon",
     issuer: "Genie Hive & Unstop",
